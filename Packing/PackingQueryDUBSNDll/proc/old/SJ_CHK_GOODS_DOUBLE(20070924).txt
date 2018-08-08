@@ -1,0 +1,91 @@
+CREATE OR REPLACE procedure
+         SAJET.SJ_CHK_GOODS_DOUBLE(tterminalid in number,tnow in date,
+		   TWO IN varchar2,TPALLET in varchar2,TEMPID IN varchar2, tres out varchar2) is
+cursor sn_cursor is
+   select serial_number
+     from sajet.g_sn_status
+       where work_order=two and  pallet_no = Tpallet;
+sn_record sn_cursor%rowtype;
+cursor carton_cursor is
+   select carton_no
+     from sajet.g_sn_status
+       where work_order=two and pallet_no = Tpallet;
+carton_record carton_cursor%rowtype;
+cursor KPSN_cursor is
+   select item_part_sn  from sajet.g_sn_keyparts a,sajet.g_sn_status b 
+      where b.WORK_ORDER=TWO AND  b.PALLET_NO=TPALLET
+        and a.work_order=b.work_order and a.serial_number=b.serial_number
+	    and( a.item_part_sn<>null OR a.item_part_sn<>'N/A');
+KPSN_reocrd KPSN_cursor%rowtype;
+
+C_TEMP NUMBER;
+C_TEMP2 NUMBER;
+C_TEMP3 NUMBER;
+begin	
+	select count(serial_number) into c_temp2 from sajet.g_sn_status
+	   where work_order=two and pallet_no=tpallet;
+	if c_temp2=0 then
+	  TRES:=TPALLET||' NOT FIND IN THE WO OF '||TWO	;
+	  GOTO ENDP;
+	END IF ;
+	
+    for sn_record in sn_cursor loop
+	   select COUNT(serial_number) into C_TEMP from sajet.g_sn_status@SFCBK
+	       WHERE SERIAL_NUMBER=sn_record.serial_number AND ROWNUM=1;
+	   if C_TEMP=1 THEN
+	     TRES:='SN '||SN_RECORD.serial_number||' IS DUB!'; 
+		 GOTO ENDP;
+	   END IF;
+	END LOOP;
+	
+	for carton_record in carton_cursor loop
+	    select count(carton_no) into c_temp from sajet.g_pack_carton@SFCBK 
+		    where carton_no=carton_record.carton_no and rownum=1;
+		if C_TEMP=1 THEN
+		   TRES:='Cartton '||CARTON_RECORD.CARTON_NO||' IS DUB';
+		   GOTO ENDP;
+		END IF;
+	end loop;
+		
+	select count(pallet_no) into c_temp from sajet.g_pack_pallet@SFCBK 
+	     where pallet_no=Tpallet and rownum=1;
+	   if c_temp=1 then
+	      tres:='Pallet '||tpallet||' IS DUB!';
+		  GOTO ENDP;
+	   END IF;
+
+	select count(item_part_sn) into c_temp 
+	  from sajet.g_sn_keyparts a,sajet.g_sn_status b 
+      where b.WORK_ORDER=TWO AND  b.PALLET_NO=TPALLET
+        and a.work_order=b.work_order and a.serial_number=b.serial_number
+	    and( a.item_part_sn<>null OR a.item_part_sn<>'N/A');
+    if c_temp>0 then
+	   SELECT  mod(c_temp,c_temp2) into C_TEMP3 FROM DUAL;
+	   IF C_TEMP3>0 THEN
+	      TRES:='KP COUNT IS ERROR';
+		  GOTO ENDP;
+	   ELSE
+	      for KPSN_record in KPSN_cursor loop
+	         SELECT COUNT(ITEM_PART_SN) INTO C_TEMP FROM SAJET.G_SN_KEYPARTS@SFCBK 
+			    WHERE ITEM_PART_SN=KPSN_RECORD.ITEM_PART_SN AND ROWNUM=1;
+			IF C_TEMP=1 THEN
+			   TRES:='KP '||KPSN_RECORD.ITEM_PART_SN||' IS DUB';
+			   GOTO ENDP;
+		  GOTO ENDP;
+		END IF;
+	end loop;
+	   END IF;
+	end if;	
+
+  TRES:='OK'; 
+  <<endp>>
+  --INSERT INTO SAJET.G_CHECK_DUBSN(WORK_ORDER,PALLET_NO,UPDATE_TIME,EMP_ID,CHECK_LOG )
+		           --  VALUES(TWO,TPALLET,SYSDATE,TEMPID,TRES); 
+  --COMMIT;	     
+     NULL;
+exception
+  when others then
+    rollback;
+    tres:='SJ_CHK_GOODS_DOUBLE error';
+end;
+/

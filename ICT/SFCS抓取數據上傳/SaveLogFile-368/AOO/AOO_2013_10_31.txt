@@ -1,0 +1,2 @@
+SENSOR_ID	Module_ID	Result	Defect_Code	Project	Version	Station	Test_Time	Operator_ID	Lens_ID	Lens_Type	Lens_Cavity	Light_AVG_R	Light_AVG_Gr	Light_AVG_Gb	Light_AVG_B	DP_Duplet_R1	DP_Triplet_R1	DP_Multiple_R1	DP_Duplet_R2	DP_Triplet_R2	DP_Multiple_R2	
+0252b51fb31c3277	LA344159660	PASS	PASS	FM30FF-368H-1	V1.0.19.3(Test2)	AOO-001	2013/10/31_11:45:18	757055	NULL	NMX	55	1502.425	2443.873	2472.359	1153.824	0	0	0	0	0	0	

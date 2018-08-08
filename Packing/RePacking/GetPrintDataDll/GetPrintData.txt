@@ -1,0 +1,67 @@
+5.3.0.7
+2007/07/26(mandy)
+修正找g_sn_keyparts的方式,避免SQL速度太慢
+============================================================================
+5.3.0.6
+2007/07/25(mandy)
+由於5.3.0.5中變數會重複,因此修正變數名稱
+  MAC1_1:第一個SN的第一個MAC
+  MAC1_2:第一個SN的第二個MAC
+  MAC2_1:第二個SN的第一個MAC..以此類推
+============================================================================
+5.3.0.5
+2007/07/24(mandy)
+增加列印box/Carton/Pallet中的MAC
+[原本只有SN(SN_1,SN_2...)和CSN(CSN_1,CSN_2...)]
+
+在SYS_BASE中新增紀錄:
+  PARAM_NAME : LabelKPSN (此為固定字串(不可更改))
+  PARAM_VALUE : 標籤上的變數名字@料號
+
+如以下範例:
+  insert into sajet.sys_base values ('LabelKPSN','MAC@MAC ID')
+
+  表示會將G_SN_KEYPARTS中Part_NO="MAC ID"的PART_SN帶入標籤中;
+  標籤名稱為MAC_11,MAC_12,MAC_21... 
+  MAC_11:第一個SN的第一個MAC
+  MAC_12:第一個SN的第二個MAC
+  MAC_21:第二個SN的第一個MAC..以此類推
+============================================================================
+5.3.0.4
+2007/05/23(rita)
+modify:
+配合光寶致通Label上要印料號的中間幾碼之需求:
+取碼請用Oracle Function取得回傳值
+
+SYS_BASE中新增記錄
+PARAM_NAME : LABEL_CALL_FUNCTION:固定字串(不可更改)
+
+PARAM_VALUE : FUNCTION_NAME@標籤上的變數@傳入值是由哪個變數取得
+如:SAJET.GET_PARTNO_SPILT@PART_NO_SPILT@PART_NO
+則會去呼叫SAJET.GET_PARTNO_SPILT,傳入PART_NO實際的值,得到FUNCTION的回傳值後,放入標籤變數PART_NO_SPILT中
+=================================================================================
+5.3.0.3
+2006/11/30
+for Material:
+1.修改G_getMaterialData
+物料BOX標籤增加二個參數
+LOCATE_NAME :儲位
+WAREHOUSE_NAME:倉位
+=================================================================================
+
+5.3.0.2
+2006/08/24
+for Packing:
+1.新增CREATE_DATETIME及CREATE_DATE
+  預設日期格式: yyyy/mm/dd hh24:mi:ss
+  格式若不同, 請在Sys_Base定義
+  insert into sajet.sys_base values ('CREATE_DATETIME', 'yy/mm/dd hh24:mi:ss');
+  insert into sajet.sys_base values ('CREATE_DATE', 'yy/mm/dd');
+=================================================================================
+5.3.0.1
+2006/08/08
+1. 修正Address的錯誤
+=================================================================================
+5.3.0.0
+1. 將unitDatabase獨立, 負責準備列印所需的資料
+2. Packing的部份新增SN_END, CSN_END, BOX_END, CARTON_END: 表示最後一筆

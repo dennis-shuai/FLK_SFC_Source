@@ -1,0 +1,3 @@
+insert into  sys_program_fun(program,function,update_userid,update_time,auth_seq,authoritys,
+     fun_type,fun_type_idx,fun_idx,dll_filename)
+values('W/O Manager','Change WO Status','0',sysdate,'1','Allow To Execute','Tools','4','1','CHANGEWOSTATUSDLL.dll')

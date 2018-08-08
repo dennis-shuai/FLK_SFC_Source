@@ -1,0 +1,8 @@
+toolingINPUTDLL.dll
+===================
+
+5.8.0.1
+===========
+2007/12/28 by key
+1. tooling sn 如有庫存則納入部門管控;
+2. 可以key in 任何的tooling sn 資料，以便記數;

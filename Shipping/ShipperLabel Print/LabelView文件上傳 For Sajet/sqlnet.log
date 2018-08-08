@@ -1,0 +1,220 @@
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.60.26)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=CEBUTEST)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:38:22
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:38:22
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.60.26)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=CEBUTEST)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:38:24
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:38:24
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.60.26)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=CEBUTEST)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:39:13
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:39:13
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.60.26)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=CEBUTEST)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:39:54
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:39:54
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.60.26)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=CEBUTEST)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:40:16
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:40:16
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.60.26)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=CEBUTEST)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:40:17
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:40:17
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.60.26)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=CEBUTEST)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:41:29
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:41:29
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.60.26)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=CEBUTEST)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:42:07
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:42:07
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.60.26)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=CEBUTEST)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:42:47
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:42:47
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.60.26)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=CEBUTEST)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:42:57
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:42:57
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.60.26)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=CEBUTEST)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:46:48
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Documents and Settings\pro-user\桌面\LabelView文件上傳(For Sajet)\UploadLabelFile.exe)(HOST=FOXLINK-725E203)(USER=pro-user))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-4月 -2012 14:46:48
+  Tracing not turned on.

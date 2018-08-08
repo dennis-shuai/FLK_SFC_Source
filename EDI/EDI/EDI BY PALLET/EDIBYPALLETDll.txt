@@ -1,0 +1,13 @@
+EDIBYPALLETDll.dll
+======================
+1. EDI RC861
+2. 從EDI 5.3.0.5 VER 上修改的
+
+=======================================
+5.8.0.0
+2008/11/26 by key
+1.scan pallet ，產生EDI 861資料
+2.check pallet and carton 的status ;
+3.check pallet and carton 是否dub;
+4.check pallet and carton 是否已經全部scaned.
+

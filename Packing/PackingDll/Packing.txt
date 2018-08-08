@@ -1,0 +1,591 @@
+
+fPackAction: (Sys_Base) ID不可以改, 後面的描述可以改, 不需要所有PackAction都存在
+0-用SN包BOX, Carton, Pallet
+5-用SN包Box
+1-用SN包Box及Carton
+3-用SN包Box及Carton,但是會填Pallet(=Carton)
+6-用Box包Carton
+7-用Box包Carton及Pallet
+8-用Box包Carton, 但是會填Pallet(=Carton)
+2-用Carton包Pallet
+4-用Carton包pallet, 但是會蓋掉之前的Pallet
+===============================================================
+Rule檢查:
+1.Configuration裡設定的Rule Function(Type, InputValue)
+2.工單設定的Rule
+3.未設定則不檢查
+---------------------------------------------------------------
+Label產生:
+1.工單設定的Rule
+2.未設定則以Packing_Label(Type, PackinbBase, WO或Part)產生規則
+===============================================================
+5.3.0.76
+Mylar Add Check Interval 3H
+===============================================================
+5.3.0.69
+2009/04/01
+1. Scan sn or Scan box_no時,check pdline 是否被hold住----停線,不讓生產.
+使用SAJET.SJ_CKRT_PDLINE_STATUS proc
+=======================================================================
+
+5.3.0.68
+2009/03/27
+1.修改調用sajet.sj_nogo時,不顯示在proc錯誤信息的bug.
+
+==========================================================================
+
+5.3.0.67
+2008/10/28
+1. 禁用　＝＝＝2007/06/22 增加附件包裝功能＝＝＝，
+用附件dll程式代替此功能。
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+5.3.0.66
+2008/10/21 by key
+1. proc editSNKeyPress and editboxKeyPress and editcartonKeyPress 中
+禁用if chkWeight.Checked then　
+begin
+...
+end 程式段
+一起在function inputsn 中
+2.　在checksn fun 中加入gswo值。
+3. 如果要記錄weight ，則scan sn/box/carton 時，分別記錄sn/box/carton的weight
+4.修改table 內容如下：
+　　　alter table sajet.sys_part_weight add UPDATE_USERID  NUMBER
+　　　alter table sajet.sys_part_weight add  UPDATE_TIME    DATE  DEFAULT sysdate
+  　　alter table sajet.sys_part_weight add  ENABLED VARCHAR2(1) DEFAULT 'Y'
+
+
+5.3.0.65
+2008/01/22 by key
+==============================================================
+1. pack spc 不能delete (disable 下上移動的按鈕)
+2. gsRuleFunction<>'' 時，可以input SSN.
+   也就是說pallet/carton/box no 是線外列印的，而不是系統自動產生的時，也可以input ssn.
+  注：pallet/carton/box 線外列印的和系統自動產生的編碼規則不一樣。
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+
+5.3.0.64
+2007/10/05
+1.close Box,Carton,Pallet 時，Not Change Pack Spec(前版本程式會change pack spec ,不適應相同產品
+不同包規，多線別同時包裝);
+2.修正 fpackaction of 3-用SN包Box及Carton,但是會填Pallet(=Carton)，RefreshPalletQty(PalletNo) 
+時，palletno 取值不正確。
+3. 修正fpackaction in (6,7,8)時，scan boxno以後，CHECK SN號的current_status<>1，才pass.
+4. 修正fpackaction in (2,4)時,scan sn or csn 以後，LabCartonQTY.Caption的值會＋1，並且其箱號內的SN沒有過站pass
+的錯誤，更改為如果是scan sn or csn則報錯---'Please Input Carton’，但有包括若刷SN且原本已有Pallet and Carton,保留此號並過站
+5. 修正function RefreshBoxQty中sql 中沒有CNT fields錯誤。
+6. LoadAdditionalDll('Additionaldll.DLL') 修改成　LoadAdditionalDll(sAdditionalDll)，
+user 可以依需求選擇對應的additional dll 文件。
+================================================================
+5.3.0.63
+2007/08/29 (此版本在解決手動輸入Carton時, Box未正確Focus及Box=CSN不正確的問題
+1.手動輸入Carton中, Box的部份if (not (PackAction in [6..8])) 原本有AutoCreateBox拿掉
+2.CreateBox新增editBox.Text := '';
+3.手動檢查Box時, CheckBoxeqSN要多檢查LabBoxCap.Caption = '1', 不是1的不適用此規則
+===============================================================
+5.3.0.62
+2007/08/17
+1.新增檢查選項:是否輸入不良代碼
+===============================================================
+5.3.0.61(由5.3.0.56修正)
+2007/07/10
+此版將致通5.4.0.59的一些功能加入標準版
+1.工單加入放大鏡搜尋功能
+2.Change Pack Spec時,不帶出已經disabled的包裝方式
+3.Check SN改由procedure SJ_CKRT_SN_PSN檢查
+4.增加User Define Sequence的Rule檢查
+5.Check Rule中User Define Sequence的while not Eof do begin..End前面要加上first
+  否則SNUdf可能會少資料
+
+6.增加附件包裝功能:
+  SYS_BOM中若有process為此packing站的KP要裝,則呼叫packingAccyDll.dll供user組裝,
+  可刷KPNO或KPSN(By Rule)
+7.CALL Additionall.all時多傳EMP_NO和Terminal_ID
+8.輸入Pallet,Carton,Box時若已經closed,顯示正確的訊息提示(Pallet Cloaed)
+9.Close Pallet(Carton,Box)時,若登入者已有Close權限或是屬於系統自動Close,不需跳出輸入EMP&Password的畫面
+
+10.由SYS_BASE中設定每刷完一個序號過站前是否要重新Select來取得pallet和carton中的數量
+  避免同時有兩台相同的terminal作業造成超過包裝數量(並檢查close_flag)
+  (原本只是把畫面上數量加1)
+  若要Refresh qty,需加入以下紀錄:
+  insert into sajet.sys_base (param_name,param_value) values ('PACKING REFRESH QTY', 'Y');
+
+11.Close Pallet & Carton & Box後,會跳出提示畫面,user必須按下OK才可繼續動作,
+  需加入以下紀錄:
+  insert into sajet.sys_base(param_name,param_value) values('PACKING','SHOWCLOSE')
+====================================================================
+5.3.0.56
+1.增加User Define Sequence的Rule檢查
+2.Check Rule中User Define Sequence的while not Eof do begin..End前面要加上first
+  否則SNUdf可能會少資料
+====================================================================
+5.3.0.55 (Source code合併在5.3.0.55)
+2007/06/27
+1.修正在check rule時,變數名稱錯誤:
+  檢查Week User Define和Day User Define時裡面應該用uW和uD,原本都是用uM
+2.在Change Pack Spec後,會將SAJET.G_PACK_SPEC整個table殺掉,SQL少加了Work_Order條件
+3.新增k (自訂Day of Week)
+====================================================================
+5.3.0.54
+2007/06/20
+1.Close Pallet(Carton)新增 Change User 功能,供線上小組長執行此作業
+====================================================================
+5.3.0.53
+2007/06/07(rita)
+1.若在工單輸入欄處輸入產品序號,僅帶出工單即可,取消自動將序號過站功能
+====================================================================
+5.3.0.52
+2007/06/04(rita)
+1.在S/N輸入處,先刷入不良代碼(可多個),再輸入S/N,即將S/N判定不良,
+  並且不納入箱號,棧板號中
+===============================================================
+5.3.0.51
+2007/05/24
+1.修正查詢未滿Carton時, 當Capacity為 1 時, 會產生新Carton的問題
+===============================================================
+5.3.0.50
+2007/05/23
+1.刷入SN後可以呼叫Additionaldll.dll,出現另一個畫面讓客製化的資料在這裡刷入，或是做檢查;
+  是否Call此DLL在Configuation中設定(PackingCfgdll.dll 5.3.0.10)
+2.修改勾選Check CSN=SN(for Manual)時系統未檢查CSN=SN的bug
+===============================================================
+5.3.0.49
+2007/05/21
+1.輸入Box No時, 顯示為Carton No OK改為Box No OK
+===============================================================
+5.3.0.48
+2007/05/17
+1.Pack Spec由Packing自行設定, 當有多個Pack Spec時, 會依序包裝
+  只要進到Pack Spec並按下確定, 一律以第 1種包裝方式重新開始, 不管之前已包裝到何種包裝方式.
+2.若包裝一半, 重新選擇Pack Spec, 則未包裝完成的會在下次使用到時載入已包裝數量
+===============================================================
+5.3.0.47
+2007/04/09
+1.用Carton包Pallet
+  Carton->Pallet(2): 若有棧板號且棧板號<>箱號, 保留棧板號
+  QC->Pallet(4): 一律蓋掉之前的Pallet
+===============================================================
+5.3.0.46
+2007/03/29
+1.檢查Box是否Close改回 = 'N', 因為連版未填 (Carton還是檢查 <> 'Y')
+===============================================================
+5.3.0.45
+2007/03/28
+1.修正流水號為自定義時, 第一應為自定義的第一碼而非0 (第二順位時沒有問題)
+2.新增Reset Sequence
+3.比對日期時參數用錯
+===============================================================
+5.3.0.44
+2006/12/26
+1.Box/Carton:  Carton <> 'N/A and Pallet <> 'N/A' and Carton <> Pallet才可重工 (Repacking_Go), 其他視為正常資料
+  若輸入Serial Number: 
+    Carton <> 'N/A and Pallet <> 'N/A' and Carton <> Pallet: Repacking_Go
+    不是, 則顯示Please input Box/Carton No
+  若輸入Box/Carton:
+    Carton <> 'N/A and Pallet <> 'N/A' and Carton <> Pallet: Repacking_Go
+    不是, 則正常過站
+2.修正判斷是否Close的方法, 原本為Closf_Flag = 'N', 改為Close_Flag <> 'Y'
+  (避免因為G_Pack_XXX資料被刪除而無法判斷)
+===============================================================
+5.3.0.43
+2006/11/14
+1.檢查是否有重覆只檢查G_PACK_XXX, G_SN_STATUS不檢查
+2.某些查詢增加Rownum =1
+3.修改AppandxxxNo查詢方式
+===============================================================
+5.3.0.43測試
+2006/10/20
+1.Customer SN及Box: System Create與Check xxx=SN改成2個可以獨立設定
+  當勾選System Create及When Capacity=1, xxx=xSN, 則xxx=xSN
+  當未勾選System Create有勾選When Capacity=1, 則手動輸入時xxx=xSN
+===============================================================
+5.3.0.42
+2006/09/07
+1.SendCommand時, Version傳-1
+===============================================================
+5.3.0.41
+2006/08/28
+1.修正->QC會Insert 2筆g_pack_pallet的問題
+===============================================================
+5.3.0.40
+2006/08/08
+1.版本會自動讀取 (之前寫在程式裡要自己變版本)
+2.將unitDatabase獨立, 改成呼叫GetPrintDataDll
+===============================================================
+5.3.0.39
+2006/07/29
+1.加上版本顯示
+2.修正不會抓到未滿Carton/Box的問題
+===============================================================
+5.3.0.38
+2006/07/29
+1.非16及10進制(自定義)會有進位問題 
+===============================================================
+5.3.0.37
+2007/07/28
+1.若有多個未滿時, 會以上一個為條件, 將屬於自己的或未有歸屬的號碼列出來
+===============================================================
+5.3.0.36
+2006/07/28
+1.大板, 因為沒有填G_Pack_Box, 所以會造成重新執行Execution時, 
+  會算不出來裡面包了幾個Box, 此時若Close Carton, G_Pack_Carton裡那筆資料會不見
+2.加入以Function的方法Check Rule (需與PackingCfgDll 5.3.0.7配合)
+3.若有多個Close Flag='N'的Pallet/Carton/Box, 則會列出所有未滿
+  及已包的Carton/Box或Serial_Number個數 (這裡的數量含未Close的Carton/Box)
+  預設會Focus在有數量的那筆. 點選後會將數量為0的刪除.
+  (如果有2筆有數量的, 請先包完一個再重新執行程式, 會再讀出來)
+===============================================================
+5.3.0.35
+2006/07/27
+1.PackAction in [0, 3], 且Pallet <> 'N/A' & Carton <> 'N/A' 則會保留原Pallet/Carton/Box
+其他保留Pallet/Carton原則:
+在Box輸入
+1.輸入SN, Carton <> 'N/A'
+2.輸入BOX, Carton <> 'N/A' & PackAction in [6, 7, 8]
+在Carton輸入
+1.輸入SN, PackAction = 2 & Pallet <> 'N/A'
+2.輸入Carton, PackAction = 2 & Pallet <> 'N/A'
+===============================================================
+5.3.0.34
+2006/07/27
+1.Terminal的地方增加顯示線別
+===============================================================
+5.3.0.33
+2006/07/25
+1.增加Caps Lock, 會將所有Edit直接轉為大寫
+2.Change Pack Spec時, Box為0轉為非0 (或相反) 會有問題
+===============================================================
+5.3.0.32
+2006/07/19
+1.PackAction為3或8時, 會填空白的Pallet, 應該是填跟Carton相同的號碼到Pallet
+2.欄位名稱寫錯
+Packing_Go需修改, 因為新增7, 8
+===============================================================
+5.3.0.31
+2006/07/18
+1.固定選某一個Pack Spec, 若要輪流使用, 請新增資料 
+  (之前Change後不會變更資料庫, 現在Change會變更此次的Pallet/Carton/Box的Pack Spec)
+insert into sajet.sys_base values ('Packing Pack Spec', 'Cycle');
+新增欄位
+alter table sajet.g_pack_box add PKSPEC_NAME VARCHAR2(25);
+alter table sajet.g_pack_carton add PKSPEC_NAME VARCHAR2(25);
+
+CREATE TABLE sajet.G_PACK_SPEC_TERMINAL(
+  WORK_ORDER     VARCHAR2(25 BYTE),
+  MODEL_ID       NUMBER,
+  TERMINAL_ID    NUMBER,
+  CREATE_EMP_ID  NUMBER,
+  CREATE_TIME    DATE                           DEFAULT SYSDATE,
+  PKSPEC_NAME    VARCHAR2(25 BYTE)) TABLESPACE SYSRT;
+GRANT DELETE, INSERT, SELECT, UPDATE ON  sajet.G_PACK_SPEC_TERMINAL TO SYS_USER;
+===============================================================
+5.3.0.30
+2006/07/18
+1.修正PrintInitial, 少了2個欄位 (mCustPartNo, mLabelFile)
+===============================================================
+5.3.0.29
+2006/07/12
+1.新增PackAction: 7及8, 詳細說明在上面
+===============================================================
+Pack_Spec Box Capacity Default請設為0
+ALTER TABLE SAJET.G_PACK_SPEC Modify(BOX_CAPACITY NUMBER default 0);
+===============================================================
+5.3.0.28
+2006/07/07
+1.Pallet自行輸入時, 未將Pallet填到G_Pack_Pallet裡
+===============================================================
+5.3.0.27
+2006/07/05
+1.PackAction設為Box或Carton時, 若Box=0, 則默認為Box/Carton (昨天Carton的沒改到)
+2.Box如果為0, 則不填資料到G_Pack_Box
+3.Carton為1時, 若無定義規則, 且由系統產生
+  A. Box <> 0, 則Carton=Box
+    a.若Box有定義規則, 則Carton會顯示為Box
+    b.若Box為1, 無定義規則, 且由系統產生, 則在輸入SN才會決定, 所以Box/Carton都不會顯示
+  B. Box = 0 , 則Carton=Customer SN
+===============================================================
+5.3.0.26
+2006/07/04
+1.PackAction設為Box或Carton時, 若Box=0, 則默認為Box/Carton
+===============================================================
+5.3.0.25
+2006/06/30
+1.修正Box為0時, 只要不是勾選System Create, 會有錯誤
+2.修正Box為0時, 計算Carton未完成數量時的錯誤
+3.修正Print Pallet時, Carton傳成Box
+4.新增是否顯示Empty XXXXX, 預設會顯示, 新增如下命令則不會顯示
+  insert sys_base
+  values('PACKING', 'NOSHOWEMPTY')
+===============================================================
+5.3.0.23
+2006/06/21
+1.修正Close Box的問題
+2.Change Pack Spec顯示Box Capacity
+3.修正Print Label時, 參數傳輸
+  Pallet Label: SN_1 ... SN_X, CSN_1 ... CSN_X, BOX_1 ... BOX_X, CARTON_1 ... CARTON_X
+  Carton Label: SN_1 ... SN_X, CSN_1 ... CSN_X, BOX_1 ... BOX_X
+  Box Label: SN_1 ... SN_X, CSN_1 ... CSN_X
+===============================================================
+5.3.0.22
+2006/06/19
+1.修正不能使用Don't Change SN的問題
+2.Box為0時, 訊息問題 (會顯示Close Box [])
+===============================================================
+5.3.0.20
+2006/06/16
+1.只包Pallet的不檢查是否有包完Carton
+2.Box為0時, Carton不會累加 (PackAction要選1, 或3)
+===============================================================
+5.3.0.19
+2006/06/15
+1.Rule規則新增9, 只接受數字 (需配合BCRuleDll-5.3.0.5)
+2.判斷是否顯示Close This Box?的訊息修正: 只包Carton的不判斷是否有包完Box
+===============================================================
+5.3.0.18
+2006/06/14
+1.Box->Carton無法使用: 未判斷PackAction = 5
+2.流程錯誤顯示加上 'Route Error: ' + sResult
+3.Box->Carton不可顯示Close Box
+===============================================================
+5.3.0.16
+2006/06/07
+1.Box Capacity為0時, 不會修改Box No
+2.SendCommand原本分別使用3個各別的Dll, 現在改成一個PackingPrintdll.Dll
+===============================================================
+5.3.0.15
+2006/05/25
+1.新增X可設定Check Sum
+2.新增K (本週的第幾天)
+3.新增可由Sys_part定義所要使用的Label File名稱 (原前置碼+Label File)
+4.新增PQR設定拆碼
+===============================================================
+5.3.0.14
+2006/05/19 [需配合Pack Spec(5.3.0.1)]
+1.新增Box No (新增Table如附檔)
+2.若在Work Order處輸入Serial Number, 當Pallet/Carton/Box值完成時, 
+  會自動將此Serial Number帶入Serial Number
+3.Box Capacity若為1且由系統自動產生, 則Box=Customer SN.
+4.Box Capacity若為1, 勾選Check Box=SN, 則所輸入必須與SN相同
+5.若未定義條碼規則, 則由Oracle Function定義 (Packing_Label)
+6.若已有Box/Carton/Pallet時, 輸入單位要全部過站 (之前只有單一SN會過)
+  需新增Procedure: Sajet.sj_repacking_go
+
+PS. Common的uDataBase有改過
+===============================================================
+5.3.0.13
+2006/04/27
+1. 將Unfinish改成Unfinished
+2006/04/25
+1. Packing在建立sequence的時候, 設成NO CACHE (CYCLE本來就有).
+2. 從DB找到舊的棧板或箱號需要提示Unfinished Carton/Pallet在訊息視窗,
+   或是Empty Carton/Pallet, 如果是空的, 能夠讓User可以刪除 (一樣按Close按鈕, 但是會刪除).
+===============================================================
+5.3.0.12
+2006/04/21
+1. 過站改到Procedure, 所以程式裡不需要做每個SN過站.
+===============================================================
+5.3.0.11
+2006/04/17
+1. 在Pallet站時, Carton處, 若要以SN輸入, 必需要有Pallet才可, 不然提示'Carton Error !!'.
+===============================================================
+5.3.0.10
+2006/04/15
+1. Check Rule時, 檢查Rule規則, Y: 數字, M: 01~12, D: 01~31, W: 01~53, K: 1~7,
+   自定mdw需為有定義到的字串才可使用, R必需與定義的資料相同, S: 10-數字, 16: 0~F,
+2. 將SJ_Go與Update Pallet No, Carton No, Customer SN合併為SJ_PACKING_GO. 
+   避免因為SJ_GO EXCEPTION時產生問題
+===============================================================
+5.3.0.9
+2006/04/13
+Bug: 因為Carton No在產生時就會填入一筆到G_Pack_Carton裡, 但是若是Carton = CSN時, 
+     Carton No為空, 此時不應該填入
+===============================================================
+5.3.0.8
+2006/04/07
+1. 增加秤重功能 (呼叫外部秤重Dll, function name: CheckWeightData)
+2. AutoCreate: 之前共用Sequence, 現在改成分Rule Name有獨自的Sequence, 並計算
+   Sequence MaxValue (請將之前已使用的Sequence Start補上, 以免造成重覆)
+3. GetNewNo後直接填入Pack Carton/Pallet, 避免關閉程式, 造成此Carton/Pallet遺失
+===============================================================
+5.3.0.7
+2006/04/06
+1. 分兩站包裝時，在Carton站中,輸入的SN只要Carton不為N/A,則直接用此Carton號過站，
+   不賦予新的Carton號
+===============================================================
+5.3.0.6
+2006/03/20
+1. 分兩站包裝時，當carton處先輸入SN後再輸入Carton時,會用前面輸入的SN來過站的BUG
+   (沒有給變數初始值)
+===============================================================
+5.3.0.5
+2006/03/20
+1. 分兩站包裝時，PALLET站若在Carton處輸入為SN，且此SN原本已有carton和Pallet號，
+   則直接以此原號碼過站，並在畫面上顯示應放入的carton和pallet，不賦予新的Pallet號
+===============================================================
+5.3.0.4
+2006/03/09
+by Jing
+1. 若重包Carton/Pallet, 第1次產生的Pallet已不存在於SN_Status時, 檢查有無重覆會有問題, 增加檢查是否在Pack_Pallet (Pack_Carton)
+2. Check Unfinish若以Model包裝時, 以Model_ID為查詢條件
+===============================================================
+5.3.0.3
+2006/02/24
+1.當有Error Message時,會發出聲音警示改為控制台中的"驚嘆聲"MessageBeep(48)所設的音效
+===============================================================
+5.3.0.2
+2006/02/24
+1.修改當包裝規則內Carton數量為1時,G_PACK_CARTON沒填入資料以至於當包到一半離開程式再進來時,
+  包裝數量都會顯示為0的bug
+===============================================================
+5.3.0.1
+2006/02/24
+1.檢查(Where SN=:SN or CSN=:SN)的SQL分成兩個SQL,避免速度慢
+2.當有Error Message時,會發出聲音警示,
+  可在控制台/聲音及音訊裝置中/音效頁中的程式事件為"預設嗶聲"處,改為自己的音效檔,即可發出自訂的聲音
+===============================================================
+5.3.0.0
+2006/02/15
+1.W/O欄位可以輸入SN/CSN代替輸入W/O
+2.根據SYS_BASE中設定,錯誤訊息可不要彈出視窗,直接顯示在畫面中Message Info
+  若不需彈出視窗,需執行以下SQL增加一筆紀錄
+  Insert Into Sajet.SYS_BASE(PARAM_NAME,PARAM_VALUE) Values ('PACKING','NOPOPUP')
+
+3.當包裝規則內Carton數量為1時,Carton NO不需輸入且CARTON_NO=CSN (by Jing)
+
+4.增加Procedure檢查權限:避免同一使用者屬於兩個Role時會讀取權限錯誤
+  Grant Execute on SAJET.SJ_CHK_PRG_PRIVILEGE to sys_user
+5.主畫面中的底圖用Load的,預設讀取同目錄下的Background.jpg,
+  可在同目錄下建立background.ini,內容為
+  [Data Center]
+  background=11.jpg
+  即可改變底圖
+6.主畫面的Close按鈕拿掉
+
+==========================================================
+
+5.0.101.23
+2005/12/15
+1.可印出carton 或 Pallet內的客戶序號
+  CARTON:CSN_1,CSN_2....
+  PALLET:CSN_1_1,CSN_1_2...
+
+  修改unitDatabase中的G_getCartonNoData和G_getPalletNoData
+===============================================
+5.0.101.22
+2005/12/07
+1.close pallet或是close carton之後,顯示訊息改為Close Pallet [xxxxxx] / Close Carton [xxxxxx]
+2.packing action未設定時預設為both
+===============================================
+5.0.101.21
+2005/12/06
+1.增加Packing Action可分兩站動作,一站只包Carton,另一站再包Pallet
+===============================================
+5.0.100.21
+2005/09/06
+1.檢查Pallet or Carton or Customer規則時若固定碼Default是空白則不需檢查
+  ex:pallet code是LLAAAAAASSSS
+     default pallet no:IM______SSSSS
+     user可輸入IM1234560001
+===============================================
+5.0.100.20
+2005/09/05
+1.Pallet,Carton,Customer SN不可為空
+2.如果該工單有指定Pallet或Carton的規則,當刷入Pallet或Carton或SSN時需檢查
+  a.長度對不對 b.固定字元對不對
+
+=====================================================
+5.4.100.19 
+2005/08/19
+1.若SN原本已有Pallet和Carton號，則以相同的號碼過站，並在畫面上顯示此號碼提醒user將其放到正確的箱中
+
+
+5.4.100.18 
+2005/08/18
+1.過站時先Update Carton,Pallet,Customer_SN後再Call SJ_GO,否則SN_TRAVEL中這些欄位沒改
+
+5.4.100.17 
+2005/08/11
+1.用Call DLL法列印Pallet時,多傳入G_sockConnection變數
+
+5.4.100.16 
+2005/07/28
+1.產生Carton or Pallet時規則錯誤
+
+5.4.100.15 
+2005/07/25
+1.若By WO包裝且WO不同時，Message多顯示不同的WO號
+  (By Model亦同)
+
+
+5.4.100.14 
+2005/07/20
+1.Carton & Pallet & Customer SN在SystemCreate時，根據Rule設定增加Month Code, Day Code, Week Code(m,d,w)產生
+
+
+5.4.100.13 
+2005/06/23
+1.列印時先找工單開頭的範本檔
+
+
+5.4.100.12
+2005/04/19 
+1.找Close Carton權限的參數是Close Pallet(Carton),非Manul Close
+2.Call SJ_GO時時間傳SYSDATE
+
+5.4.100.11
+2005/3/31 
+1.Change Pack Spec:找出工單有定義及料號有定義的所有包裝方式供選擇
+2.過站時先做SJ_GO,若TRES<>'OK'則離開不繼續下面的動作
+3.System Create時,Customer SN會根據Rule產生,若無設定Rule,則與SN相同
+CREATE SEQUENCE SAJET.S_SSN_CODE INCREMENT BY 1 START WITH 1 MAXVALUE 3999999999 CYCLE CACHE 20 ORDER;
+GRANT SELECT ON S_SSN_CODE TO SYS_USER;
+
+
+5.4.100.10
+2005/3/30 
+1.修改讀取列印方法(Print Method)時參數都讀到Carton的Method之Bug
+
+5.4.100.9
+2005/3/29 
+1.加入Carton的Initial
+
+5.4.100.8
+2005/3/24 
+1.加入Customer SN的Print
+
+
+5.4.100.7 
+1.修正程式會自動關掉的bug
+
+5.4.100.6 
+1.增加Pallet Initial按鈕手動初始化(將文件分為.out&.init檔,.init檔是做印表機初始化)
+
+
+5.4.100.4
+1.增加用Excel及Bar1列印功能(PrintCartondll.dll,PrintPalletdll.dll)
+2.Change Pack Spec:只修改目前的包裝方式,沒動到DB,所以程式關掉後下次即恢復原本的方式
+3.畫面上顯示包裝方式及標記目前所使用的方式
+4.System Create時,若無設定編碼規則,則用工單+四碼流水號
+ps:
+CREATE SEQUENCE SAJET.S_PK_CTN_CODE INCREMENT BY 1 START WITH 1 MAXVALUE 9999 CYCLE CACHE 20 ORDER;
+CREATE SEQUENCE SAJET.S_PK_PLT_CODE INCREMENT BY 1 START WITH 1 MAXVALUE 9999 CYCLE CACHE 20 ORDER;
+GRANT SELECT ON S_PK_CTN_CODE TO SYS_USER;
+GRANT SELECT ON S_PK_PLT_CODE TO SYS_USER;
+
+
+5.4.100.3
+1.加入Close Pallet&Carton權限
+  INSERT INTO SAJET.SYS_PROGRAM_FUN ( PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ,AUTHORITYS ) VALUES ('Packing', 'Close Pallet(Carton)', 0,  sysdate, 0, 'Read Only');
+  INSERT INTO SAJET.SYS_PROGRAM_FUN ( PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ,AUTHORITYS ) VALUES ('Packing', 'Close Pallet(Carton)', 1,  sysdate, 0, 'Allow To Execute');
+2.Carton&Pallet No System Create規則不對
+
+
+
+5.4.100.2
+1.若工單的包裝方式有多個,則由包裝方式的Pallet大小輪流包裝
+2.不同Terminal會產生不同的Pallet No&Carton No
+3.Carton Qty和Pallet Qty用變數紀錄,不需每次都到R107計算
+
+ALTER TABLE SAJET.G_PACK_PALLET ADD PKSPEC_NAME VARCHAR2(25);

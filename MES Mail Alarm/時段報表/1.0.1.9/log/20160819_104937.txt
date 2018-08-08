@@ -1,0 +1,320 @@
+start get time....2016/08/19 10:42:56
+start export excel....2016/08/19 10:42:56
+query data....2016/08/19 10:42:56
+query data ok....2016/08/19 10:42:59
+start excel....2016/08/19 10:42:59
+start excel ok....2016/08/19 10:43:00
+start start end hour ....2016/08/19 10:43:00
+start display ....252 model2016/08/19 10:43:00
+start set  start address ....2016/08/19 10:43:00
+start add chart....2016/08/19 10:43:01
+start query process....2016/08/19 10:43:01
+start query defect....2016/08/19 10:43:01
+start query model rate....2016/08/19 10:43:01
+start add time axis value....2016/08/19 10:43:03
+start TOP3 display....2016/08/19 10:43:04
+start display ....374-4 model2016/08/19 10:43:16
+start set  start address ....2016/08/19 10:43:16
+start add chart....2016/08/19 10:43:16
+start query process....2016/08/19 10:43:16
+start query defect....2016/08/19 10:43:16
+start query model rate....2016/08/19 10:43:17
+start add time axis value....2016/08/19 10:43:19
+start TOP3 display....2016/08/19 10:43:20
+start display ....425-5 model2016/08/19 10:43:34
+start set  start address ....2016/08/19 10:43:34
+start add chart....2016/08/19 10:43:35
+start query process....2016/08/19 10:43:35
+start query defect....2016/08/19 10:43:35
+start query model rate....2016/08/19 10:43:37
+start add time axis value....2016/08/19 10:43:39
+start TOP3 display....2016/08/19 10:43:41
+start display ....425-6 model2016/08/19 10:43:56
+start set  start address ....2016/08/19 10:43:56
+start add chart....2016/08/19 10:43:56
+start query process....2016/08/19 10:43:56
+start query defect....2016/08/19 10:43:56
+start query model rate....2016/08/19 10:43:56
+start add time axis value....2016/08/19 10:43:58
+start TOP3 display....2016/08/19 10:44:00
+start display ....429 model2016/08/19 10:44:13
+start set  start address ....2016/08/19 10:44:13
+start add chart....2016/08/19 10:44:13
+start query process....2016/08/19 10:44:13
+start query defect....2016/08/19 10:44:13
+start query model rate....2016/08/19 10:44:13
+start add time axis value....2016/08/19 10:44:14
+start TOP3 display....2016/08/19 10:44:16
+start display ....430-2 model2016/08/19 10:44:28
+start set  start address ....2016/08/19 10:44:28
+start add chart....2016/08/19 10:44:28
+start query process....2016/08/19 10:44:28
+start query defect....2016/08/19 10:44:28
+start query model rate....2016/08/19 10:44:28
+start add time axis value....2016/08/19 10:44:30
+start TOP3 display....2016/08/19 10:44:31
+start display ....438-1 model2016/08/19 10:44:43
+start set  start address ....2016/08/19 10:44:43
+start add chart....2016/08/19 10:44:43
+start query process....2016/08/19 10:44:43
+start query defect....2016/08/19 10:44:44
+start query model rate....2016/08/19 10:44:44
+start add time axis value....2016/08/19 10:44:45
+start TOP3 display....2016/08/19 10:44:47
+start display ....453 model2016/08/19 10:44:59
+start set  start address ....2016/08/19 10:44:59
+start add chart....2016/08/19 10:45:00
+start query process....2016/08/19 10:45:00
+start query defect....2016/08/19 10:45:00
+start query model rate....2016/08/19 10:45:03
+start add time axis value....2016/08/19 10:45:06
+start TOP3 display....2016/08/19 10:45:07
+start display ....456 model2016/08/19 10:45:23
+start set  start address ....2016/08/19 10:45:23
+start add chart....2016/08/19 10:45:23
+start query process....2016/08/19 10:45:23
+start query defect....2016/08/19 10:45:23
+start query model rate....2016/08/19 10:45:25
+start add time axis value....2016/08/19 10:45:28
+start TOP3 display....2016/08/19 10:45:29
+start display ....474 model2016/08/19 10:45:42
+start set  start address ....2016/08/19 10:45:42
+start add chart....2016/08/19 10:45:43
+start query process....2016/08/19 10:45:43
+start query defect....2016/08/19 10:45:43
+start query model rate....2016/08/19 10:45:43
+start add time axis value....2016/08/19 10:45:44
+start TOP3 display....2016/08/19 10:45:46
+start display ....495-1(NS) model2016/08/19 10:45:58
+start set  start address ....2016/08/19 10:45:58
+start add chart....2016/08/19 10:45:59
+start query process....2016/08/19 10:45:59
+start query defect....2016/08/19 10:45:59
+start query model rate....2016/08/19 10:46:01
+start add time axis value....2016/08/19 10:46:03
+start TOP3 display....2016/08/19 10:46:05
+start display ....503 model2016/08/19 10:46:20
+start set  start address ....2016/08/19 10:46:20
+start add chart....2016/08/19 10:46:20
+start query process....2016/08/19 10:46:20
+start query defect....2016/08/19 10:46:20
+start query model rate....2016/08/19 10:46:20
+start add time axis value....2016/08/19 10:46:23
+start TOP3 display....2016/08/19 10:46:24
+start display ....503-1(NS) model2016/08/19 10:46:37
+start set  start address ....2016/08/19 10:46:37
+start add chart....2016/08/19 10:46:38
+start query process....2016/08/19 10:46:38
+start query defect....2016/08/19 10:46:38
+start query model rate....2016/08/19 10:46:40
+start add time axis value....2016/08/19 10:46:43
+start TOP3 display....2016/08/19 10:46:44
+start display ....508 model2016/08/19 10:46:57
+start set  start address ....2016/08/19 10:46:57
+start add chart....2016/08/19 10:46:57
+start query process....2016/08/19 10:46:58
+start query defect....2016/08/19 10:46:58
+start query model rate....2016/08/19 10:46:58
+start add time axis value....2016/08/19 10:46:59
+start TOP3 display....2016/08/19 10:47:01
+start display ....509 model2016/08/19 10:47:14
+start set  start address ....2016/08/19 10:47:14
+start add chart....2016/08/19 10:47:14
+start query process....2016/08/19 10:47:14
+start query defect....2016/08/19 10:47:14
+start query model rate....2016/08/19 10:47:14
+start add time axis value....2016/08/19 10:47:16
+start TOP3 display....2016/08/19 10:47:17
+start display ....529 model2016/08/19 10:47:29
+start set  start address ....2016/08/19 10:47:29
+start add chart....2016/08/19 10:47:29
+start query process....2016/08/19 10:47:29
+start query defect....2016/08/19 10:47:29
+start query model rate....2016/08/19 10:47:31
+start add time axis value....2016/08/19 10:47:32
+start TOP3 display....2016/08/19 10:47:34
+start display ....530 model2016/08/19 10:47:46
+start set  start address ....2016/08/19 10:47:46
+start add chart....2016/08/19 10:47:46
+start query process....2016/08/19 10:47:46
+start query defect....2016/08/19 10:47:46
+start query model rate....2016/08/19 10:47:47
+start add time axis value....2016/08/19 10:47:48
+start TOP3 display....2016/08/19 10:47:49
+start display ....538 model2016/08/19 10:48:02
+start set  start address ....2016/08/19 10:48:02
+start add chart....2016/08/19 10:48:02
+start query process....2016/08/19 10:48:02
+start query defect....2016/08/19 10:48:02
+start query model rate....2016/08/19 10:48:03
+start add time axis value....2016/08/19 10:48:05
+start TOP3 display....2016/08/19 10:48:06
+start display ....553 model2016/08/19 10:48:19
+start set  start address ....2016/08/19 10:48:19
+start add chart....2016/08/19 10:48:20
+start query process....2016/08/19 10:48:20
+start query defect....2016/08/19 10:48:20
+start query model rate....2016/08/19 10:48:20
+start add time axis value....2016/08/19 10:48:21
+start TOP3 display....2016/08/19 10:48:23
+start display ....601 model2016/08/19 10:48:35
+start set  start address ....2016/08/19 10:48:35
+start add chart....2016/08/19 10:48:35
+start query process....2016/08/19 10:48:35
+start query defect....2016/08/19 10:48:35
+start query model rate....2016/08/19 10:48:38
+start add time axis value....2016/08/19 10:48:41
+start TOP3 display....2016/08/19 10:48:43
+save excel (F:\Delphi\SFC Source Code\MES Mail Alarm\時段報表\1.0.1.4\Report\2016年8月19日 10時 各機種時段生產報表.xlsx)...2016/08/19 10:48:56
+close excel ...2016/08/19 10:48:57
+start send mail....2016/08/19 10:48:58
+start get yield by stage....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cob yield 1 ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get cm yield 2 ....2016/08/19 10:48:58
+start get all yield  array1 ....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cob yield 1 ....2016/08/19 10:48:58
+start get cob yield 2 ....2016/08/19 10:48:58
+start get cob yield 4 ....2016/08/19 10:48:58
+start get cob yield 5 ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get cm yield 6 ....2016/08/19 10:48:58
+start get all yield  array2 ....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get cm yield 1 ....2016/08/19 10:48:58
+start get cm yield 2 ....2016/08/19 10:48:58
+start get cm yield 3 ....2016/08/19 10:48:58
+start get all yield  array3 ....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get smt yield 1 ....2016/08/19 10:48:58
+start get smt yield 2 ....2016/08/19 10:48:58
+start get smt yield 3 ....2016/08/19 10:48:58
+start get smt yield 4 ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get all yield  array4 ....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get cm yield 1 ....2016/08/19 10:48:58
+start get all yield  array5 ....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get smt yield 1 ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get all yield  array6 ....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cob yield 1 ....2016/08/19 10:48:58
+start get cob yield 3 ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get all yield  array7 ....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get cm yield 1 ....2016/08/19 10:48:58
+start get cm yield 2 ....2016/08/19 10:48:58
+start get cm yield 3 ....2016/08/19 10:48:58
+start get cm yield 4 ....2016/08/19 10:48:58
+start get cm yield 5 ....2016/08/19 10:48:58
+start get all yield  array8 ....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get smt yield 1 ....2016/08/19 10:48:58
+start get smt yield 2 ....2016/08/19 10:48:58
+start get smt yield 3 ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get all yield  array9 ....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get cm yield 1 ....2016/08/19 10:48:58
+start get all yield  array10 ....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get cm yield 1 ....2016/08/19 10:48:58
+start get cm yield 2 ....2016/08/19 10:48:58
+start get cm yield 3 ....2016/08/19 10:48:58
+start get all yield  array11 ....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cob yield 1 ....2016/08/19 10:48:58
+start get cob yield 3 ....2016/08/19 10:48:58
+start get cob yield 4 ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get cm yield 5 ....2016/08/19 10:48:58
+start get cm yield 6 ....2016/08/19 10:48:58
+start get cm yield 7 ....2016/08/19 10:48:58
+start get all yield  array12 ....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get cm yield 1 ....2016/08/19 10:48:58
+start get cm yield 2 ....2016/08/19 10:48:58
+start get all yield  array13 ....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cob yield 1 ....2016/08/19 10:48:58
+start get cob yield 2 ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get cm yield 3 ....2016/08/19 10:48:58
+start get all yield  array14 ....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get smt yield 1 ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get cm yield 2 ....2016/08/19 10:48:58
+start get cm yield 3 ....2016/08/19 10:48:58
+start get all yield  array15 ....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get smt yield 1 ....2016/08/19 10:48:58
+start get smt yield 2 ....2016/08/19 10:48:58
+start get smt yield 3 ....2016/08/19 10:48:58
+start get smt yield 4 ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get all yield  array16 ....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cob yield 1 ....2016/08/19 10:48:58
+start get cob yield 2 ....2016/08/19 10:48:58
+start get cob yield 4 ....2016/08/19 10:48:58
+start get cob yield 5 ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get all yield  array17 ....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cob yield 1 ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get cm yield 2 ....2016/08/19 10:48:58
+start get cm yield 3 ....2016/08/19 10:48:58
+start get cm yield 4 ....2016/08/19 10:48:58
+start get cm yield 5 ....2016/08/19 10:48:58
+start get all yield  array18 ....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get cm yield 1 ....2016/08/19 10:48:58
+start get all yield  array19 ....2016/08/19 10:48:58
+start get smt yield ....2016/08/19 10:48:58
+start get cob yield  ....2016/08/19 10:48:58
+start get cm yield ....2016/08/19 10:48:58
+start get cm yield 1 ....2016/08/19 10:48:58
+start get cm yield 2 ....2016/08/19 10:48:58
+start get cm yield 3 ....2016/08/19 10:48:58
+start get cm yield 4 ....2016/08/19 10:48:58
+start get cm yield 5 ....2016/08/19 10:48:58
+start get all yield  array20 ....2016/08/19 10:48:58
+start get output by stage....2016/08/19 10:48:58
+start get process count 5...2016/08/19 10:48:58
+start get stage :COB...2016/08/19 10:49:10
+start get process :Attach-Label...2016/08/19 10:49:12
+start get stage :CM...2016/08/19 10:49:25
+start get process :CM-PACK-PALLET...2016/08/19 10:49:26

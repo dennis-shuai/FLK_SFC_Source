@@ -1,0 +1,24 @@
+2015-05-21 11:15:53  [          ] (TCenter1.Create)Create Start
+2015-05-21 11:15:53  [          ] File    : E:\zm\已完成\FQC1\FQC1_SFCS.exe
+2015-05-21 11:15:53  [          ] Version : 1.1.1.4
+2015-05-21 11:15:53  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-05-21 11:15:53  [          ] (TCenter1.Create)Create Over
+2015-05-21 11:15:53  [          ] (SajetTransStartType)Function Execute Over
+2015-05-21 11:16:01  [          ] (TCenter1.Destroy)Destroy Start
+2015-05-21 11:16:01  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2015-05-21 11:16:01  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2015-05-21 11:16:01  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2015-05-21 11:16:01  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2015-05-21 11:16:01  [          ] (TCenter1.Destroy)Destroy Over
+2015-05-21 11:21:38  [          ] (TCenter1.Create)Create Start
+2015-05-21 11:21:38  [          ] File    : E:\zm\已完成\FQC1\FQC1_SFCS.exe
+2015-05-21 11:21:38  [          ] Version : 1.1.1.5
+2015-05-21 11:21:38  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-05-21 11:21:38  [          ] (TCenter1.Create)Create Over
+2015-05-21 11:21:38  [          ] (SajetTransStartType)Function Execute Over
+2015-05-21 11:21:51  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:50523;420529198503]
+2015-05-21 11:21:53  [ERROR     ] (TThreadTCPServerPCClient.sendDataToRemote)Remote Server Not Exist
+2015-05-21 11:21:53  [          ] (SajetTransferData)Exexecute Result=FALSE
+2015-05-21 11:21:59  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:50523;420529198503]
+2015-05-21 11:22:10  [ERROR     ] (TThreadTCPServerPCClient.sendDataToRemote)Remote Server Not Exist
+2015-05-21 11:22:10  [          ] (SajetTransferData)Exexecute Result=FALSE

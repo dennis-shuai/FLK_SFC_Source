@@ -1,0 +1,100 @@
+CREATE OR REPLACE PROCEDURE SAJET.FOXLINK_SUBPANEL_REPLACESN(
+   TSN     IN       VARCHAR2,
+   TKPSN     IN       VARCHAR2,
+   TWO     IN       VARCHAR2,
+   TEMP     IN       VARCHAR2,
+   TEMPID     IN       NUMBER,
+   TMODEL     IN       VARCHAR2,
+   TVERSION     IN       VARCHAR2,
+   TTERMINALID     IN       NUMBER,
+   TPROCESSID     IN       NUMBER,
+   TNOW     IN     DATE,
+   TRES        OUT      VARCHAR2
+)
+IS
+   C_SN    SAJET.G_SN_STATUS.SERIAL_NUMBER%TYPE;
+   C_KPSN    SAJET.G_SN_STATUS.SERIAL_NUMBER%TYPE;
+   C_QTY1    NUMBER;
+   C_QTY2    NUMBER;
+   C_QTY3    NUMBER;
+   C_START1   NUMBER;
+   C_START2   NUMBER;
+   C_END1    NUMBER;
+   C_END2    NUMBER;
+BEGIN
+   C_QTY1 := 1;
+   C_QTY2 := 1;
+   C_START1 := 1;
+   C_START2 := 1;
+   TRES := 'OK';
+
+   LOOP
+      C_END1 := INSTR(TSN, ';', 1, C_QTY1);
+      EXIT WHEN C_END1 = 0;
+      C_SN := TRIM(SUBSTR(TSN, C_START1, C_END1 - C_START1));
+
+      C_END2 := INSTR(TKPSN, ';', 1, C_QTY2);
+      EXIT WHEN C_END2 = 0;
+      C_KPSN := TRIM(SUBSTR(TKPSN, C_START2, C_END2 - C_START2));
+
+      -- 先檢查KPSN是否被組過
+      SELECT COUNT(*) INTO C_QTY3
+        FROM SAJET.G_SN_KEYPARTS
+       WHERE ITEM_PART_SN = C_KPSN;
+
+      IF C_QTY3 > 0 THEN
+         TRES := 'DUP KPSN - "' || C_KPSN || '"';
+         EXIT;
+      END IF;
+
+      -- 檢查SN是否存在
+      SELECT COUNT(*) INTO C_QTY3
+         FROM SAJET.G_SN_STATUS
+       WHERE SERIAL_NUMBER = C_SN;
+
+      IF C_QTY3 > 0 THEN
+         TRES := 'DUP SN - "' || C_SN || '"';
+         EXIT;
+      END IF;
+
+      BEGIN
+         UPDATE SAJET.G_SN_STATUS SET SERIAL_NUMBER = C_SN,BOX_NO='N/A'
+          WHERE SERIAL_NUMBER = C_KPSN;
+
+          SAJET.SJ_CKRT_ROUTE(TTERMINALID, C_SN, TRES); 
+          IF TRES <> 'OK' THEN
+            TRES := 'ROUTE ERROR - ' || TRES;
+            EXIT;
+          END IF; 
+
+
+         INSERT INTO SAJET.G_SN_KEYPARTS
+         (WORK_ORDER, SERIAL_NUMBER, PROCESS_ID, ITEM_PART_ID, ITEM_PART_SN,  VERSION, UPDATE_USERID, UPDATE_TIME) VALUES
+         (TWO, C_SN, TPROCESSID, TMODEL, C_KPSN, TVERSION, TEMPID, TNOW);
+
+         SAJET.SJ_GO(TTERMINALID, C_SN, TNOW, TRES, TEMP);
+
+         IF TRES <> 'OK' THEN
+            EXIT;
+         END IF;
+      EXCEPTION
+         WHEN OTHERS THEN
+            TRES := 'UPDATE SN ERROR - "' || C_SN || '"';
+            EXIT;
+      END;
+
+      C_START1 := C_END1 + 1;
+      C_START2 := C_END2 + 1;
+      C_QTY1 := C_QTY1 + 1;
+      C_QTY2 := C_QTY2 + 1;
+   END LOOP;
+
+   IF TRES = 'OK' THEN
+      COMMIT;
+   ELSE
+      ROLLBACK;
+   END IF;
+EXCEPTION
+   WHEN OTHERS THEN
+      TRES := 'FOXLINK_SUBPANEL_REPLACESN';
+END;

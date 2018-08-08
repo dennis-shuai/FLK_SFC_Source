@@ -1,0 +1,276 @@
+CREATE OR REPLACE PROCEDURE
+           Key_Preventing_Seagate(tterminalid IN NUMBER,tnow IN DATE,
+		   TWO IN VARCHAR2,TPALLET IN VARCHAR2,TEMPID IN VARCHAR2, tres OUT VARCHAR2) IS
+CURSOR sn_cursor IS
+   SELECT serial_number
+     FROM sajet.G_SN_STATUS
+       WHERE work_order=two AND  pallet_no = Tpallet;
+sn_record sn_cursor%ROWTYPE;
+CURSOR carton_cursor IS
+   SELECT carton_no
+     FROM sajet.G_SN_STATUS
+       WHERE work_order=two AND pallet_no = Tpallet;
+carton_record carton_cursor%ROWTYPE;
+CURSOR KPSN_cursor IS
+   SELECT item_part_sn  FROM sajet.G_SN_KEYPARTS a,sajet.G_SN_STATUS b 
+      WHERE b.WORK_ORDER=TWO AND  b.PALLET_NO=TPALLET
+        AND a.work_order=b.work_order AND a.serial_number=b.serial_number;
+	   -- and( a.item_part_sn<>null OR a.item_part_sn<>'N/A');
+KPSN_reocrd KPSN_cursor%ROWTYPE;
+
+C_SN   SAJET.G_SN_STATUS.SERIAL_NUMBER%TYPE;
+C_TEMP NUMBER;
+C_TEMP2 NUMBER;
+C_TEMP3 NUMBER;
+C_EMPNO SAJET.SYS_EMP.EMP_NO%TYPE;
+C_ORGID SAJET.SYS_FACTORY.FACTORY_CODE%TYPE;
+BEGIN	
+    TRES:='OK';
+	--Check seagate pallet 格式
+	SELECT COUNT(*) INTO c_temp FROM  dual 
+	    WHERE SUBSTR(Tpallet,1,2)='PF' OR SUBSTR(Tpallet,1,2)='PK' ;
+	IF c_temp=0 THEN
+	   TRES:='Pallet '||Tpallet||' NOT LIKE PF OR PK*******';
+	   GOTO ENDP;
+	END IF;
+	
+	--CHECK WO 
+	SELECT COUNT(*) INTO c_temp FROM SAJET.G_WO_BASE WHERE work_order = TWO  ;
+	IF c_temp=0 THEN
+	   TRES:='NOT FIND WO '||TWO ;
+	   GOTO ENDP;
+	END IF;
+	
+	--CHECK　PALLET_ID 與 ORG_ID 是否對應
+	SELECT FACTORY_CODE INTO C_ORGID FROM SAJET.SYS_FACTORY A,SAJET.G_WO_BASE B
+        WHERE A.FACTORY_ID=B.FACTORY_ID AND B.WORK_ORDER=TWO;
+	IF C_ORGID='85' AND SUBSTR(Tpallet,1,2)<>'PF' THEN
+	   TRES:='Pallet '||Tpallet||' NOT LIKE PF******* IN ORG_ID=85 ';
+	   GOTO ENDP;
+	END IF;
+	IF  ((C_ORGID='509') OR (C_ORGID='1437') ) AND SUBSTR(Tpallet,1,2)<>'PK' THEN
+	   TRES:='Pallet '||Tpallet||' NOT LIKE PK******* IN ORG_ID (509,1437)  ';
+	   GOTO ENDP;
+	END IF;
+	
+	
+	SELECT COUNT(serial_number) INTO c_temp2 FROM sajet.G_SN_STATUS
+	   WHERE work_order=two AND pallet_no=tpallet;
+	IF c_temp2=0 THEN
+	  TRES:=TPALLET||' NOT FIND IN THE WO OF '||TWO	;
+	  GOTO ENDP;
+	END IF ;
+	
+    FOR sn_record IN sn_cursor LOOP
+	   SELECT COUNT(serial_number) INTO C_TEMP FROM sajet.G_SN_STATUS@SFCBK
+	       WHERE SERIAL_NUMBER=sn_record.serial_number AND ROWNUM=1;
+	   IF C_TEMP=1 THEN
+	     TRES:='SN '||SN_RECORD.serial_number||' IS DUB!'; 
+		 GOTO ENDP;
+	   END IF;
+	END LOOP;
+	
+	FOR carton_record IN carton_cursor LOOP
+	    SELECT COUNT(carton_no) INTO c_temp FROM sajet.G_PACK_CARTON@SFCBK 
+		    WHERE carton_no=carton_record.carton_no AND ROWNUM=1;
+		IF C_TEMP=1 THEN
+		   TRES:='Cartton '||CARTON_RECORD.CARTON_NO||' IS DUB';
+		   GOTO ENDP;
+		END IF;
+	END LOOP;
+		
+	SELECT COUNT(pallet_no) INTO c_temp FROM sajet.G_PACK_PALLET@SFCBK 
+	     WHERE pallet_no=Tpallet AND ROWNUM=1;
+	   IF c_temp=1 THEN
+	      tres:='Pallet '||tpallet||' IS DUB!';
+		  GOTO ENDP;
+	   END IF;
+
+	SELECT COUNT(item_part_sn) INTO c_temp 
+	  FROM sajet.G_SN_KEYPARTS a,sajet.G_SN_STATUS b 
+      WHERE b.WORK_ORDER=TWO AND  b.PALLET_NO=TPALLET
+        AND a.work_order=b.work_order AND a.serial_number=b.serial_number
+	    AND( a.item_part_sn<>NULL OR a.item_part_sn<>'N/A');
+    IF c_temp>0 THEN
+	   SELECT  MOD(c_temp,c_temp2) INTO C_TEMP3 FROM DUAL;
+	   IF C_TEMP3>0 THEN
+	      TRES:='KP COUNT IS ERROR';
+		  GOTO ENDP;
+	   ELSE
+	      FOR KPSN_record IN KPSN_cursor LOOP
+	         SELECT COUNT(ITEM_PART_SN) INTO C_TEMP FROM SAJET.G_SN_KEYPARTS@SFCBK 
+			    WHERE ITEM_PART_SN=KPSN_RECORD.ITEM_PART_SN AND ROWNUM=1;
+			 IF C_TEMP=1 THEN
+			   TRES:='KP '||KPSN_RECORD.ITEM_PART_SN||' IS DUB';
+			   GOTO ENDP;
+		     END IF;
+	      END LOOP;
+	   END IF;
+	END IF;	
+	
+	
+	
+	
+	
+	--CHECK 任意一個EDA SN的KP的個數(KPSN+KPNO)
+	SELECT serial_number INTO C_SN FROM sajet.G_SN_STATUS
+	   WHERE work_order=two AND pallet_no=tpallet AND ROWNUM=1;
+	   
+	SELECT COUNT(item_part_sn) INTO c_temp2  FROM sajet.G_SN_KEYPARTS  
+       WHERE WORK_ORDER=TWO AND serial_number=C_SN;
+	IF  C_TEMP2=0 THEN
+	    TRES:='SN '||C_SN||' NOT MAPPING KP';
+	    GOTO ENDP;
+	END IF ;
+	
+	--CHECK 每個EDA SN 的個數是否都相同(KPSN+KPNO)
+    FOR sn_record IN sn_cursor LOOP
+	   SELECT COUNT(item_part_sn) INTO c_temp  FROM sajet.G_SN_KEYPARTS  
+            WHERE WORK_ORDER=TWO AND serial_number=sn_record.serial_number;
+	   IF C_TEMP<>C_TEMP2 THEN
+	     TRES:='SN '||SN_RECORD.serial_number||' KP QTY is '||C_TEMP||'<>'||C_TEMP2; 
+		 GOTO ENDP;
+	   END IF;
+	END LOOP;
+	
+	--CHECK HDD_SN 是否有做in 856  
+	FOR KPSN_record IN KPSN_cursor LOOP
+       SELECT COUNT(serial_number) INTO c_temp FROM b2b.asn_in_serial 
+	      WHERE  serial_number=kpsn_record.item_part_sn AND ROWNUM=1;
+	   IF c_temp=0 THEN
+	      SELECT COUNT(serial_number) INTO c_temp FROM b2b.ht_asn_in_serial 
+	           WHERE  serial_number=kpsn_record.item_part_sn AND ROWNUM=1;
+		  IF c_temp=0 THEN
+		     TRES:='HDD SN '||KPSN_RECORD.ITEM_PART_SN||' NOT IN 856';
+			 GOTO ENDP;
+		  END IF;
+	   END IF;
+	END LOOP;
+	
+	--CHECK EDA_SN 是否有做pt 867 
+    FOR sn_record IN sn_cursor LOOP
+	   SELECT  COUNT(serial_number) INTO c_temp FROM b2b.pt_serial
+            WHERE Serial_number=sn_record.serial_number AND type is null AND ROWNUM=1;
+	   IF C_TEMP=1 THEN
+	      TRES:='SN '||SN_RECORD.serial_number||' HAD IN STOCK'; 
+		  GOTO ENDP;
+	   ELSE
+	       SELECT  COUNT(serial_number) INTO c_temp FROM b2b.HT_pt_serial
+               WHERE Serial_number=sn_record.serial_number AND type is null AND ROWNUM=1;
+		   IF C_TEMP=1 THEN
+	          TRES:='SN '||SN_RECORD.serial_number||' HAD IN STOCK'; 
+		      GOTO ENDP;
+		   END IF;
+	   END IF;
+	END LOOP;
+	
+   --CHECK HDD_SN 是否有做pt 867 
+   FOR KPSN_record IN KPSN_cursor LOOP
+        SELECT COUNT(DRIVE_SERIAL_NUMBER) INTO C_TEMP FROM b2b.pt_reference
+	      WHERE  DRIVE_SERIAL_NUMBER=kpsn_record.item_part_sn AND type is null AND ROWNUM=1;
+	    IF c_temp=1 THEN
+	      TRES:='KP '||kpsn_record.item_part_sn||' HAD IN STOCK';
+	      GOTO ENDP;
+	    ELSE
+	       SELECT COUNT(DRIVE_SERIAL_NUMBER) INTO C_TEMP FROM b2b.ht_pt_reference
+	          WHERE  DRIVE_SERIAL_NUMBER=kpsn_record.item_part_sn AND type is null AND ROWNUM=1;
+	          IF c_temp=1 THEN
+	             TRES:='KP '||kpsn_record.item_part_sn||' HAD IN STOCK';
+	             GOTO ENDP;
+			  END IF;
+	   END IF;
+	END LOOP;
+	
+	
+	--CHECK EDA_SN 是否有做pt 867  IN SFCBK DB 
+    FOR sn_record IN sn_cursor LOOP
+	   SELECT  COUNT(serial_number) INTO c_temp FROM b2b.pt_serial@SFCBK
+            WHERE Serial_number=sn_record.serial_number AND type is null AND ROWNUM=1;
+	   IF C_TEMP=1 THEN
+	      TRES:='SN '||SN_RECORD.serial_number||' HAD IN STOCK'; 
+		  GOTO ENDP;
+	   ELSE
+	       SELECT  COUNT(serial_number) INTO c_temp FROM b2b.HT_pt_serial@SFCBK
+               WHERE Serial_number=sn_record.serial_number AND type is null AND ROWNUM=1;
+		   IF C_TEMP=1 THEN
+	          TRES:='SN '||SN_RECORD.serial_number||' HAD IN STOCK'; 
+		      GOTO ENDP;
+		   END IF;
+	   END IF;
+	END LOOP;
+	
+   --CHECK HDD_SN 是否有做pt 867 IN SFCBK DB
+   FOR KPSN_record IN KPSN_cursor LOOP
+        SELECT COUNT(DRIVE_SERIAL_NUMBER) INTO C_TEMP FROM b2b.pt_reference@SFCBK
+	      WHERE  DRIVE_SERIAL_NUMBER=kpsn_record.item_part_sn AND type is null AND ROWNUM=1;
+	    IF c_temp=1 THEN
+	      TRES:='KP '||kpsn_record.item_part_sn||' HAD IN STOCK';
+	      GOTO ENDP;
+	    ELSE
+	       SELECT COUNT(DRIVE_SERIAL_NUMBER) INTO C_TEMP FROM b2b.ht_pt_reference@SFCBK
+	          WHERE  DRIVE_SERIAL_NUMBER=kpsn_record.item_part_sn AND type is null AND ROWNUM=1;
+	          IF c_temp=1 THEN
+	             TRES:='KP '||kpsn_record.item_part_sn||' HAD IN STOCK';
+	             GOTO ENDP;
+			  END IF;
+	   END IF;
+	END LOOP;
+
+  	--check HDD_SN 是否有做 MRB 
+    FOR KPSN_record IN KPSN_cursor LOOP
+        SELECT COUNT(SERIAL_NUMBER) INTO C_TEMP FROM SAJET.MES_TO_MRB_SN
+	      WHERE  SERIAL_NUMBER=kpsn_record.item_part_sn AND ROWNUM=1;
+	    IF c_temp=1 THEN
+	      TRES:='KP '||kpsn_record.item_part_sn||' HAD SCAN MRB';
+	      GOTO ENDP;
+	    ELSE
+	      SELECT COUNT(SERIAL_NUMBER) INTO C_TEMP FROM SAJET.MES_HT_TO_MRB_SN
+	      WHERE  SERIAL_NUMBER=kpsn_record.item_part_sn AND ROWNUM=1;
+	          IF c_temp=1 THEN
+	             TRES:='KP '||kpsn_record.item_part_sn||' HAD SCAN MRB';
+	             GOTO ENDP;
+			  END IF;
+	   END IF;
+	END LOOP;
+	
+
+  IF tres='OK' THEN
+     BEGIN
+	     FOR sn_record IN sn_cursor LOOP  
+	          SAJET.Sj_Ckrt_Route(TTERMINALID, SN_RECORD.SERIAL_NUMBER, TRES); 
+              IF TRES <> 'OK' THEN
+                  TRES := 'ROUTE ERROR - ' ||SN_RECORD.SERIAL_NUMBER;
+                  GOTO ENDP;
+              END IF; 
+		 END LOOP;
+
+		 SELECT EMP_NO INTO C_EMPNO FROM SAJET.SYS_EMP WHERE EMP_ID=TEMPID;
+		 FOR sn_record IN sn_cursor LOOP   
+              SAJET.Sj_Go(TTERMINALID, SN_RECORD.SERIAL_NUMBER, TNOW, TRES, C_EMPNO);
+              IF TRES <> 'OK' THEN
+			      TRES:='UPDATE ERROR(SJ_GO) !';
+                  GOTO ENDP;
+              END IF;
+	      END LOOP;
+	 
+	 
+      --INSERT  INTO SAJET.G_CHECK_DUBSN(WORK_ORDER,PALLET_NO,UPDATE_TIME,EMP_ID )
+		            -- VALUES(TWO,TPALLET,SYSDATE,TEMPID); 
+      COMMIT;
+   
+     EXCEPTION
+      WHEN OTHERS THEN
+	       ROLLBACK;
+           TRES := 'UPDATE ERROR';
+           GOTO ENDP;
+     END; 
+   END IF;
+  <<endp>>	
+     ROLLBACK;     
+     NULL;
+EXCEPTION
+  WHEN OTHERS THEN
+    ROLLBACK;
+    tres:='KEY_Preventing_Seagate error';
+END;
+/

@@ -1,0 +1,4 @@
+Insert into SAJET.SYS_PROGRAM_FUN
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS, FUN_TYPE, FUN_TYPE_IDX, FUN_IDX, DLL_FILENAME)
+ Values
+   ('Material Management', 'Change FCTYPE', 0, sysdate, 2, 'Allow To Execute', 'TOOLS', '9', '1', 'CHANGEFCTYPEDLL.dll');

@@ -1,0 +1,16 @@
+insert into sys_program_fun
+( program,function,update_userid,update_time ,auth_seq,authoritys,fun_type,fun_type_idx,fun_idx,dll_filename)
+values
+('Data Center','Part ORT Define','0',sysdate,'0','Read Only','Production Information','2','12','PartNoORTdll.dll')
+
+insert into sys_program_fun
+( program,function,update_userid,update_time ,auth_seq,authoritys,fun_type,fun_type_idx,fun_idx,dll_filename)
+values
+('Data Center','Part ORT Define','0',sysdate,'1','Allow To Change','Production Information','2','12','PartNoORTdll.dll')
+
+insert into sys_program_fun
+( program,function,update_userid,update_time ,auth_seq,authoritys,fun_type,fun_type_idx,fun_idx,dll_filename)
+values
+('Data Center','Part ORT Define','0',sysdate,'2','Full Control','Production Information','2','12','PartNoORTdll.dll')
+
+

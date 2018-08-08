@@ -1,0 +1,12 @@
+2017-10-24 16:45:51  [          ] (TCenter1.Create)Create Start
+2017-10-24 16:45:51  [          ] File    : F:\Delphi\SFC Source Code\ICT\588-2\HP TestStation\1.0.0.1\HPStation_SFCS.exe
+2017-10-24 16:45:51  [          ] Version : 1.0.0.3
+2017-10-24 16:45:51  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2017-10-24 16:45:51  [          ] (TCenter1.Create)Create Over
+2017-10-24 16:45:51  [          ] (SajetTransStartType)Function Execute Over
+2017-10-24 16:45:53  [          ] (TCenter1.Destroy)Destroy Start
+2017-10-24 16:45:53  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2017-10-24 16:45:53  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2017-10-24 16:45:53  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2017-10-24 16:45:53  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2017-10-24 16:45:53  [          ] (TCenter1.Destroy)Destroy Over

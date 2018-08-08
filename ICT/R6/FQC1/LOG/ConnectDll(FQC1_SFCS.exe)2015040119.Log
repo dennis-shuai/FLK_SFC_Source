@@ -1,0 +1,59 @@
+2015-04-01 19:39:09  [          ] (TCenter1.Create)Create Start
+2015-04-01 19:39:09  [          ] File    : E:\Delphi\SFC Source Code\ICT\R6\FQC1\FQC1_SFCS.exe
+2015-04-01 19:39:09  [          ] Version : 1.0.0.1
+2015-04-01 19:39:09  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-04-01 19:39:09  [          ] (TCenter1.Create)Create Over
+2015-04-01 19:39:09  [          ] (SajetTransStartType)Function Execute Over
+2015-04-01 19:39:10  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 19:39:10  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2010
+2015-04-01 19:39:10  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:2010]
+2015-04-01 19:39:10  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:2010]
+2015-04-01 19:39:10  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2010 OK
+2015-04-01 19:39:10  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:2010]
+2015-04-01 19:39:10  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:5][D:1][P:1][B:0][Data:Device (1) On LineLine : 4F-CM-252Stage : CMProcess : Aging_TestTerminal : Aging_Test02][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-34-46-2D-43-4D-2D-32-35-32-0D-53-74-61-67-65-20-3A-20-43-4D-0D-50-72-6F-63-65-73-73-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-30-32-0D-]
+2015-04-01 19:39:11  [          ] (TCenter1.Destroy)Destroy Start
+2015-04-01 19:39:11  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2015-04-01 19:39:11  [          ] (TThreadTCPServerPCClient.ServerSocketClientDisconnect)TCP/IP Client Disconnect - 172.16.245.10:6211
+2015-04-01 19:39:11  [ERROR     ] (TThreadTCPServerMainPCClient.ClientExecute.rsvDataFromSocket)Read error 6, 控制碼無效。[172.16.245.10:2010]
+2015-04-01 19:39:11  [ERROR     ] (TThreadTCPServerSend.Execute.sendDataToRemote)Write error 6, 控制碼無效。
+2015-04-01 19:39:11  [TEST      ] (TThreadTCPServerPCClient.executeRsvData.checkLink)Show Form Connect
+2015-04-01 19:39:11  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Over[172.16.245.10:2010]
+2015-04-01 19:39:11  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread Start[172.16.245.10:2010]
+2015-04-01 19:39:11  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Start
+2015-04-01 19:39:11  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Over
+2015-04-01 19:39:11  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread OK[172.16.245.10:2010]
+2015-04-01 19:39:11  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2015-04-01 19:39:11  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2015-04-01 19:39:11  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2015-04-01 19:39:11  [          ] (TCenter1.Destroy)Destroy Over
+2015-04-01 19:39:12  [          ] (TCenter1.Create)Create Start
+2015-04-01 19:39:12  [          ] File    : E:\Delphi\SFC Source Code\ICT\R6\FQC1\FQC1_SFCS.exe
+2015-04-01 19:39:12  [          ] Version : 1.0.0.1
+2015-04-01 19:39:12  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-04-01 19:39:12  [          ] (TCenter1.Create)Create Over
+2015-04-01 19:39:12  [          ] (SajetTransStartType)Function Execute Over
+2015-04-01 19:39:16  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 19:39:16  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2011
+2015-04-01 19:39:16  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:2011]
+2015-04-01 19:39:16  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:2011]
+2015-04-01 19:39:16  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2011 OK
+2015-04-01 19:39:17  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:2011]
+2015-04-01 19:39:17  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:5][D:1][P:1][B:0][Data:Device (1) On LineLine : 4F-CM-252Stage : CMProcess : Aging_TestTerminal : Aging_Test02][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-34-46-2D-43-4D-2D-32-35-32-0D-53-74-61-67-65-20-3A-20-43-4D-0D-50-72-6F-63-65-73-73-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-30-32-0D-]
+2015-04-01 19:39:19  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:757055;78988481102]
+2015-04-01 19:39:19  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;757055;78988481102][172.16.245.10:2011]
+2015-04-01 19:39:19  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : OK;OK;
+2015-04-01 19:39:19  [          ] (SajetTransferData)Exexecute Result=TRUE
+2015-04-01 19:39:21  [          ] (TCenter1.Destroy)Destroy Start
+2015-04-01 19:39:21  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2015-04-01 19:39:21  [          ] (TThreadTCPServerPCClient.ServerSocketClientDisconnect)TCP/IP Client Disconnect - 172.16.245.10:6211
+2015-04-01 19:39:21  [ERROR     ] (TThreadTCPServerMainPCClient.ClientExecute.rsvDataFromSocket)Read error 6, 控制碼無效。[172.16.245.10:2011]
+2015-04-01 19:39:21  [TEST      ] (TThreadTCPServerPCClient.executeRsvData.checkLink)Show Form Connect
+2015-04-01 19:39:21  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Over[172.16.245.10:2011]
+2015-04-01 19:39:21  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread Start[172.16.245.10:2011]
+2015-04-01 19:39:21  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Start
+2015-04-01 19:39:21  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Over
+2015-04-01 19:39:21  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread OK[172.16.245.10:2011]
+2015-04-01 19:39:21  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2015-04-01 19:39:21  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2015-04-01 19:39:21  [          ] (TCenter1.Destroy)Destroy Over
+2015-04-01 19:39:21  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over

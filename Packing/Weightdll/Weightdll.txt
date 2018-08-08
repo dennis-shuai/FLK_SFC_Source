@@ -1,0 +1,6 @@
+Weightdll.dll
+も以key in weight
+
+5.8.0.0
+2008/10/22
+1. も以key in weight.

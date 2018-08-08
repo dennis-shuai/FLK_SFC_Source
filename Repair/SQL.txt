@@ -1,0 +1,59 @@
+Insert into SAJET.SYS_PROGRAM_NAME
+   (PROGRAM, EXE_FILENAME, TITLE_NAME, UPDATE_USERID, UPDATE_TIME,FUN_TYPE,FUN_TYPE_IDX)
+ Values
+   ('Repair', 'Repair', 'Sajet MES / [ Repair ]', '0', SYSDATE,'Process','2')
+
+
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS,FUN_TYPE,fun_type_idx,fun_idx,dll_filename)
+Values
+   ('Repair', 'Configuration', 0, SYSDATE, 0, 'Read Only','Configuration',2,1,'RepairCfgdll.dll');
+
+
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS,FUN_TYPE,fun_type_idx,fun_idx,dll_filename)
+ Values
+   ('Repair', 'Configuration', 0, SYSDATE, 1, 'Allow To Change','Configuration',2,1,'RepairCfgdll.dll');
+
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS)
+ Values
+   ('Repair', 'Change Repairer', 0, SYSDATE, 1, 'Allow To Change');
+
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS,FUN_TYPE,fun_type_idx,fun_idx,dll_filename)
+ Values
+   ('Repair', 'Execution', 0, SYSDATE, 1, 'Allow To Execute','Repair','1','1','Repairdll.dll');
+
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS,FUN_TYPE,fun_type_idx,fun_idx,dll_filename)
+ Values
+   ('Repair', 'Repair for Panel', 0, SYSDATE, 1, 'Allow To Execute','Repair','1','2','RepairPanelDll.dll');
+
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS)
+ Values
+   ('Repair', 'Scrap', 0, SYSDATE, 0, 'Read Only');
+
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS)
+ Values
+   ('Repair', 'Scrap', 0, SYSDATE, 3, 'Allow To Execute');
+
+
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS)
+ Values
+   ('Repair', 'Replace', 0, SYSDATE, 3, 'Allow To Execute');
+
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS)
+ Values
+   ('Repair', 'Remove', 0, SYSDATE, 3, 'Allow To Execute');
+
+--repair kp
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS,FUN_TYPE,fun_type_idx,fun_idx,dll_filename)
+ Values
+   ('Repair', 'Repair for KP', 0, SYSDATE, 1, 'Allow To Execute','Repair','1','3','RepairKPdll.dll');
+

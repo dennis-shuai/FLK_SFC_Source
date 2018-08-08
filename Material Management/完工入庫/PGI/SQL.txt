@@ -1,0 +1,35 @@
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS,FUN_TYPE,FUN_TYPE_IDX,FUN_IDX,DLL_FILENAME)
+ Values
+   ('Material Management', 'Configuration', 0, sysdate, 1, 'Allow To Change','PGI',8,1,'MaterialManagementCfgdll.dll')
+   
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS,FUN_TYPE,FUN_TYPE_IDX,FUN_IDX,DLL_FILENAME)
+ Values
+   ('Material Management', 'Configuration', 1,sysdate, 0, 'Read Only','PGI',8,1,'MaterialManagementCfgdll.dll');
+
+
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS,FUN_TYPE,FUN_TYPE_IDX,FUN_IDX,DLL_FILENAME,fun_param)
+ Values
+   ('Material Management', '半成品入庫-PGI', 0, sysdate, 0, 'Allow To Execute','PGI',8,2,'PGIGoodsIncomingDll.dll','Semifinished');
+
+
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS,FUN_TYPE,FUN_TYPE_IDX,FUN_IDX,DLL_FILENAME,fun_param)
+ Values
+   ('Material Management', '成品入庫-PGI', 0, sysdate, 0, 'Allow To Execute','PGI',8,3,'PGIGoodsIncomingDll.dll','Goods');
+
+
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS,FUN_TYPE,FUN_TYPE_IDX,FUN_IDX,DLL_FILENAME,fun_param)
+ Values
+   ('Material Management', '半成品入庫-補空單-PGI', 0, sysdate, 0, 'Allow To Execute','PGI',8,4,'PGIGoodsIncomingNoPushDll.dll','Semifinished');
+
+
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS,FUN_TYPE,FUN_TYPE_IDX,FUN_IDX,DLL_FILENAME,fun_param)
+ Values
+   ('Material Management', '成品入庫-補空單-PGI', 0, sysdate, 0, 'Allow To Execute','PGI',8,5,'PGIGoodsIncomingNoPushDll.dll','Goods');
+
+

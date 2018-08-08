@@ -1,0 +1,194 @@
+2018-04-21 10:08:51  [          ] (TCenter1.Create)Create Start
+2018-04-21 10:08:51  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 10:08:51  [          ] Version : 1.0.0.1
+2018-04-21 10:08:51  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 10:08:51  [          ] (TCenter1.Create)Create Over
+2018-04-21 10:08:51  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 10:08:51  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 10:08:51  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4517
+2018-04-21 10:08:51  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4517]
+2018-04-21 10:08:51  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4517 OK
+2018-04-21 10:08:51  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4517]
+2018-04-21 10:08:52  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:4517]
+2018-04-21 10:08:52  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:3][D:1][P:1][B:0][Data:Device (1) On LineLine : OFFLINE_TESTStage : COBProcess : Sponge_AOITerminal : Sponge_AOI01][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-4F-46-46-4C-49-4E-45-5F-54-45-53-54-0D-53-74-61-67-65-20-3A-20-43-4F-42-0D-50-72-6F-63-65-73-73-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-30-31-0D-]
+2018-04-21 10:08:57  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:757055;78988481102]
+2018-04-21 10:08:57  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;757055;78988481102][172.16.245.10:4517]
+2018-04-21 10:08:57  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : OK;OK;
+2018-04-21 10:08:57  [          ] (SajetTransferData)Exexecute Result=TRUE
+2018-04-21 10:09:10  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;2815000436;FAIL;12@0201EC28_23@0201EC28_24@0201EC28]
+2018-04-21 10:09:10  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;2815000436;FAIL;12@0201EC28_23@0201EC28_24@0201EC28][172.16.245.10:4517]
+2018-04-21 10:09:10  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : NO PANEL
+2018-04-21 10:09:10  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:09:10  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;2815001R4;FAIL;1@0201EC26_20@]
+2018-04-21 10:09:10  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;2815001R4;FAIL;1@0201EC26_20@][172.16.245.10:4517]
+2018-04-21 10:09:10  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : AutoTest
+2018-04-21 10:09:10  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:09:10  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;28150043J;PASS]
+2018-04-21 10:09:10  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;28150043J;PASS][172.16.245.10:4517]
+2018-04-21 10:09:10  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : NO PANEL
+2018-04-21 10:09:10  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:09:10  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;28150043Q;PASS]
+2018-04-21 10:09:10  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;28150043Q;PASS][172.16.245.10:4517]
+2018-04-21 10:09:10  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : NO PANEL
+2018-04-21 10:09:10  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:09:10  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;281500446;FAIL;6@SMTAOI04_8@SMTAOI04_9@SMTAOI04_11@SMTAOI04_12@SMTAOI04_13@SMTAOI04_15@SMTAOI04_16@SMTAOI04_18@SMTAOI04]
+2018-04-21 10:09:10  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;281500446;FAIL;6@SMTAOI04_8@SMTAOI04_9@SMTAOI04_11@SMTAOI04_12@SMTAOI04_13@SMTAOI04_15@SMTAOI04_16@SMTAOI04_18@SMTAOI04][172.16.245.10:4517]
+2018-04-21 10:09:10  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : AutoTest
+2018-04-21 10:09:10  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:09:11  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;281500462;FAIL;2@SMTAOI02_3@SMTAOI02_4@0201EC3004_5@_6@SMTAOI04;_7@0201EC25_8@SMTAOI02_9@]
+2018-04-21 10:09:11  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;281500462;FAIL;2@SMTAOI02_3@SMTAOI02_4@0201EC3004_5@_6@SMTAOI04;_7@0201EC25_8@SMTAOI02_9@][172.16.245.10:4517]
+2018-04-21 10:09:11  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : AutoTest
+2018-04-21 10:09:11  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:09:18  [          ] (TCenter1.Destroy)Destroy Start
+2018-04-21 10:09:18  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2018-04-21 10:09:18  [          ] (TThreadTCPServerPCClient.ServerSocketClientDisconnect)TCP/IP Client Disconnect - 172.16.245.10:6211
+2018-04-21 10:09:18  [ERROR     ] (TThreadTCPServerMainPCClient.ClientExecute.rsvDataFromSocket)Read error 6, 控制代碼無效。[172.16.245.10:4517]
+2018-04-21 10:09:18  [TEST      ] (TThreadTCPServerPCClient.executeRsvData.checkLink)Show Form Connect
+2018-04-21 10:09:18  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Over[172.16.245.10:4517]
+2018-04-21 10:09:18  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread Start[172.16.245.10:4517]
+2018-04-21 10:09:18  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread OK[172.16.245.10:4517]
+2018-04-21 10:09:18  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Start
+2018-04-21 10:09:18  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Over
+2018-04-21 10:09:18  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2018-04-21 10:09:18  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2018-04-21 10:09:18  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2018-04-21 10:09:18  [          ] (TCenter1.Destroy)Destroy Over
+2018-04-21 10:11:56  [          ] (TCenter1.Create)Create Start
+2018-04-21 10:11:56  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 10:11:56  [          ] Version : 1.0.0.1
+2018-04-21 10:11:56  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 10:11:56  [          ] (TCenter1.Create)Create Over
+2018-04-21 10:11:56  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 10:11:56  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 10:11:56  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4605
+2018-04-21 10:11:56  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4605]
+2018-04-21 10:11:56  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4605 OK
+2018-04-21 10:11:56  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4605]
+2018-04-21 10:12:08  [          ] (TCenter1.Create)Create Start
+2018-04-21 10:12:08  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 10:12:08  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 10:12:08  [          ] Version : 1.0.0.1
+2018-04-21 10:12:08  [          ] (TCenter1.Create)Create Over
+2018-04-21 10:12:08  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 10:12:08  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 10:12:08  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4610
+2018-04-21 10:12:08  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4610]
+2018-04-21 10:12:08  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4610 OK
+2018-04-21 10:12:08  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4610]
+2018-04-21 10:12:08  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:4610]
+2018-04-21 10:12:08  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:3][D:1][P:1][B:0][Data:Device (1) On LineLine : OFFLINE_TESTStage : COBProcess : Sponge_AOITerminal : Sponge_AOI01][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-4F-46-46-4C-49-4E-45-5F-54-45-53-54-0D-53-74-61-67-65-20-3A-20-43-4F-42-0D-50-72-6F-63-65-73-73-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-30-31-0D-]
+2018-04-21 10:12:15  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:757055;78988481102]
+2018-04-21 10:12:15  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;757055;78988481102][172.16.245.10:4610]
+2018-04-21 10:12:15  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : OK;OK;
+2018-04-21 10:12:15  [          ] (SajetTransferData)Exexecute Result=TRUE
+2018-04-21 10:12:28  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;2815000436;FAIL;12@0201EC28_23@0201EC28_24@0201EC28]
+2018-04-21 10:12:28  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;2815000436;FAIL;12@0201EC28_23@0201EC28_24@0201EC28][172.16.245.10:4610]
+2018-04-21 10:12:28  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : NO PANEL
+2018-04-21 10:12:28  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:12:28  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;2815001R4;FAIL;1@0201EC26_20@]
+2018-04-21 10:12:28  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;2815001R4;FAIL;1@0201EC26_20@][172.16.245.10:4610]
+2018-04-21 10:12:28  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : AutoTest
+2018-04-21 10:12:28  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:12:28  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;28150043J;PASS]
+2018-04-21 10:12:28  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;28150043J;PASS][172.16.245.10:4610]
+2018-04-21 10:12:28  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : NO PANEL
+2018-04-21 10:12:28  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:12:28  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;28150043Q;PASS]
+2018-04-21 10:12:28  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;28150043Q;PASS][172.16.245.10:4610]
+2018-04-21 10:12:28  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : NO PANEL
+2018-04-21 10:12:28  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:12:28  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;281500446;FAIL;6@SMTAOI04_8@SMTAOI04_9@SMTAOI04_11@SMTAOI04_12@SMTAOI04_13@SMTAOI04_15@SMTAOI04_16@SMTAOI04_18@SMTAOI04]
+2018-04-21 10:12:28  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;281500446;FAIL;6@SMTAOI04_8@SMTAOI04_9@SMTAOI04_11@SMTAOI04_12@SMTAOI04_13@SMTAOI04_15@SMTAOI04_16@SMTAOI04_18@SMTAOI04][172.16.245.10:4610]
+2018-04-21 10:12:28  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : AutoTest
+2018-04-21 10:12:28  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:12:28  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;281500462;FAIL;2@SMTAOI02_3@SMTAOI02_4@0201EC3004_5@_6@SMTAOI04;_7@0201EC25_8@SMTAOI02_9@]
+2018-04-21 10:12:28  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;281500462;FAIL;2@SMTAOI02_3@SMTAOI02_4@0201EC3004_5@_6@SMTAOI04;_7@0201EC25_8@SMTAOI02_9@][172.16.245.10:4610]
+2018-04-21 10:12:29  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : AutoTest
+2018-04-21 10:12:29  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:12:51  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;2815000436;FAIL;12@0201EC28_23@0201EC28_24@0201EC28]
+2018-04-21 10:12:51  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;2815000436;FAIL;12@0201EC28_23@0201EC28_24@0201EC28][172.16.245.10:4610]
+2018-04-21 10:12:51  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : NO PANEL
+2018-04-21 10:12:51  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:12:51  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;2815001R4;FAIL;1@0201EC26_20@]
+2018-04-21 10:12:51  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;2815001R4;FAIL;1@0201EC26_20@][172.16.245.10:4610]
+2018-04-21 10:12:51  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : AutoTest
+2018-04-21 10:12:51  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:12:52  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;28150043J;PASS]
+2018-04-21 10:12:52  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;28150043J;PASS][172.16.245.10:4610]
+2018-04-21 10:12:52  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : NO PANEL
+2018-04-21 10:12:52  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:12:52  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;28150043Q;PASS]
+2018-04-21 10:12:52  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;28150043Q;PASS][172.16.245.10:4610]
+2018-04-21 10:12:52  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : NO PANEL
+2018-04-21 10:12:52  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:12:52  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;281500446;FAIL;6@SMTAOI04_8@SMTAOI04_9@SMTAOI04_11@SMTAOI04_12@SMTAOI04_13@SMTAOI04_15@SMTAOI04_16@SMTAOI04_18@SMTAOI04]
+2018-04-21 10:12:52  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;281500446;FAIL;6@SMTAOI04_8@SMTAOI04_9@SMTAOI04_11@SMTAOI04_12@SMTAOI04_13@SMTAOI04_15@SMTAOI04_16@SMTAOI04_18@SMTAOI04][172.16.245.10:4610]
+2018-04-21 10:12:52  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : AutoTest
+2018-04-21 10:12:52  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:12:52  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;281500462;FAIL;2@SMTAOI02_3@SMTAOI02_4@0201EC3004_5@_6@SMTAOI04;_7@0201EC25_8@SMTAOI02_9@]
+2018-04-21 10:12:52  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;281500462;FAIL;2@SMTAOI02_3@SMTAOI02_4@0201EC3004_5@_6@SMTAOI04;_7@0201EC25_8@SMTAOI02_9@][172.16.245.10:4610]
+2018-04-21 10:12:52  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : AutoTest
+2018-04-21 10:12:52  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:14:50  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;2815000436;FAIL;12@0201EC28_23@0201EC28_24@0201EC28]
+2018-04-21 10:14:50  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;2815000436;FAIL;12@0201EC28_23@0201EC28_24@0201EC28][172.16.245.10:4610]
+2018-04-21 10:14:50  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : NO PANEL
+2018-04-21 10:14:50  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:14:50  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;2815001R4;FAIL;1@0201EC26_20@]
+2018-04-21 10:14:50  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;2815001R4;FAIL;1@0201EC26_20@][172.16.245.10:4610]
+2018-04-21 10:14:50  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : AutoTest
+2018-04-21 10:14:50  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:14:50  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;28150043J;PASS]
+2018-04-21 10:14:50  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;28150043J;PASS][172.16.245.10:4610]
+2018-04-21 10:14:50  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : NO PANEL
+2018-04-21 10:14:50  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:14:50  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;28150043Q;PASS]
+2018-04-21 10:14:50  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;28150043Q;PASS][172.16.245.10:4610]
+2018-04-21 10:14:50  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : NO PANEL
+2018-04-21 10:14:50  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:14:51  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;281500446;FAIL;6@SMTAOI04_8@SMTAOI04_9@SMTAOI04_11@SMTAOI04_12@SMTAOI04_13@SMTAOI04_15@SMTAOI04_16@SMTAOI04_18@SMTAOI04]
+2018-04-21 10:14:51  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;281500446;FAIL;6@SMTAOI04_8@SMTAOI04_9@SMTAOI04_11@SMTAOI04_12@SMTAOI04_13@SMTAOI04_15@SMTAOI04_16@SMTAOI04_18@SMTAOI04][172.16.245.10:4610]
+2018-04-21 10:14:51  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : AutoTest
+2018-04-21 10:14:51  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:14:51  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:757055;;281500462;FAIL;2@SMTAOI02_3@SMTAOI02_4@0201EC3004_5@_6@SMTAOI04;_7@0201EC25_8@SMTAOI02_9@]
+2018-04-21 10:14:51  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;757055;;281500462;FAIL;2@SMTAOI02_3@SMTAOI02_4@0201EC3004_5@_6@SMTAOI04;_7@0201EC25_8@SMTAOI02_9@][172.16.245.10:4610]
+2018-04-21 10:14:51  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : AutoTest
+2018-04-21 10:14:51  [          ] (SajetTransferData)Exexecute Result=FALSE
+2018-04-21 10:14:56  [          ] (TCenter1.Destroy)Destroy Start
+2018-04-21 10:14:56  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2018-04-21 10:14:56  [          ] (TThreadTCPServerPCClient.ServerSocketClientDisconnect)TCP/IP Client Disconnect - 172.16.245.10:6211
+2018-04-21 10:14:56  [ERROR     ] (TThreadTCPServerSend.Execute.sendDataToRemote)Write error 6, 控制代碼無效。
+2018-04-21 10:14:56  [ERROR     ] (TThreadTCPServerMainPCClient.ClientExecute.rsvDataFromSocket)Read error 6, 控制代碼無效。[172.16.245.10:4610]
+2018-04-21 10:14:57  [TEST      ] (TThreadTCPServerPCClient.executeRsvData.checkLink)Show Form Connect
+2018-04-21 10:14:57  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Over[172.16.245.10:4610]
+2018-04-21 10:14:57  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread Start[172.16.245.10:4610]
+2018-04-21 10:14:57  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread OK[172.16.245.10:4610]
+2018-04-21 10:14:57  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Start
+2018-04-21 10:14:57  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Over
+2018-04-21 10:14:57  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2018-04-21 10:14:57  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2018-04-21 10:14:57  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2018-04-21 10:14:57  [          ] (TCenter1.Destroy)Destroy Over
+2018-04-21 10:49:34  [          ] (TCenter1.Create)Create Start
+2018-04-21 10:49:34  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 10:49:34  [          ] Version : 1.0.0.1
+2018-04-21 10:49:34  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 10:49:34  [          ] (TCenter1.Create)Create Over
+2018-04-21 10:49:34  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 10:49:34  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 10:49:34  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:1772
+2018-04-21 10:49:34  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:1772]
+2018-04-21 10:49:34  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:1772]
+2018-04-21 10:49:34  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:1772 OK
+2018-04-21 10:56:44  [          ] (TCenter1.Create)Create Start
+2018-04-21 10:56:44  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 10:56:44  [          ] (TCenter1.Create)Create Over
+2018-04-21 10:56:44  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 10:56:44  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 10:56:44  [          ] Version : 1.0.0.1
+2018-04-21 10:56:44  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 10:56:44  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:1998
+2018-04-21 10:56:44  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:1998]
+2018-04-21 10:56:44  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:1998 OK
+2018-04-21 10:56:44  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:1998]
+2018-04-21 10:56:44  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:1998]
+2018-04-21 10:56:47  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:3][D:1][P:1][B:0][Data:Device (1) On LineLine : OFFLINE_TESTStage : COBProcess : Sponge_AOITerminal : Sponge_AOI01][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-4F-46-46-4C-49-4E-45-5F-54-45-53-54-0D-53-74-61-67-65-20-3A-20-43-4F-42-0D-50-72-6F-63-65-73-73-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-30-31-0D-]

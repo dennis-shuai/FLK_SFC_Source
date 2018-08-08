@@ -1,0 +1,5 @@
+CHANGEFCTYPEDLL.dll
+
+5.3.0.1
+2008/05/20
+1. user 可以修改FACTORY TYPE的資料

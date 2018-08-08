@@ -1,0 +1,199 @@
+2015-03-19 09:15:31  [          ] (TCenter1.Create)Create Start
+2015-03-19 09:15:31  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\FQC1\FQC1.exe
+2015-03-19 09:15:31  [          ] Version : 1.0.0.1
+2015-03-19 09:15:31  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-19 09:15:31  [          ] (TCenter1.Create)Create Over
+2015-03-19 09:15:31  [          ] (SajetTransStartType)Function Execute Over
+2015-03-19 09:15:31  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-19 09:15:31  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:3127
+2015-03-19 09:15:31  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:3127]
+2015-03-19 09:15:31  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:3127 OK
+2015-03-19 09:15:31  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:3127]
+2015-03-19 09:16:51  [          ] (TCenter1.Create)Create Start
+2015-03-19 09:16:51  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\FQC1\FQC1.exe
+2015-03-19 09:16:51  [          ] Version : 1.0.0.1
+2015-03-19 09:16:51  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-19 09:16:51  [          ] (TCenter1.Create)Create Over
+2015-03-19 09:16:51  [          ] (SajetTransStartType)Function Execute Over
+2015-03-19 09:16:52  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-19 09:16:52  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:3188
+2015-03-19 09:16:52  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:3188]
+2015-03-19 09:16:52  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:3188 OK
+2015-03-19 09:16:52  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:3188]
+2015-03-19 09:16:52  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:3188]2015-03-19 09:17:19  [          ] (TCenter1.Create)Create Start
+2015-03-19 09:17:19  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\FQC1\FQC1.exe
+2015-03-19 09:17:19  [          ] Version : 1.0.0.1
+2015-03-19 09:17:19  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-19 09:17:19  [          ] (TCenter1.Create)Create Over
+2015-03-19 09:17:19  [          ] (SajetTransStartType)Function Execute Over
+2015-03-19 09:17:19  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-19 09:17:19  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:3246
+2015-03-19 09:17:19  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:3246]
+2015-03-19 09:17:19  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:3246 OK
+2015-03-19 09:17:19  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:3246]
+2015-03-19 09:22:00  [          ] (TCenter1.Create)Create Start
+2015-03-19 09:22:00  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\FQC1\FQC1.exe
+2015-03-19 09:22:00  [          ] Version : 1.0.0.1
+2015-03-19 09:22:00  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-19 09:22:00  [          ] (TCenter1.Create)Create Over
+2015-03-19 09:22:00  [          ] (SajetTransStartType)Function Execute Over
+2015-03-19 09:22:01  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-19 09:22:01  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:3895
+2015-03-19 09:22:01  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:3895]
+2015-03-19 09:22:01  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:3895 OK
+2015-03-19 09:22:01  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:3895]
+2015-03-19 09:22:07  [          ] (TCenter1.Create)Create Start
+2015-03-19 09:22:07  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\FQC1\FQC1.exe
+2015-03-19 09:22:07  [          ] Version : 1.0.0.1
+2015-03-19 09:22:07  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-19 09:22:07  [          ] (TCenter1.Create)Create Over
+2015-03-19 09:22:07  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-19 09:22:07  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:3904
+2015-03-19 09:22:07  [          ] (SajetTransStartType)Function Execute Over
+2015-03-19 09:22:07  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:3904]
+2015-03-19 09:22:07  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:3904]
+2015-03-19 09:22:07  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:3904 OK
+2015-03-19 09:22:52  [          ] (TCenter1.Create)Create Start
+2015-03-19 09:22:52  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\FQC1\FQC1.exe
+2015-03-19 09:22:52  [          ] Version : 1.0.0.1
+2015-03-19 09:22:52  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-19 09:22:52  [          ] (TCenter1.Create)Create Over
+2015-03-19 09:22:52  [          ] (SajetTransStartType)Function Execute Over
+2015-03-19 09:22:53  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-19 09:22:53  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4000
+2015-03-19 09:22:53  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4000]
+2015-03-19 09:22:53  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4000]
+2015-03-19 09:22:53  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4000 OK
+2015-03-19 09:29:05  [          ] (TCenter1.Create)Create Start
+2015-03-19 09:29:05  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\FQC1\FQC1.exe
+2015-03-19 09:29:05  [          ] Version : 1.0.0.1
+2015-03-19 09:29:05  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-19 09:29:05  [          ] (TCenter1.Create)Create Over
+2015-03-19 09:29:05  [          ] (SajetTransStartType)Function Execute Over
+2015-03-19 09:29:05  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-19 09:29:05  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4213
+2015-03-19 09:29:05  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4213]
+2015-03-19 09:29:05  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4213 OK
+2015-03-19 09:29:05  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4213]
+2015-03-19 09:29:05  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:4213]2015-03-19 09:29:11  [          ] (TCenter1.Create)Create Start
+2015-03-19 09:29:11  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\FQC1\FQC1.exe
+2015-03-19 09:29:11  [          ] Version : 1.0.0.1
+2015-03-19 09:29:11  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-19 09:29:11  [          ] (TCenter1.Create)Create Over
+2015-03-19 09:29:11  [          ] (SajetTransStartType)Function Execute Over
+2015-03-19 09:29:11  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-19 09:29:11  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4215
+2015-03-19 09:29:11  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4215]
+2015-03-19 09:29:11  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4215 OK
+2015-03-19 09:29:11  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4215]
+2015-03-19 09:29:38  [          ] (TCenter1.Create)Create Start
+2015-03-19 09:29:38  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\FQC1\FQC1.exe
+2015-03-19 09:29:38  [          ] Version : 1.0.0.1
+2015-03-19 09:29:38  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-19 09:29:38  [          ] (TCenter1.Create)Create Over
+2015-03-19 09:29:38  [          ] (SajetTransStartType)Function Execute Over
+2015-03-19 09:29:38  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-19 09:29:38  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4228
+2015-03-19 09:29:38  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4228]
+2015-03-19 09:29:38  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4228 OK
+2015-03-19 09:29:38  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4228]
+2015-03-19 09:30:08  [          ] (TCenter1.Create)Create Start
+2015-03-19 09:30:08  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\FQC1\FQC1.exe
+2015-03-19 09:30:08  [          ] Version : 1.0.0.1
+2015-03-19 09:30:08  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-19 09:30:08  [          ] (TCenter1.Create)Create Over
+2015-03-19 09:30:08  [          ] (SajetTransStartType)Function Execute Over
+2015-03-19 09:30:08  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-19 09:30:08  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4245
+2015-03-19 09:30:08  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4245]
+2015-03-19 09:30:08  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4245 OK
+2015-03-19 09:30:08  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4245]
+2015-03-19 09:31:55  [          ] (TCenter1.Create)Create Start
+2015-03-19 09:31:55  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\FQC1\FQC1.exe
+2015-03-19 09:31:55  [          ] Version : 1.0.0.1
+2015-03-19 09:31:55  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-19 09:31:55  [          ] (TCenter1.Create)Create Over
+2015-03-19 09:31:55  [          ] (SajetTransStartType)Function Execute Over
+2015-03-19 09:31:55  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-19 09:31:55  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4304
+2015-03-19 09:31:55  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4304]
+2015-03-19 09:31:55  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4304 OK
+2015-03-19 09:31:55  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4304]
+2015-03-19 09:35:22  [          ] (TCenter1.Create)Create Start
+2015-03-19 09:35:22  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\FQC1\FQC1.exe
+2015-03-19 09:35:22  [          ] Version : 1.0.0.1
+2015-03-19 09:35:22  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-19 09:35:22  [          ] (TCenter1.Create)Create Over
+2015-03-19 09:35:22  [          ] (SajetTransStartType)Function Execute Over
+2015-03-19 09:35:23  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-19 09:35:23  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4421
+2015-03-19 09:35:23  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4421]
+2015-03-19 09:35:23  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4421]
+2015-03-19 09:35:23  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4421 OK
+2015-03-19 09:35:33  [          ] (TCenter1.Create)Create Start
+2015-03-19 09:35:33  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\FQC1\FQC1.exe
+2015-03-19 09:35:33  [          ] Version : 1.0.0.1
+2015-03-19 09:35:33  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-19 09:35:33  [          ] (TCenter1.Create)Create Over
+2015-03-19 09:35:33  [          ] (SajetTransStartType)Function Execute Over
+2015-03-19 09:35:34  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-19 09:35:34  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4425
+2015-03-19 09:35:34  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4425]
+2015-03-19 09:35:34  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4425 OK
+2015-03-19 09:35:34  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4425]
+2015-03-19 09:35:49  [          ] (TCenter1.Create)Create Start
+2015-03-19 09:35:49  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\FQC1\FQC1.exe
+2015-03-19 09:35:49  [          ] Version : 1.0.0.1
+2015-03-19 09:35:49  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-19 09:35:49  [          ] (TCenter1.Create)Create Over
+2015-03-19 09:35:49  [          ] (SajetTransStartType)Function Execute Over
+2015-03-19 09:35:49  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-19 09:35:49  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4431
+2015-03-19 09:35:49  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4431]
+2015-03-19 09:35:49  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4431 OK
+2015-03-19 09:35:49  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4431]
+2015-03-19 09:36:54  [          ] (TCenter1.Create)Create Start
+2015-03-19 09:36:54  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\FQC1\FQC1.exe
+2015-03-19 09:36:54  [          ] Version : 1.0.0.1
+2015-03-19 09:36:54  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-19 09:36:54  [          ] (TCenter1.Create)Create Over
+2015-03-19 09:36:54  [          ] (SajetTransStartType)Function Execute Over
+2015-03-19 09:36:54  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-19 09:36:54  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4467
+2015-03-19 09:36:54  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4467]
+2015-03-19 09:36:54  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4467 OK
+2015-03-19 09:36:54  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4467]
+2015-03-19 09:37:51  [          ] (TCenter1.Create)Create Start
+2015-03-19 09:37:51  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\FQC1\FQC1.exe
+2015-03-19 09:37:51  [          ] Version : 1.0.0.1
+2015-03-19 09:37:51  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-19 09:37:51  [          ] (TCenter1.Create)Create Over
+2015-03-19 09:37:51  [          ] (SajetTransStartType)Function Execute Over
+2015-03-19 09:37:52  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-19 09:37:52  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4497
+2015-03-19 09:37:52  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4497]
+2015-03-19 09:37:52  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4497 OK
+2015-03-19 09:37:52  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4497]
+2015-03-19 09:37:52  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:4497]
+2015-03-19 09:41:14  [          ] (TCenter1.Create)Create Start
+2015-03-19 09:41:14  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\FQC1\FQC1.exe
+2015-03-19 09:41:14  [          ] Version : 1.0.0.1
+2015-03-19 09:41:14  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-19 09:41:14  [          ] (TCenter1.Create)Create Over
+2015-03-19 09:41:14  [          ] (SajetTransStartType)Function Execute Over
+2015-03-19 09:41:14  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-19 09:41:14  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4617
+2015-03-19 09:41:14  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4617]
+2015-03-19 09:41:14  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4617 OK
+2015-03-19 09:41:14  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4617]
+2015-03-19 09:41:43  [          ] (TCenter1.Create)Create Start
+2015-03-19 09:41:43  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\FQC1\FQC1.exe
+2015-03-19 09:41:43  [          ] Version : 1.0.0.1
+2015-03-19 09:41:43  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-19 09:41:43  [          ] (TCenter1.Create)Create Over
+2015-03-19 09:41:43  [          ] (SajetTransStartType)Function Execute Over
+2015-03-19 09:41:43  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-19 09:41:43  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4631
+2015-03-19 09:41:43  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4631]
+2015-03-19 09:41:43  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4631 OK
+2015-03-19 09:41:43  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4631]

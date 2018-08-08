@@ -1,0 +1,104 @@
+start get time....2016/08/19 11:00:41
+start export excel....2016/08/19 11:00:41
+query data....2016/08/19 11:00:41
+query data ok....2016/08/19 11:00:44
+start excel....2016/08/19 11:00:44
+start excel ok....2016/08/19 11:00:45
+start start end hour ....2016/08/19 11:00:45
+start display ....252 model2016/08/19 11:00:45
+start set  start address ....2016/08/19 11:00:45
+start add chart....2016/08/19 11:00:45
+start query process....2016/08/19 11:00:45
+start  model:252 process List:Attach-Label....2016/08/19 11:00:45
+start  model:252 stage List:COB....2016/08/19 11:00:45
+start  model:252 process List:CM-PACK-PALLET....2016/08/19 11:00:45
+start  model:252 stage List:CM....2016/08/19 11:00:45
+start query defect....2016/08/19 11:00:45
+start query model rate....2016/08/19 11:00:45
+start add time axis value....2016/08/19 11:00:47
+start TOP3 display....2016/08/19 11:00:49
+start display ....374-4 model2016/08/19 11:01:01
+start set  start address ....2016/08/19 11:01:01
+start add chart....2016/08/19 11:01:01
+start query process....2016/08/19 11:01:01
+start  model:374-4 process List:Attach-Label....2016/08/19 11:01:01
+start  model:374-4 stage List:COB....2016/08/19 11:01:01
+start  model:374-4 process List:RANK PCB....2016/08/19 11:01:01
+start  model:374-4 stage List:COB....2016/08/19 11:01:01
+start  model:374-4 process List:CLEAN-VI....2016/08/19 11:01:01
+start  model:374-4 stage List:CLEAN....2016/08/19 11:01:01
+start  model:374-4 process List:HODLE MOUNT....2016/08/19 11:01:01
+start  model:374-4 stage List:COB....2016/08/19 11:01:01
+start  model:374-4 process List:CAR REPLACE....2016/08/19 11:01:01
+start  model:374-4 stage List:COB....2016/08/19 11:01:01
+start  model:374-4 process List:AutoTest....2016/08/19 11:01:01
+start  model:374-4 stage List:CM....2016/08/19 11:01:01
+start  model:374-4 process List:CM-VI....2016/08/19 11:01:01
+start  model:374-4 stage List:CM....2016/08/19 11:01:02
+start query defect....2016/08/19 11:01:02
+start query model rate....2016/08/19 11:01:04
+start add time axis value....2016/08/19 11:01:07
+start TOP3 display....2016/08/19 11:01:09
+start display ....425-5 model2016/08/19 11:01:24
+start set  start address ....2016/08/19 11:01:24
+start add chart....2016/08/19 11:01:24
+start query process....2016/08/19 11:01:24
+start  model:425-5 process List:AutoTest....2016/08/19 11:01:24
+start  model:425-5 stage List:CM....2016/08/19 11:01:24
+start  model:425-5 process List:Mylar....2016/08/19 11:01:24
+start  model:425-5 stage List:CM....2016/08/19 11:01:24
+start  model:425-5 process List:CM-VI....2016/08/19 11:01:24
+start  model:425-5 stage List:CM....2016/08/19 11:01:24
+start query defect....2016/08/19 11:01:24
+start query model rate....2016/08/19 11:01:27
+start add time axis value....2016/08/19 11:01:29
+start TOP3 display....2016/08/19 11:01:31
+start display ....425-6 model2016/08/19 11:01:46
+start set  start address ....2016/08/19 11:01:46
+start add chart....2016/08/19 11:01:46
+start query process....2016/08/19 11:01:46
+start  model:425-6 process List:SMT_INPUT_T....2016/08/19 11:01:47
+start  model:425-6 stage List:SMT....2016/08/19 11:01:47
+start  model:425-6 process List:SMT_MOUNT_T....2016/08/19 11:01:47
+start  model:425-6 stage List:SMT....2016/08/19 11:01:47
+start  model:425-6 process List:SMT_VI_T....2016/08/19 11:01:47
+start  model:425-6 stage List:SMT....2016/08/19 11:01:47
+start  model:425-6 process List:FUNC TEST....2016/08/19 11:01:47
+start  model:425-6 stage List:SMT....2016/08/19 11:01:47
+start query defect....2016/08/19 11:01:47
+start query model rate....2016/08/19 11:01:47
+start add time axis value....2016/08/19 11:01:48
+start TOP3 display....2016/08/19 11:01:50
+start display ....429 model2016/08/19 11:02:03
+start set  start address ....2016/08/19 11:02:03
+start add chart....2016/08/19 11:02:03
+start query process....2016/08/19 11:02:03
+start  model:429 process List:CM-Input....2016/08/19 11:02:03
+start  model:429 stage List:CM....2016/08/19 11:02:03
+start query defect....2016/08/19 11:02:03
+start query model rate....2016/08/19 11:02:03
+start add time axis value....2016/08/19 11:02:04
+start TOP3 display....2016/08/19 11:02:06
+start display ....430-2 model2016/08/19 11:02:18
+start set  start address ....2016/08/19 11:02:18
+start add chart....2016/08/19 11:02:18
+start query process....2016/08/19 11:02:18
+start  model:430-2 process List:SMT_INPUT_T....2016/08/19 11:02:18
+start  model:430-2 stage List:SMT....2016/08/19 11:02:18
+start query defect....2016/08/19 11:02:18
+start query model rate....2016/08/19 11:02:18
+start add time axis value....2016/08/19 11:02:19
+start TOP3 display....2016/08/19 11:02:21
+start display ....438-1 model2016/08/19 11:02:33
+start set  start address ....2016/08/19 11:02:33
+start add chart....2016/08/19 11:02:33
+start query process....2016/08/19 11:02:33
+start  model:438-1 process List:Attach-Label....2016/08/19 11:02:33
+start  model:438-1 stage List:COB....2016/08/19 11:02:33
+start  model:438-1 process List:CLEAN-VI....2016/08/19 11:02:33
+start  model:438-1 stage List:CLEAN....2016/08/19 11:02:33
+start  model:438-1 process List:CAR REPLACE....2016/08/19 11:02:33
+start  model:438-1 stage List:COB....2016/08/19 11:02:33
+start query defect....2016/08/19 11:02:33
+start query model rate....2016/08/19 11:02:33
+start add time axis value....2016/08/19 11:02:35

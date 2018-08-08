@@ -1,0 +1,23 @@
+2015-03-26 16:22:46  [          ] (TCenter1.Create)Create Start
+2015-03-26 16:22:46  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\OQC_TEST\FQC1_SFCS.exe
+2015-03-26 16:22:46  [          ] Version : 1.0.0.1
+2015-03-26 16:22:46  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-26 16:22:47  [          ] (TCenter1.Create)Create Over
+2015-03-26 16:22:47  [          ] (SajetTransStartType)Function Execute Over
+2015-03-26 16:22:47  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-26 16:22:47  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:3881
+2015-03-26 16:22:47  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:3881]
+2015-03-26 16:22:47  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:3881 OK
+2015-03-26 16:22:47  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:3881]
+2015-03-26 16:25:07  [          ] (TCenter1.Create)Create Start
+2015-03-26 16:25:07  [          ] File    : E:\Delphi\SFC Source Code\ICT\252\OQC_TEST\FQC1_SFCS.exe
+2015-03-26 16:25:07  [          ] Version : 1.0.0.1
+2015-03-26 16:25:08  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-03-26 16:25:08  [          ] (TCenter1.Create)Create Over
+2015-03-26 16:25:08  [          ] (SajetTransStartType)Function Execute Over
+2015-03-26 16:25:08  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-03-26 16:25:08  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:3961
+2015-03-26 16:25:08  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:3961]
+2015-03-26 16:25:08  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:3961 OK
+2015-03-26 16:25:08  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:3961]
+2015-03-26 16:25:08  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:3961]

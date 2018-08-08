@@ -1,0 +1,328 @@
+2018-04-21 11:00:47  [          ] (TCenter1.Create)Create Start
+2018-04-21 11:00:47  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 11:00:47  [          ] Version : 1.0.0.1
+2018-04-21 11:00:47  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 11:00:47  [          ] (TCenter1.Create)Create Over
+2018-04-21 11:00:47  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 11:00:47  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 11:00:47  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2120
+2018-04-21 11:00:47  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:2120]
+2018-04-21 11:00:48  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2120 OK
+2018-04-21 11:00:48  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:2120]
+2018-04-21 11:00:58  [          ] (TCenter1.Create)Create Start
+2018-04-21 11:00:58  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 11:00:58  [          ] Version : 1.0.0.1
+2018-04-21 11:00:58  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 11:00:58  [          ] (TCenter1.Create)Create Over
+2018-04-21 11:00:58  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 11:00:58  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 11:00:58  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2123
+2018-04-21 11:00:59  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:2123]
+2018-04-21 11:00:59  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2123 OK
+2018-04-21 11:00:59  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:2123]
+2018-04-21 11:03:39  [          ] (TCenter1.Create)Create Start
+2018-04-21 11:03:39  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 11:03:39  [          ] Version : 1.0.0.1
+2018-04-21 11:03:40  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 11:03:40  [          ] (TCenter1.Create)Create Over
+2018-04-21 11:03:40  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 11:03:40  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 11:03:40  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2206
+2018-04-21 11:03:40  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:2206]
+2018-04-21 11:03:40  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2206 OK
+2018-04-21 11:03:40  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:2206]
+2018-04-21 11:04:02  [          ] (TCenter1.Create)Create Start
+2018-04-21 11:04:02  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 11:04:02  [          ] Version : 1.0.0.1
+2018-04-21 11:04:02  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 11:04:02  [          ] (TCenter1.Create)Create Over
+2018-04-21 11:04:02  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 11:04:02  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 11:04:02  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2215
+2018-04-21 11:04:02  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:2215]
+2018-04-21 11:04:02  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2215 OK
+2018-04-21 11:04:02  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:2215]
+2018-04-21 11:04:03  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:2215]
+2018-04-21 11:04:03  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:3][D:1][P:1][B:0][Data:Device (1) On LineLine : OFFLINE_TESTStage : COBProcess : Sponge_AOITerminal : Sponge_AOI01][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-4F-46-46-4C-49-4E-45-5F-54-45-53-54-0D-53-74-61-67-65-20-3A-20-43-4F-42-0D-50-72-6F-63-65-73-73-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-30-31-0D-]
+2018-04-21 11:04:08  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:757055;78988481102]
+2018-04-21 11:04:08  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;757055;78988481102][172.16.245.10:2215]
+2018-04-21 11:04:08  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : OK;OK;
+2018-04-21 11:04:08  [          ] (SajetTransferData)Exexecute Result=TRUE
+2018-04-21 11:04:18  [          ] (TCenter1.Destroy)Destroy Start
+2018-04-21 11:04:18  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2018-04-21 11:04:18  [          ] (TThreadTCPServerPCClient.ServerSocketClientDisconnect)TCP/IP Client Disconnect - 172.16.245.10:6211
+2018-04-21 11:04:18  [ERROR     ] (TThreadTCPServerMainPCClient.ClientExecute.rsvDataFromSocket)Read error 6, 北絏礚[172.16.245.10:2215]
+2018-04-21 11:04:18  [ERROR     ] (TThreadTCPServerSend.Execute.sendDataToRemote)Write error 6, 北絏礚
+2018-04-21 11:04:18  [TEST      ] (TThreadTCPServerPCClient.executeRsvData.checkLink)Show Form Connect
+2018-04-21 11:04:18  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Over[172.16.245.10:2215]
+2018-04-21 11:04:18  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread Start[172.16.245.10:2215]
+2018-04-21 11:04:18  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Start
+2018-04-21 11:04:18  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Over
+2018-04-21 11:04:18  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread OK[172.16.245.10:2215]
+2018-04-21 11:04:18  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2018-04-21 11:04:18  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2018-04-21 11:04:18  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2018-04-21 11:04:18  [          ] (TCenter1.Destroy)Destroy Over
+2018-04-21 11:11:16  [          ] (TCenter1.Create)Create Start
+2018-04-21 11:11:16  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 11:11:16  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 11:11:16  [          ] Version : 1.0.0.1
+2018-04-21 11:11:16  [          ] (TCenter1.Create)Create Over
+2018-04-21 11:11:16  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 11:11:16  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 11:11:16  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2436
+2018-04-21 11:11:17  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:2436]
+2018-04-21 11:11:17  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2436 OK
+2018-04-21 11:11:17  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:2436]
+2018-04-21 11:11:33  [          ] (TCenter1.Create)Create Start
+2018-04-21 11:11:33  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 11:11:33  [          ] Version : 1.0.0.1
+2018-04-21 11:11:33  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 11:11:33  [          ] (TCenter1.Create)Create Over
+2018-04-21 11:11:33  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 11:11:33  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 11:11:33  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2442
+2018-04-21 11:11:33  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:2442]
+2018-04-21 11:11:33  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2442 OK
+2018-04-21 11:11:33  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:2442]
+2018-04-21 11:11:34  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:2442]
+2018-04-21 11:11:34  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:3][D:1][P:1][B:0][Data:Device (1) On LineLine : OFFLINE_TESTStage : COBProcess : Sponge_AOITerminal : Sponge_AOI01][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-4F-46-46-4C-49-4E-45-5F-54-45-53-54-0D-53-74-61-67-65-20-3A-20-43-4F-42-0D-50-72-6F-63-65-73-73-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-30-31-0D-]
+2018-04-21 11:11:38  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:757055;78988481102]
+2018-04-21 11:11:38  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;757055;78988481102][172.16.245.10:2442]
+2018-04-21 11:11:38  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : OK;OK;
+2018-04-21 11:11:38  [          ] (SajetTransferData)Exexecute Result=TRUE
+2018-04-21 11:12:03  [          ] (TCenter1.Destroy)Destroy Start
+2018-04-21 11:12:03  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2018-04-21 11:12:03  [          ] (TThreadTCPServerPCClient.ServerSocketClientDisconnect)TCP/IP Client Disconnect - 172.16.245.10:6211
+2018-04-21 11:12:03  [ERROR     ] (TThreadTCPServerMainPCClient.ClientExecute.rsvDataFromSocket)Read error 6, 北絏礚[172.16.245.10:2442]
+2018-04-21 11:12:03  [ERROR     ] (TThreadTCPServerSend.Execute.sendDataToRemote)Write error 6, 北絏礚
+2018-04-21 11:12:03  [TEST      ] (TThreadTCPServerPCClient.executeRsvData.checkLink)Show Form Connect
+2018-04-21 11:12:03  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Over[172.16.245.10:2442]
+2018-04-21 11:12:03  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread Start[172.16.245.10:2442]
+2018-04-21 11:12:03  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread OK[172.16.245.10:2442]
+2018-04-21 11:12:03  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Start
+2018-04-21 11:12:03  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Over
+2018-04-21 11:12:03  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2018-04-21 11:12:03  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2018-04-21 11:12:03  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2018-04-21 11:12:03  [          ] (TCenter1.Destroy)Destroy Over
+2018-04-21 11:12:15  [          ] (TCenter1.Create)Create Start
+2018-04-21 11:12:15  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 11:12:15  [          ] Version : 1.0.0.1
+2018-04-21 11:12:15  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 11:12:15  [          ] (TCenter1.Create)Create Over
+2018-04-21 11:12:15  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 11:12:15  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 11:12:15  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2447
+2018-04-21 11:12:15  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:2447]
+2018-04-21 11:12:15  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:2447]
+2018-04-21 11:12:15  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2447 OK
+2018-04-21 11:12:27  [          ] (TCenter1.Create)Create Start
+2018-04-21 11:12:27  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 11:12:27  [          ] Version : 1.0.0.1
+2018-04-21 11:12:27  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 11:12:27  [          ] (TCenter1.Create)Create Over
+2018-04-21 11:12:27  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 11:12:28  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 11:12:28  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2452
+2018-04-21 11:12:28  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:2452]
+2018-04-21 11:12:28  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2452 OK
+2018-04-21 11:12:28  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:2452]
+2018-04-21 11:12:28  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:2452]
+2018-04-21 11:12:31  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:3][D:1][P:1][B:0][Data:Device (1) On LineLine : OFFLINE_TESTStage : COBProcess : Sponge_AOITerminal : Sponge_AOI01][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-4F-46-46-4C-49-4E-45-5F-54-45-53-54-0D-53-74-61-67-65-20-3A-20-43-4F-42-0D-50-72-6F-63-65-73-73-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-30-31-0D-]
+2018-04-21 11:12:37  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:757055;78988481102]
+2018-04-21 11:12:37  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;757055;78988481102][172.16.245.10:2452]
+2018-04-21 11:12:37  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : OK;OK;
+2018-04-21 11:12:37  [          ] (SajetTransferData)Exexecute Result=TRUE
+2018-04-21 11:14:00  [          ] (TCenter1.Create)Create Start
+2018-04-21 11:14:00  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 11:14:00  [          ] Version : 1.0.0.1
+2018-04-21 11:14:00  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 11:14:00  [          ] (TCenter1.Create)Create Over
+2018-04-21 11:14:00  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 11:14:00  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 11:14:00  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2500
+2018-04-21 11:14:00  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:2500]
+2018-04-21 11:14:00  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:2500]
+2018-04-21 11:14:00  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2500 OK
+2018-04-21 11:14:01  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:2500]
+2018-04-21 11:14:03  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:3][D:1][P:1][B:0][Data:Device (1) On LineLine : OFFLINE_TESTStage : COBProcess : Sponge_AOITerminal : Sponge_AOI01][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-4F-46-46-4C-49-4E-45-5F-54-45-53-54-0D-53-74-61-67-65-20-3A-20-43-4F-42-0D-50-72-6F-63-65-73-73-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-30-31-0D-]
+2018-04-21 11:14:09  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:757055;78988481102]
+2018-04-21 11:14:09  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;757055;78988481102][172.16.245.10:2500]
+2018-04-21 11:14:09  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : OK;OK;
+2018-04-21 11:14:09  [          ] (SajetTransferData)Exexecute Result=TRUE
+2018-04-21 11:14:46  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 11:14:46  [          ] Version : 1.0.0.1
+2018-04-21 11:14:46  [          ] (TCenter1.Create)Create Start
+2018-04-21 11:14:46  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 11:14:46  [          ] (TCenter1.Create)Create Over
+2018-04-21 11:14:46  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 11:14:46  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 11:14:46  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2518
+2018-04-21 11:14:46  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:2518]
+2018-04-21 11:14:46  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2518 OK
+2018-04-21 11:14:46  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:2518]
+2018-04-21 11:14:47  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:2518]
+2018-04-21 11:14:49  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:3][D:1][P:1][B:0][Data:Device (1) On LineLine : OFFLINE_TESTStage : COBProcess : Sponge_AOITerminal : Sponge_AOI01][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-4F-46-46-4C-49-4E-45-5F-54-45-53-54-0D-53-74-61-67-65-20-3A-20-43-4F-42-0D-50-72-6F-63-65-73-73-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-30-31-0D-]
+2018-04-21 11:14:57  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:757055;78988481102]
+2018-04-21 11:14:57  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;757055;78988481102][172.16.245.10:2518]
+2018-04-21 11:14:57  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : OK;OK;
+2018-04-21 11:14:57  [          ] (SajetTransferData)Exexecute Result=TRUE
+2018-04-21 11:15:16  [          ] (TCenter1.Create)Create Start
+2018-04-21 11:15:16  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 11:15:16  [          ] Version : 1.0.0.1
+2018-04-21 11:15:16  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 11:15:16  [          ] (TCenter1.Create)Create Over
+2018-04-21 11:15:16  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 11:15:16  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 11:15:16  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2521
+2018-04-21 11:15:16  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:2521]
+2018-04-21 11:15:16  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2521 OK
+2018-04-21 11:15:16  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:2521]
+2018-04-21 11:15:17  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:2521]
+2018-04-21 11:15:17  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:3][D:1][P:1][B:0][Data:Device (1) On LineLine : OFFLINE_TESTStage : COBProcess : Sponge_AOITerminal : Sponge_AOI01][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-4F-46-46-4C-49-4E-45-5F-54-45-53-54-0D-53-74-61-67-65-20-3A-20-43-4F-42-0D-50-72-6F-63-65-73-73-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-30-31-0D-]
+2018-04-21 11:15:21  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:757055;78988481102]
+2018-04-21 11:15:21  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;757055;78988481102][172.16.245.10:2521]
+2018-04-21 11:15:21  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : OK;OK;
+2018-04-21 11:15:21  [          ] (SajetTransferData)Exexecute Result=TRUE
+2018-04-21 11:15:32  [          ] (TCenter1.Destroy)Destroy Start
+2018-04-21 11:15:32  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2018-04-21 11:15:32  [          ] (TThreadTCPServerPCClient.ServerSocketClientDisconnect)TCP/IP Client Disconnect - 172.16.245.10:6211
+2018-04-21 11:15:32  [ERROR     ] (TThreadTCPServerMainPCClient.ClientExecute.rsvDataFromSocket)Read error 6, 北絏礚[172.16.245.10:2521]
+2018-04-21 11:15:32  [ERROR     ] (TThreadTCPServerSend.Execute.sendDataToRemote)Write error 6, 北絏礚
+2018-04-21 11:15:32  [TEST      ] (TThreadTCPServerPCClient.executeRsvData.checkLink)Show Form Connect
+2018-04-21 11:15:32  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Over[172.16.245.10:2521]
+2018-04-21 11:15:32  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread Start[172.16.245.10:2521]
+2018-04-21 11:15:32  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Start
+2018-04-21 11:15:32  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Over
+2018-04-21 11:15:32  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread OK[172.16.245.10:2521]
+2018-04-21 11:15:32  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2018-04-21 11:15:32  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2018-04-21 11:15:32  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2018-04-21 11:15:32  [          ] (TCenter1.Destroy)Destroy Over
+2018-04-21 11:16:20  [          ] (TCenter1.Create)Create Start
+2018-04-21 11:16:20  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 11:16:20  [          ] Version : 1.0.0.1
+2018-04-21 11:16:20  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 11:16:20  [          ] (TCenter1.Create)Create Over
+2018-04-21 11:16:20  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 11:16:20  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 11:16:20  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2546
+2018-04-21 11:16:20  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:2546]
+2018-04-21 11:16:20  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2546 OK
+2018-04-21 11:16:20  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:2546]
+2018-04-21 11:16:21  [          ] (TCenter1.Destroy)Destroy Start
+2018-04-21 11:16:21  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2018-04-21 11:16:21  [          ] (TThreadTCPServerPCClient.ServerSocketClientDisconnect)TCP/IP Client Disconnect - 172.16.245.10:6211
+2018-04-21 11:16:28  [          ] (TCenter1.Create)Create Start
+2018-04-21 11:16:28  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 11:16:28  [          ] Version : 1.0.0.1
+2018-04-21 11:16:28  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 11:16:28  [          ] (TCenter1.Create)Create Over
+2018-04-21 11:16:28  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 11:16:29  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 11:16:29  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2550
+2018-04-21 11:16:29  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:2550]
+2018-04-21 11:16:29  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2550 OK
+2018-04-21 11:16:29  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:2550]
+2018-04-21 11:16:29  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:2550]
+2018-04-21 11:16:29  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:3][D:1][P:1][B:0][Data:Device (1) On LineLine : OFFLINE_TESTStage : COBProcess : Sponge_AOITerminal : Sponge_AOI01][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-4F-46-46-4C-49-4E-45-5F-54-45-53-54-0D-53-74-61-67-65-20-3A-20-43-4F-42-0D-50-72-6F-63-65-73-73-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-30-31-0D-]
+2018-04-21 11:16:33  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:757055;78988481102]
+2018-04-21 11:16:33  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;757055;78988481102][172.16.245.10:2550]
+2018-04-21 11:16:33  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : OK;OK;
+2018-04-21 11:16:33  [          ] (SajetTransferData)Exexecute Result=TRUE
+2018-04-21 11:17:03  [          ] (TCenter1.Destroy)Destroy Start
+2018-04-21 11:17:03  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2018-04-21 11:17:03  [          ] (TThreadTCPServerPCClient.ServerSocketClientDisconnect)TCP/IP Client Disconnect - 172.16.245.10:6211
+2018-04-21 11:17:03  [ERROR     ] (TThreadTCPServerMainPCClient.ClientExecute.rsvDataFromSocket)Read error 6, 北絏礚[172.16.245.10:2550]
+2018-04-21 11:17:03  [TEST      ] (TThreadTCPServerPCClient.executeRsvData.checkLink)Show Form Connect
+2018-04-21 11:17:03  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Over[172.16.245.10:2550]
+2018-04-21 11:17:03  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread Start[172.16.245.10:2550]
+2018-04-21 11:17:03  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread OK[172.16.245.10:2550]
+2018-04-21 11:17:03  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Start
+2018-04-21 11:17:03  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Over
+2018-04-21 11:17:03  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2018-04-21 11:17:03  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2018-04-21 11:17:13  [ERROR     ] (TThreadTCPServerPCClient.Destroy)Access violation at address 004E386D in module 'SajetConnect.dll'. Read of address 00000000
+2018-04-21 11:17:13  [          ] (TCenter1.Destroy)Destroy Over
+2018-04-21 11:19:13  [          ] (TCenter1.Create)Create Start
+2018-04-21 11:19:13  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 11:19:13  [          ] Version : 1.0.0.1
+2018-04-21 11:19:13  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 11:19:14  [          ] (TCenter1.Create)Create Over
+2018-04-21 11:19:14  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 11:19:14  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 11:19:14  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2621
+2018-04-21 11:19:14  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:2621]
+2018-04-21 11:19:14  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:2621]
+2018-04-21 11:19:14  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2621 OK
+2018-04-21 11:19:15  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:2621]
+2018-04-21 11:19:15  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:3][D:1][P:1][B:0][Data:Device (1) On LineLine : OFFLINE_TESTStage : COBProcess : Sponge_AOITerminal : Sponge_AOI01][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-4F-46-46-4C-49-4E-45-5F-54-45-53-54-0D-53-74-61-67-65-20-3A-20-43-4F-42-0D-50-72-6F-63-65-73-73-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-30-31-0D-]
+2018-04-21 11:19:18  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:757055;78988481102]
+2018-04-21 11:19:18  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;757055;78988481102][172.16.245.10:2621]
+2018-04-21 11:19:18  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : OK;OK;
+2018-04-21 11:19:18  [          ] (SajetTransferData)Exexecute Result=TRUE
+2018-04-21 11:19:45  [          ] (TCenter1.Destroy)Destroy Start
+2018-04-21 11:19:45  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2018-04-21 11:19:45  [          ] (TThreadTCPServerPCClient.ServerSocketClientDisconnect)TCP/IP Client Disconnect - 172.16.245.10:6211
+2018-04-21 11:19:45  [ERROR     ] (TThreadTCPServerMainPCClient.ClientExecute.rsvDataFromSocket)Read error 6, 北絏礚[172.16.245.10:2621]
+2018-04-21 11:19:45  [ERROR     ] (TThreadTCPServerSend.Execute.sendDataToRemote)Write error 6, 北絏礚
+2018-04-21 11:19:46  [TEST      ] (TThreadTCPServerPCClient.executeRsvData.checkLink)Show Form Connect
+2018-04-21 11:19:46  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Over[172.16.245.10:2621]
+2018-04-21 11:19:46  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread Start[172.16.245.10:2621]
+2018-04-21 11:19:46  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread OK[172.16.245.10:2621]
+2018-04-21 11:19:46  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Start
+2018-04-21 11:19:46  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Over
+2018-04-21 11:19:47  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2018-04-21 11:19:47  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2018-04-21 11:19:57  [ERROR     ] (TThreadTCPServerPCClient.Destroy)Access violation at address 0066386D in module 'SajetConnect.dll'. Read of address 00000000
+2018-04-21 11:19:57  [          ] (TCenter1.Destroy)Destroy Over
+2018-04-21 11:20:16  [          ] (TCenter1.Create)Create Start
+2018-04-21 11:20:16  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 11:20:16  [          ] Version : 1.0.0.1
+2018-04-21 11:20:16  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 11:20:16  [          ] (TCenter1.Create)Create Over
+2018-04-21 11:20:16  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 11:20:16  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 11:20:16  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2635
+2018-04-21 11:20:17  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:2635]
+2018-04-21 11:20:17  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:2635]
+2018-04-21 11:20:17  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2635 OK
+2018-04-21 11:20:17  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:2635]
+2018-04-21 11:20:19  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:3][D:1][P:1][B:0][Data:Device (1) On LineLine : OFFLINE_TESTStage : COBProcess : Sponge_AOITerminal : Sponge_AOI01][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-4F-46-46-4C-49-4E-45-5F-54-45-53-54-0D-53-74-61-67-65-20-3A-20-43-4F-42-0D-50-72-6F-63-65-73-73-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-30-31-0D-]
+2018-04-21 11:20:28  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:757055;78988481102]
+2018-04-21 11:20:28  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;757055;78988481102][172.16.245.10:2635]
+2018-04-21 11:20:28  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : OK;OK;
+2018-04-21 11:20:28  [          ] (SajetTransferData)Exexecute Result=TRUE
+2018-04-21 11:21:15  [          ] (TCenter1.Create)Create Start
+2018-04-21 11:21:15  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 11:21:15  [          ] Version : 1.0.0.1
+2018-04-21 11:21:15  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 11:21:15  [          ] (TCenter1.Create)Create Over
+2018-04-21 11:21:15  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 11:21:15  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2018-04-21 11:21:15  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2651
+2018-04-21 11:21:15  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:2651]
+2018-04-21 11:21:15  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:2651 OK
+2018-04-21 11:21:15  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:2651]
+2018-04-21 11:21:16  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:2651]
+2018-04-21 11:21:16  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:3][D:1][P:1][B:0][Data:Device (1) On LineLine : OFFLINE_TESTStage : COBProcess : Sponge_AOITerminal : Sponge_AOI01][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-4F-46-46-4C-49-4E-45-5F-54-45-53-54-0D-53-74-61-67-65-20-3A-20-43-4F-42-0D-50-72-6F-63-65-73-73-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-53-70-6F-6E-67-65-5F-41-4F-49-30-31-0D-]
+2018-04-21 11:21:19  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:757055;78988481102]
+2018-04-21 11:21:19  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;757055;78988481102][172.16.245.10:2651]
+2018-04-21 11:21:19  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : OK;OK;
+2018-04-21 11:21:19  [          ] (SajetTransferData)Exexecute Result=TRUE
+2018-04-21 11:21:28  [          ] (TCenter1.Destroy)Destroy Start
+2018-04-21 11:21:28  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2018-04-21 11:21:28  [          ] (TThreadTCPServerPCClient.ServerSocketClientDisconnect)TCP/IP Client Disconnect - 172.16.245.10:6211
+2018-04-21 11:21:28  [ERROR     ] (TThreadTCPServerMainPCClient.ClientExecute.rsvDataFromSocket)Read error 6, 北絏礚[172.16.245.10:2651]
+2018-04-21 11:21:28  [ERROR     ] (TThreadTCPServerSend.Execute.sendDataToRemote)Write error 6, 北絏礚
+2018-04-21 11:21:28  [TEST      ] (TThreadTCPServerPCClient.executeRsvData.checkLink)Show Form Connect
+2018-04-21 11:21:28  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Over[172.16.245.10:2651]
+2018-04-21 11:21:28  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread Start[172.16.245.10:2651]
+2018-04-21 11:21:28  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Start
+2018-04-21 11:21:28  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Over
+2018-04-21 11:21:28  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread OK[172.16.245.10:2651]
+2018-04-21 11:21:28  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2018-04-21 11:21:28  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2018-04-21 11:21:28  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2018-04-21 11:21:28  [          ] (TCenter1.Destroy)Destroy Over

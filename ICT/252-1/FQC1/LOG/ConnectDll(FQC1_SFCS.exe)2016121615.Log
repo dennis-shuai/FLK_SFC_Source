@@ -1,0 +1,12 @@
+2016-12-16 15:40:37  [          ] (TCenter1.Create)Create Start
+2016-12-16 15:40:37  [          ] File    : F:\Delphi\SFC Source Code\ICT\252-1\FQC1\FQC1_SFCS.exe
+2016-12-16 15:40:37  [          ] Version : 1.0.0.3
+2016-12-16 15:40:37  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2016-12-16 15:40:37  [          ] (TCenter1.Create)Create Over
+2016-12-16 15:40:37  [          ] (SajetTransStartType)Function Execute Over
+2016-12-16 15:40:38  [          ] (TCenter1.Destroy)Destroy Start
+2016-12-16 15:40:38  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2016-12-16 15:40:38  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2016-12-16 15:40:38  [          ] (TCenter1.Destroy)Destroy Over
+2016-12-16 15:40:38  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2016-12-16 15:40:38  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over

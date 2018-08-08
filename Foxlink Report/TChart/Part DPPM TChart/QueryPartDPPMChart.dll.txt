@@ -1,0 +1,15 @@
+QueryPartDPPMChart.dll
+============================================
+5.8.0.2
+2008/11/06 BY KEY
+1. 琩高Fail DPPM
+璸衡そΑpart DPPM=(fail_qty + refail_qty)* 1000000 /[(PASS_QTY∠REPASS_QTY∠FAIL_QTY+REPAIL_QTY)*PCBA箂ン计]
+2. 琩高ぃ▆箂ンDPPM
+璸衡そΑpart DPPM=PCBA ぃ▆箂ン计* 1000000 /[(PASS_QTY∠REPASS_QTY∠FAIL_QTY+REPAIL_QTY)*PCBA箂ン计]
+
+======================================================================
+5.8.0.1
+2008/11/05 by key
+1. 琩高ぃ▆箂ンDPPM
+2. 璸衡そΑpart DPPM=(FAIL_QTY+REPAIL_QTY) * 1000000 /[(PASS_QTY∠REPASS_QTY∠FAIL_QTY+REPAIL_QTY)*PCBA箂ン计]
+3. –failボ箂ン

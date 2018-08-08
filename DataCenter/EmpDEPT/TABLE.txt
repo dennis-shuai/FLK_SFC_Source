@@ -1,0 +1,74 @@
+CREATE TABLE SAJET.SYS_EMP_DEPT
+(
+  EMP_ID            NUMBER,
+  DEPT_ID      NUMBER,
+  UPDATE_USERID     NUMBER,
+  UPDATE_TIME       DATE                        DEFAULT sysdate,
+  ENABLED           VARCHAR2(1 BYTE)            DEFAULT 'Y'
+)
+TABLESPACE SYSBS
+PCTUSED    0
+PCTFREE    10
+INITRANS   1
+MAXTRANS   255
+STORAGE    (
+            INITIAL          64K
+            MINEXTENTS       1
+            MAXEXTENTS       2147483645
+            PCTINCREASE      0
+            BUFFER_POOL      DEFAULT
+           )
+LOGGING 
+NOCACHE
+NOPARALLEL;
+
+
+CREATE TABLE SAJET.SYS_HT_EMP_DEPT
+(
+  EMP_ID            NUMBER,
+  DEPT_ID      NUMBER,
+  UPDATE_USERID     NUMBER,
+  UPDATE_TIME       DATE                        DEFAULT sysdate,
+  ENABLED           VARCHAR2(1 BYTE)            DEFAULT 'Y'
+)
+TABLESPACE SYSBS
+PCTUSED    0
+PCTFREE    10
+INITRANS   1
+MAXTRANS   255
+STORAGE    (
+            INITIAL          64K
+            MINEXTENTS       1
+            MAXEXTENTS       2147483645
+            PCTINCREASE      0
+            BUFFER_POOL      DEFAULT
+           )
+LOGGING 
+NOCACHE
+NOPARALLEL;
+
+
+GRANT ALTER, DELETE, INSERT, SELECT, UPDATE ON  SYS_HT_EMP_DEPT TO SYS_USER;
+
+GRANT ALTER, DELETE, INSERT, SELECT, UPDATE ON  SYS_EMP_DEPT TO SYS_USER;
+
+insert into sys_program_fun
+( program,function,update_userid,update_time ,auth_seq,authoritys,fun_type,fun_type_idx,fun_idx,dll_filename)
+values
+('Data Center','EMP DEPT','0',sysdate,'0','Read Only','System Member','4','8','EmpDeptdll.dll')
+
+insert into sys_program_fun
+( program,function,update_userid,update_time ,auth_seq,authoritys,fun_type,fun_type_idx,fun_idx,dll_filename)
+values
+('Data Center','EMP DEPT','0',sysdate,'1','Allow To Change','System Member','4','8','EmpDeptdll.dll')
+
+insert into sys_program_fun
+( program,function,update_userid,update_time ,auth_seq,authoritys,fun_type,fun_type_idx,fun_idx,dll_filename)
+values
+('Data Center','EMP DEPT','0',sysdate,'2','Full Control','System Member','4','8','EmpDeptdll.dll')
+
+
+
+
+
+

@@ -1,0 +1,88 @@
+2017-08-02 08:10:37  [          ] File    : F:\Delphi\SFC Source Code\ICT\ATE_DELPHI_SAMPLE\Test.exe
+2017-08-02 08:10:37  [          ] Version : 5.0.1.8
+2017-08-02 08:10:37  [          ] (TMachineCenter.Create)CREATE START
+2017-08-02 08:10:37  [          ] (TMachineCenter.Create)Create OTHER START
+2017-08-02 08:10:37  [          ] (TMachineCenter.Create)Create OTHER OVER
+2017-08-02 08:10:37  [          ] (TMachineCenter.Create)Create TCP SERVER START
+2017-08-02 08:10:37  [          ] (TMachineCenter.Create)Create TCP SERVER OVER
+2017-08-02 08:10:37  [          ] (TMachineCenter.Create)Create Wait Handle Center START
+2017-08-02 08:10:37  [          ] (TMachineCenter.Create)Create Wait Handle Center OVER
+2017-08-02 08:10:37  [          ] (TMachineCenter.Create)Create Result Center START
+2017-08-02 08:10:37  [          ] (TMachineCenter.Create)Create Result Center OVER
+2017-08-02 08:10:37  [          ] (TMachineCenter.Create)Create Self Info Data Center  START
+2017-08-02 08:10:37  [          ] (TInfoDataCenterSelf.Create)Create Center Info Data START
+2017-08-02 08:10:37  [          ] (TInfoDataCenterSelf.Create)Create Center Info Data OVER
+2017-08-02 08:10:37  [          ] (TMachineCenter.Create)Create Self Info Data Center  OVER
+2017-08-02 08:10:37  [          ] (TMachineCenter.Create)Create Info Data Center  START
+2017-08-02 08:10:37  [          ] (TInfoDataCenter.Create)Create Center Info Data START
+2017-08-02 08:10:37  [          ] (TInfoDataCenter.Create)Create Center Info Data OVER
+2017-08-02 08:10:37  [          ] (TMachineCenter.Create)Create Info Data Center  OVER
+2017-08-02 08:10:37  [          ] (TMachineCenter.Create)Create Rsv Center START
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread START[TID:1]
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread OVER[TID:1]
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread START[TID:2]
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread OVER[TID:2]
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread START[TID:3]
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread OVER[TID:3]
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread START[TID:4]
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread OVER[TID:4]
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread START[TID:5]
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread OVER[TID:5]
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread START[TID:6]
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread OVER[TID:6]
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread START[TID:7]
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread OVER[TID:7]
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread START[TID:8]
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread OVER[TID:8]
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread START[TID:9]
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread OVER[TID:9]
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread START[TID:10]
+2017-08-02 08:10:37  [          ] (TRsvCenterMutliThread.Create)Create Center Rsv Mutle Thread OVER[TID:10]
+2017-08-02 08:10:37  [          ] (TMachineCenter.Create)Create Rsv Center Over
+2017-08-02 08:10:37  [          ] (TMachineCenter.SetStop.Set)Change Machine Center Status [TRUE]-->[FALSE]
+2017-08-02 08:10:37  [          ] (TMachineCenter.SetStop.Reset)Reset Self ID to Node Connect
+2017-08-02 08:10:37  [          ] (TMachineCenter.SetStop.Reset)Try Setup Machine Center START
+2017-08-02 08:10:37  [          ] (TMachineCenter.getSetupValue)==================================================================================
+2017-08-02 08:10:37  [          ] (TMachineCenter.getSetupValue.getBaseSetupValue)Get Setup Value - Listen Port : 0
+2017-08-02 08:10:37  [          ] (TMachineCenter.getSetupValue)==================================================================================
+2017-08-02 08:10:37  [          ] (TMachineCenter.setSetupTime)Setup Time Change : [1899-12-30 00:00:00]-->[2020-01-01 12:00:00]
+2017-08-02 08:10:37  [          ] (TMachineCenter.getSetupValue.getNormalNodeSetupValue)Get Setup Value - Update Time : 2020/1/1 下午 12:00:00
+2017-08-02 08:10:37  [          ] (TMachineCenter.getSetupValue.getNormalNodeSetupValue)Get Setup Value - Normal Node Max ID : 1
+2017-08-02 08:10:37  [          ] (TMachineCenter.getSetupValue.TryCreateMachineClient)Try Create New Machine Client[外1] with Address : 192.168.88.118:9000
+2017-08-02 08:10:37  [          ] 【Node:Connect-外1,IP:192.168.88.118:9000】(TMachineTCPClient.Create)Create Client Thread START
+2017-08-02 08:10:37  [          ] 【Node:Connect-外1,IP:192.168.88.118:9000】(TMachineTCPClient.Create)Create Client Thread OVER
+2017-08-02 08:10:37  [          ] (TMachineCenter.getSetupValue.TryCreateMachineClient)Create New Machine Client【Node:Connect-外1,IP:192.168.88.118:9000】
+2017-08-02 08:10:37  [          ] (TMachineCenter.getSetupValue)==================================================================================
+2017-08-02 08:10:37  [          ] (TMachineCenter.getSetupValue.getSingleMasterSetupValue)Get Setup Value - Accept Single Node : False
+2017-08-02 08:10:37  [          ] (TMachineCenter.getSetupValue.getSingleNodeSetupValue)Get Setup Value - Single Node Max ID : 0
+2017-08-02 08:10:37  [          ] (TMachineCenter.getSetupValue)==================================================================================
+2017-08-02 08:10:37  [          ] (TMachineCenter.getSetupValue.getConnectNodeSetupValue)Try Get Connect Node Address
+2017-08-02 08:10:37  [          ] (TMachineCenter.getSetupValue)==================================================================================
+2017-08-02 08:10:37  [          ] (TMachineCenter.SetStop.Reset)Try Setup Machine Center OVER
+2017-08-02 08:10:37  [          ] (TMachineCenter.SetStop.Reset)Set TCP/IP Server Active
+2017-08-02 08:10:37  [          ] (TMachineCenter.SetStop.Reset)Wake Up All Macine Client
+2017-08-02 08:10:37  [          ] (TMachineCenter.wakeUpMachineClient)Wake Up All Machine Client
+2017-08-02 08:10:37  [          ] (TMachineCenter.SetStop.Reset)Wake Up All Macine Client
+2017-08-02 08:10:37  [          ] (TMachineCenter.SetStop.Reset)Change Info Data Center to Correct Status
+2017-08-02 08:10:37  [          ] (TMachineCenter.SetStop.Set)Change Machine Center Status OVER
+2017-08-02 08:10:37  [          ] (TMachineCenter.Create)CREATE OVER
+2017-08-02 08:10:37  [          ] (ChromaStart)Execute Function【ChromaStart】OVER - TRUE
+2017-08-02 08:10:37  [          ] 
+2017-08-02 08:10:37  [          ] 【Node:Connect-外1,IP:192.168.88.118:9000】(TMachineTCPClient.Execute)Execute Client Thread Start
+2017-08-02 08:10:41  [          ] 
+2017-08-02 08:10:41  [          ] (ChromaStop)Execute Function【ChromaStop】START
+2017-08-02 08:10:41  [          ] ===============================================================================================================
+2017-08-02 08:10:41  [          ] (TMachineCenter.Destroy)Destroy START
+2017-08-02 08:10:41  [          ] (TMachineCenter.Destroy)Stop Machine Center START
+2017-08-02 08:10:41  [          ] (TMachineCenter.SetStop.Set)Change Machine Center Status [FALSE]-->[TRUE]
+2017-08-02 08:10:41  [          ] (TMachineCenter.SetStop.Set)Stop Indo Data Center
+2017-08-02 08:10:41  [          ] (TInfoDataCenter.setInfoStop)Set Info Stop Mode
+2017-08-02 08:10:41  [          ] (TMachineCenter.SetStop.Set)Stop Self Indo Data Center
+2017-08-02 08:10:41  [          ] (TInfoDataCenterSelf.setInfoStop)Set Info Stop Mode
+2017-08-02 08:10:41  [          ] (TMachineCenter.SetStop.Set)Send Disconnect Msg To All Machine Server[0]
+2017-08-02 08:10:41  [          ] (TMachineCenter.SetStop.Set)Close TCP Server
+2017-08-02 08:10:41  [          ] (TMachineCenter.SetStop.Set)Send Disconnect Msg To All Machine Client
+2017-08-02 08:10:41  [          ] 【Node:Connect-外1,IP:192.168.88.118:9000】(TMachineTCPClient.Stop)Set Self Execute Stop
+2017-08-02 08:10:41  [          ] (TMachineCenter.SetStop.Set)Check Machine Server Over Start
+2017-08-02 08:10:41  [          ] (TMachineCenter.SetStop.Set)Check Machine Server Over
+2017-08-02 08:10:41  [          ] (TMachineCenter.SetStop.Set)Check Machine Client Over Start

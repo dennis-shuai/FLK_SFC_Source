@@ -1,0 +1,396 @@
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.61.171)(PORT=1551))(CONNECT_DATA=(SERVICE_NAME=sfcbk)(CID=(PROGRAM=C:\Program Files\Borland\Delphi7\Bin\delphi32.exe)(HOST=MYCHAT-F0E7952A)(USER=Linkey))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-9月 -2006 20:16:31
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS:作業逾時
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 作業逾時
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleStandard)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))'))(CONNECT_DATA=(SID=Standard)(CID=(PROGRAM=C:\Program Files\Borland\Delphi7\Bin\delphi32.exe)(HOST=MYCHAT-F0E7952A)(USER=Linkey))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-9月 -2006 20:16:32
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定介面程式錯誤
+    nt secondary err code: 2
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.56.138)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=SFCTEST)(CID=(PROGRAM=D:\Project\Fox\Code\MESint\5.0.3.11\MESInt_Read.exe)(HOST=LINKEY_NEW)(USER=Lin))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 19-10堎-2006 10:58:22
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS: 紱釬閉奀
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 紱釬閉奀
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.56.138)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=SFCTEST)(CID=(PROGRAM=D:\Project\Fox\Code\MESint\5.0.3.11\MESInt_Read.exe)(HOST=LINKEY_NEW)(USER=Lin))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 19-10堎-2006 10:58:52
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS: 紱釬閉奀
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 紱釬閉奀
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.56.138)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=SFCTEST)(CID=(PROGRAM=D:\Project\Fox\Code\MESint\5.0.3.11\MESInt_Read.exe)(HOST=LINKEY_NEW)(USER=Lin))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 19-10堎-2006 10:59:44
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS: 紱釬閉奀
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 紱釬閉奀
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=STANDARD)(CID=(PROGRAM=C:\Program Files\Borland\Delphi7\Bin\delphi32.exe)(HOST=LINKEY_NEW)(USER=Lin))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-10堎-2006 10:18:52
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12541
+    TNS-12541: TNSㄩ拸潼泭ん
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 拸潼泭ん
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleStandard)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))'))(CONNECT_DATA=(SID=Standard)(CID=(PROGRAM=C:\Program Files\Borland\Delphi7\Bin\delphi32.exe)(HOST=LINKEY_NEW)(USER=Lin))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 24-10堎-2006 10:18:52
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12560
+    TNS-12560: TNS: 衪祜巠饜ん渣昫
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 衪祜巠饜ん渣昫
+    nt secondary err code: 2
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=172.16.245.2)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=CCMDB)(CID=(PROGRAM=C:\Program Files (x86)\Borland\Delphi7\Bin\delphi32.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 09:57:28
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Program Files (x86)\Borland\Delphi7\Bin\delphi32.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 09:57:28
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Program Files (x86)\Borland\Delphi7\Bin\delphi32.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 09:57:39
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=172.16.245.2)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=CCMDB)(CID=(PROGRAM=C:\Program Files (x86)\Borland\Delphi7\Bin\delphi32.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 10:00:28
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Program Files (x86)\Borland\Delphi7\Bin\delphi32.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 10:00:28
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=172.16.245.2)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=CCMDB)(CID=(PROGRAM=C:\Program Files (x86)\Borland\Delphi7\Bin\delphi32.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 10:00:36
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Program Files (x86)\Borland\Delphi7\Bin\delphi32.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 10:00:36
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=172.16.245.2)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=CCMDB)(CID=(PROGRAM=C:\Program Files (x86)\Borland\Delphi7\Bin\delphi32.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 10:01:56
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Program Files (x86)\Borland\Delphi7\Bin\delphi32.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 10:01:56
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=172.16.245.2)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=CCMDB)(CID=(PROGRAM=C:\Program Files (x86)\Borland\Delphi7\Bin\delphi32.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 10:02:00
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Program Files (x86)\Borland\Delphi7\Bin\delphi32.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 10:02:00
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=172.16.245.2)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=CCMDB)(CID=(PROGRAM=C:\Program Files (x86)\Borland\Delphi7\Bin\delphi32.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 10:02:34
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Program Files (x86)\Borland\Delphi7\Bin\delphi32.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 10:02:34
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=172.16.245.2)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=CCMDB)(CID=(PROGRAM=C:\Program Files (x86)\Borland\Delphi7\Bin\delphi32.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 10:02:54
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Program Files (x86)\Borland\Delphi7\Bin\delphi32.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 10:02:54
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))'))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=F:\Delphi\SFC Source Code\MESInt_Read\5.1.0.1\MESInt_Read.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 10:11:26
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 126
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))'))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=F:\Delphi\SFC Source Code\MESInt_Read\5.1.0.1\MESInt_Read.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 10:13:07
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 126
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))'))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=F:\Delphi\SFC Source Code\MESInt_Read\5.1.0.1\MESInt_Read.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 10:13:35
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 126
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))'))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=F:\Delphi\SFC Source Code\MESInt_Read\5.1.0.1\MESInt_Read.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 10:14:47
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 126
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Program Files (x86)\Borland\Delphi7\Bin\delphi32.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 10:15:18
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Program Files (x86)\Borland\Delphi7\Bin\delphi32.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-11月-2017 10:16:29
+  Tracing not turned on.
+
+
+***********************************************************************
+Fatal NI connect error 6413, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Program Files (x86)\Borland\Delphi7\Bin\delphi32.exe)(HOST=DENNIS-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 28-11月-2017 10:03:23
+  Tracing not turned on.

@@ -1,0 +1,39 @@
+TIME¡G19_06_02
+Calibration Data
+Calibrating Lch...1, Rms Level:-25.59dBFs.
+Lch Calibration Done! Rms Level=-25.98dBFs, offset=0.02dBFs.
+Rch Calibration Done! Rms Level=-24.87dBFs, offset=1.13dBFs.
+Calibration finished. Ready to test...
+
+TIME¡G20_15_48
+Calibration Data
+Lch Calibration Done! Rms Level=-25.83dBFs, offset=0.17dBFs.
+Rch Calibration Done! Rms Level=-25.35dBFs, offset=0.65dBFs.
+Calibration finished. Ready to test...
+
+TIME¡G20_55_31
+Calibration Data
+Lch Calibration Done! Rms Level=-26.04dBFs, offset=-0.04dBFs.
+Rch Calibration Done! Rms Level=-24.89dBFs, offset=1.11dBFs.
+Calibration finished. Ready to test...
+
+TIME¡G21_03_33
+Calibration Data
+Calibrating Lch...1, Rms Level:-26.79dBFs.
+Lch Calibration Done! Rms Level=-26.03dBFs, offset=-0.03dBFs.
+Rch Calibration Done! Rms Level=-24.54dBFs, offset=1.46dBFs.
+Calibration finished. Ready to test...
+
+TIME¡G21_21_50
+Calibration Data
+Calibrating Lch...1, Rms Level:-23.56dBFs.
+Lch Calibration Done! Rms Level=-25.68dBFs, offset=0.32dBFs.
+Rch Calibration Done! Rms Level=-26.21dBFs, offset=-0.21dBFs.
+Calibration finished. Ready to test...
+
+TIME¡G21_44_10
+Calibration Data
+Lch Calibration Done! Rms Level=-25.85dBFs, offset=0.15dBFs.
+Rch Calibration Done! Rms Level=-26.22dBFs, offset=-0.22dBFs.
+Calibration finished. Ready to test...
+

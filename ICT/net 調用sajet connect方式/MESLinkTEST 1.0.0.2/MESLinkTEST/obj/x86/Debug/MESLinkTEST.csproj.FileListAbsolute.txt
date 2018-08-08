@@ -1,0 +1,19 @@
+C:\Users\JET.YAN\Documents\TEST\MESLinkTEST\MESLinkTEST\bin\Debug\MESLinkTEST.exe
+C:\Users\JET.YAN\Documents\TEST\MESLinkTEST\MESLinkTEST\bin\Debug\MESLinkTEST.pdb
+C:\Users\JET.YAN\Documents\TEST\MESLinkTEST\MESLinkTEST\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\JET.YAN\Documents\TEST\MESLinkTEST\MESLinkTEST\obj\x86\Debug\MESLinkTEST.Form1.resources
+C:\Users\JET.YAN\Documents\TEST\MESLinkTEST\MESLinkTEST\obj\x86\Debug\MESLinkTEST.Properties.Resources.resources
+C:\Users\JET.YAN\Documents\TEST\MESLinkTEST\MESLinkTEST\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\JET.YAN\Documents\TEST\MESLinkTEST\MESLinkTEST\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\JET.YAN\Documents\TEST\MESLinkTEST\MESLinkTEST\obj\x86\Debug\MESLinkTEST.exe
+C:\Users\JET.YAN\Documents\TEST\MESLinkTEST\MESLinkTEST\obj\x86\Debug\MESLinkTEST.pdb
+F:\Delphi\SFC Source Code\ICT\net 調用sajet connect方式\MESLinkTEST\MESLinkTEST\obj\x86\Debug\MESLinkTEST.exe
+F:\Delphi\SFC Source Code\ICT\net 調用sajet connect方式\MESLinkTEST\MESLinkTEST\obj\x86\Debug\MESLinkTEST.pdb
+F:\Delphi\SFC Source Code\ICT\net 調用sajet connect方式\MESLinkTEST 1.0.0.2\MESLinkTEST\obj\x86\Debug\MESLinkTEST.exe
+F:\Delphi\SFC Source Code\ICT\net 調用sajet connect方式\MESLinkTEST 1.0.0.2\MESLinkTEST\obj\x86\Debug\MESLinkTEST.pdb
+F:\Delphi\SFC Source Code\ICT\net 調用sajet connect方式\MESLinkTEST 1.0.0.2\MESLinkTEST\obj\x86\Debug\MESLinkTEST.csprojResolveAssemblyReference.cache
+F:\Delphi\SFC Source Code\ICT\net 調用sajet connect方式\MESLinkTEST 1.0.0.2\MESLinkTEST\obj\x86\Debug\MESLinkTEST.Form1.resources
+F:\Delphi\SFC Source Code\ICT\net 調用sajet connect方式\MESLinkTEST 1.0.0.2\MESLinkTEST\obj\x86\Debug\MESLinkTEST.Properties.Resources.resources
+F:\Delphi\SFC Source Code\ICT\net 調用sajet connect方式\MESLinkTEST 1.0.0.2\MESLinkTEST\obj\x86\Debug\MESLinkTEST.csproj.GenerateResource.Cache
+F:\Delphi\SFC Source Code\ICT\net 調用sajet connect方式\MESLinkTEST 1.0.0.2\MESLinkTEST\bin\Debug\MESLinkTEST.exe
+F:\Delphi\SFC Source Code\ICT\net 調用sajet connect方式\MESLinkTEST 1.0.0.2\MESLinkTEST\bin\Debug\MESLinkTEST.pdb

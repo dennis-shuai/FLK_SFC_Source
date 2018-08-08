@@ -1,0 +1,35 @@
+CREATE OR REPLACE procedure
+SAJET.sj_repair_scrap(tterminalid in number,tsn in varchar2, two in varchar2, 
+  tres out varchar2,tempid in varchar2) is
+clineid number; cstageid number; cprocessid number;
+begin
+   sajet.sj_get_place(tterminalid,clineid,cstageid,cprocessid);
+   update sajet.g_sn_status
+     set pdline_id=clineid,stage_id=cstageid,process_id=cprocessid,terminal_id=tterminalid,
+      next_process=0,in_process_time=out_process_time,out_process_time=sysdate,emp_id=tempid,
+      wip_process=0,work_flag='1',box_no='N/A',carton_no='N/A',pallet_no='N/A',qc_no='N/A'
+     where serial_number = tsn;
+   insert into sajet.g_sn_travel
+     select * from sajet.g_sn_status where serial_number = tsn;
+   Update SAJET.G_WO_BASE 
+     Set SCRAP_QTY = SCRAP_QTY + 1
+     Where WORK_ORDER = two;
+   
+   
+   /* add by key 2008/03/28 
+   SCRAP SN 1. RECORD IN  g_sn_repair_scarp table; 
+           2. UPDATE  G_SN_DEFECT SET  PR_STATUS=0;
+   */
+   INSERT INTO  sajet.g_sn_repair_scrap
+            (WORK_ORDER,SERIAL_NUMBER,UPDATE_USERID,UPDATE_TIME) 
+	  VALUES(TWO,TSN,TEMPID,TSN);
+	  
+   update sajet.g_sn_defect set rp_status='0' where serial_number=tsn;
+   -- add end;
+   
+   tres := 'OK';
+exception
+   when others then
+      tres := 'repair_scrap error';
+end;
+/

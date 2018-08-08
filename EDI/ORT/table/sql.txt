@@ -1,0 +1,7 @@
+alter table b2b.pt_serial add type varchar2(10)
+
+alter table b2b.ht_pt_serial add type varchar2(10)
+
+alter table b2b.pt_reference add type varchar2(10)
+
+alter table b2b.ht_pt_reference add type varchar2(10)

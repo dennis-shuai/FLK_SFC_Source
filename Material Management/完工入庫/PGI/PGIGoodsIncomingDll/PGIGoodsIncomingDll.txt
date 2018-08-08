@@ -1,0 +1,167 @@
+PGIGoodsIncomingDll
+5.3.0.9
+1.э腹畐
+
+5.3.0.8
+1.э箇砞纔单1 WO, 2 PART;
+2.PROC 眖KEY_WIP_INCOMING эΘ KEY_WIP_INCOMING2locate id 把计;
+3.Locate name ㄌ逼;
+========================================================================
+5.3.0.7
+2008/10/15
+1.穝畐舦恨北
+∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽
+
+5.3.0.6
+2008/09/02
+1.畐datacode 畐丁ΑYYYYMMDD
+
+5.3.0.5
+2008/07/24
+1.箇砞locate sys_part_factory table  い
+
+==================================================
+5.3.0.4
+2008/05/16
+1.穝org 逆
+2.畐穝factory type g_materialtable い
+∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽
+
+5.3.0.3 
+=================
+add by key 2008/02/17
+COMPLETE status ,QTY ID畐
+==============================================
+
+5.3.0.2 
+=================
+add by key 2008/01/18
+Τrelease and wip status 畐
+
+
+∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽
+
+5.3.0.1
+1.Goodsincomingdll.dll膀娄route 恨北
+2. check kp count.
+∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽∽
+
+
+ver琌Goodsincomigdll.dll戈
+
+
+5.3.0.22
+2007/07/09
+1.Get FIFO Code 改成call Procedure: SAJET.SJ_GET_fifo
+====================================================
+5.3.0.21
+2007/06/18
+1.增加FIFO Code
+========================================================
+5.3.0.20
+1.增加type
+==============================================================
+5.3.0.19
+2006/09/25
+1.タPallet/Lot陪ボ岿粇, 莱赣陪ボMaterial_No, τぃ琌Qc_Lot
+==========================================================
+5.3.0.18
+2006/09/25
+1. 浪琩琌畐эΘSAJET.G_GOODS_INCOMING籔SAJET.G_SEMIFINISHED_INCOMING常浪琩, ㄏノ岿粇硑Θ畐
+==========================================================
+5.3.0.17
+2006/09/25
+1. タΘ珇Qty ID滦畐拜肈
+==========================================================
+5.3.0.15
+2006/09/21
+1.Lot畐эΘパQc by Lot玻ネMaterial No, 畐, ┮ぃノ兵絏
+==========================================================
+5.3.0.13
+2006/09/19
+1.Θ珇ノLot畐, 惠Lot Qc (SAJET.G_QC_LOT.QC_TYPE = 1Θ珇畐) 
+2.逆穝糤Material_No
+  alter table SAJET.G_SEMIFINISHED_INCOMING add MATERIAL_NO VARCHAR2(25);
+  alter table SAJET.G_GOODS_INCOMING add MATERIAL_NO VARCHAR2(25);
+==========================================================
+5.3.0.12
+2006/09/15
+1.ERP闽Procedure肚TEMPID
+==========================================================
+5.3.0.11
+2006/09/12
+1. 穝糤恶g_pick_listのg_materilversion
+==========================================================
+5.3.0.9
+2006/08/24
+1.增加显示工单的ERP_QTY
+==========================================================
+5.3.0.8
+2006/08/22
+1.增加PushTitle权限
+==========================================================
+5.3.0.7
+2006/08/19
+1.增加显示当天该user所刷的记录
+==========================================================
+
+5.3.0.6
+2006/08/15
+1.糤琌璶Push Title
+==========================================================
+5.3.0.4
+2006/07/18
+1.Θ珇Pallet畐
+==========================================================
+5.3.0.3
+2006/07/13
+1.パㄏノ∕﹚璶畐ê虫, 箇砞穦盿Pallet┪Lotê虫
+2.Θ珇畐ぃ穦QC_Type
+3.Θ珇畐, эCarton_No畐 (ぇ玡琌Pallet_NO)
+==========================================================
+5.3.0.2
+2006/07/07
+1.肚ERP
+
+CREATE TABLE sajet.MES_TO_ERP_WIP_DELIVER ( 
+  WORK_ORDER  VARCHAR2(25),
+  QTY         NUMBER,
+  SUBINV      VARCHAR2(10),
+  LOCATOR     VARCHAR2(50)) TABLESPACE SYSMISC;
+GRANT DELETE, INSERT, SELECT, UPDATE ON sajet.MES_TO_ERP_WIP_DELIVER TO SYS_USER;
+
+CREATE OR REPLACE PROCEDURE SAJET.MES_ERP_WIP_DELIVER(TTYPE IN VARCHAR2, TREV IN VARCHAR2, TSUBINV IN VARCHAR2, 
+  TLOCATOR IN VARCHAR2, TRES OUT VARCHAR2) AS
+BEGIN
+  if TTYPE = 'Goods' then
+    insert into sajet.MES_TO_ERP_WIP_DELIVER (work_order, qty, subinv, locator)
+      select work_order, count(*), tsubinv, tlocator
+        from sajet.g_sn_status where pallet_no = trev
+          group by work_order;
+  else
+    insert into sajet.MES_TO_ERP_WIP_DELIVER (work_order, qty, subinv, locator)
+      select work_order, lot_size, tsubinv, tlocator 
+        from SAJET.G_QC_LOT where QC_LOTNO = TREV;
+  end if;
+  TRES := 'OK';
+EXCEPTION
+   WHEN OTHERS THEN
+      TRES := 'MES_TO_ERP_WIP_DELIVER ERROR';
+END;
+/
+GRANT EXECUTE ON  SAJET.MES_ERP_WIP_DELIVER TO SYS_USER;
+=============================================================
+5.3.0.1
+2006/07/05
+Θ珇畐Fun_Param﹚璶暗Goods
+穝糤Θ珇畐, Fun_Param⊿
+Insert into sajet.sys_program_fun (PROGRAM, FUNCTION, UPDATE_USERID, AUTH_SEQ, AUTHORITYS, FUN_TYPE, FUN_TYPE_IDX, FUN_IDX, DLL_FILENAME, FUN_PARAM)
+ Values
+   ('Material Management', 'Semifinished Goods Incoming', 0, 1, 'Allow To Execute', 'Warehouse', '2', '8', 'GoodsIncomingDll.dll', 'Semifinished');
+穝糤Table, Θ珇畐ノ
+CREATE TABLE SAJET.G_Semifinished_INCOMING (
+  QC_LOTNO VARCHAR2(25),
+  UPDATE_USERID NUMBER(*),
+  UPDATE_TIME DATE DEFAULT SYSDATE
+) TABLESPACE SYSRT;
+grant select, update, delete, insert on SAJET.G_Semifinished_INCOMING to sys_user;

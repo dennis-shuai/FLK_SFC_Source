@@ -1,0 +1,2 @@
+insert into sys_program_fun(program,function,update_userid,update_time,auth_seq ,authoritys,fun_type,fun_type_idx,fun_idx,dll_filename,fun_param )
+values ('Material Management','Query lock machine','0',sysdate,'1','Allow To Execute','¬d¸ß','7','7','Querylockmachine.DLL','')

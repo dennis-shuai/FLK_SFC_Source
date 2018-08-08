@@ -1,0 +1,12 @@
+2016-12-16 15:35:19  [          ] (TCenter1.Create)Create Start
+2016-12-16 15:35:19  [          ] File    : F:\Delphi\SFC Source Code\ICT\252\Aging_test\AgingTest.exe
+2016-12-16 15:35:19  [          ] Version : 1.0.0.2
+2016-12-16 15:35:19  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2016-12-16 15:35:19  [          ] (TCenter1.Create)Create Over
+2016-12-16 15:35:19  [          ] (SajetTransStartType)Function Execute Over
+2016-12-16 15:35:21  [          ] (TCenter1.Destroy)Destroy Start
+2016-12-16 15:35:21  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2016-12-16 15:35:21  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2016-12-16 15:35:21  [          ] (TCenter1.Destroy)Destroy Over
+2016-12-16 15:35:21  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2016-12-16 15:35:21  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over

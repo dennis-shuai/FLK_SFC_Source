@@ -1,0 +1,48 @@
+2018-04-25 14:22:30  [          ] (TCenter1.Create)Create Start
+2018-04-25 14:22:30  [          ] File    : F:\Delphi\SFC Source Code\ICT\Delphi Sample\1.0.0.1\TestProgram\TestSajetConnect.exe
+2018-04-25 14:22:30  [          ] Version : No Version
+2018-04-25 14:22:30  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-25 14:22:30  [          ] (TCenter1.Create)Create Over
+2018-04-25 14:22:30  [          ] (SajetTransStartType)Function Execute Over
+2018-04-25 14:56:59  [          ] (TCenter1.Create)Create Start
+2018-04-25 14:56:59  [          ] File    : F:\Delphi\SFC Source Code\ICT\Delphi Sample\1.0.0.1\TestProgram\TestSajetConnect.exe
+2018-04-25 14:56:59  [          ] Version : No Version
+2018-04-25 14:56:59  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-25 14:56:59  [          ] (TCenter1.Create)Create Over
+2018-04-25 14:56:59  [          ] (SajetTransStartType)Function Execute Over
+2018-04-25 14:57:15  [          ] (TCenter1.Create)Create Start
+2018-04-25 14:57:15  [          ] File    : F:\Delphi\SFC Source Code\ICT\Delphi Sample\1.0.0.1\TestProgram\TestSajetConnect.exe
+2018-04-25 14:57:15  [          ] Version : No Version
+2018-04-25 14:57:15  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-25 14:57:15  [          ] (TCenter1.Create)Create Over
+2018-04-25 14:57:15  [          ] (SajetTransStartType)Function Execute Over
+2018-04-25 14:57:49  [          ] (TCenter1.Create)Create Start
+2018-04-25 14:57:49  [          ] File    : F:\Delphi\SFC Source Code\ICT\Delphi Sample\1.0.0.1\TestProgram\TestSajetConnect.exe
+2018-04-25 14:57:49  [          ] Version : No Version
+2018-04-25 14:57:49  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-25 14:57:49  [          ] (TCenter1.Create)Create Over
+2018-04-25 14:57:49  [          ] (SajetTransStartType)Function Execute Over
+2018-04-25 14:58:18  [          ] (TCenter1.Create)Create Start
+2018-04-25 14:58:18  [          ] File    : F:\Delphi\SFC Source Code\ICT\Delphi Sample\1.0.0.1\TestProgram\TestSajetConnect.exe
+2018-04-25 14:58:18  [          ] Version : No Version
+2018-04-25 14:58:18  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-25 14:58:18  [          ] (TCenter1.Create)Create Over
+2018-04-25 14:58:18  [          ] (SajetTransStartType)Function Execute Over
+2018-04-25 14:58:30  [          ] (TCenter1.Destroy)Destroy Start
+2018-04-25 14:58:30  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2018-04-25 14:58:30  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2018-04-25 14:58:30  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2018-04-25 14:58:30  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2018-04-25 14:58:30  [          ] (TCenter1.Destroy)Destroy Over
+2018-04-25 14:58:38  [          ] (TCenter1.Create)Create Start
+2018-04-25 14:58:38  [          ] File    : F:\Delphi\SFC Source Code\ICT\Delphi Sample\1.0.0.1\TestProgram\TestSajetConnect.exe
+2018-04-25 14:58:38  [          ] Version : No Version
+2018-04-25 14:58:38  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-25 14:58:38  [          ] (TCenter1.Create)Create Over
+2018-04-25 14:58:38  [          ] (SajetTransStartType)Function Execute Over
+2018-04-25 14:58:42  [          ] (TCenter1.Destroy)Destroy Start
+2018-04-25 14:58:42  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2018-04-25 14:58:42  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2018-04-25 14:58:42  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2018-04-25 14:58:42  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2018-04-25 14:58:42  [          ] (TCenter1.Destroy)Destroy Over

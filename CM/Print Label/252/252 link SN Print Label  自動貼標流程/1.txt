@@ -1,0 +1,2 @@
+[Error] uMainForm.pas(127): Incompatible types
+[Fatal Error] SMTSTENCILCLEARQUERYDll.dpr(19): Could not compile used unit 'uMainForm.pas'

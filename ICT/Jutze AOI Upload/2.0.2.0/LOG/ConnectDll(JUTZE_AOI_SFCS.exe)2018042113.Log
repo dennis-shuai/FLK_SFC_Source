@@ -1,0 +1,12 @@
+2018-04-21 13:25:43  [          ] (TCenter1.Create)Create Start
+2018-04-21 13:25:43  [          ] File    : F:\Delphi\SFC Source Code\ICT\Jutze AOI Upload\2.0.2.0\JUTZE_AOI_SFCS.exe
+2018-04-21 13:25:43  [          ] Version : 1.0.0.1
+2018-04-21 13:25:43  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2018-04-21 13:25:43  [          ] (TCenter1.Create)Create Over
+2018-04-21 13:25:43  [          ] (SajetTransStartType)Function Execute Over
+2018-04-21 13:25:46  [          ] (TCenter1.Destroy)Destroy Start
+2018-04-21 13:25:46  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2018-04-21 13:25:46  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2018-04-21 13:25:46  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2018-04-21 13:25:46  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2018-04-21 13:25:46  [          ] (TCenter1.Destroy)Destroy Over

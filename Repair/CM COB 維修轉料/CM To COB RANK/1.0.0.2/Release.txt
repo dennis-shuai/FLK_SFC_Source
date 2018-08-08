@@ -1,0 +1,5 @@
+
+2015/5/18
+====================================================================================
+­×§ï¬d¸ß»y¥y¡¥Select WORK_ORDER FROM SAJET.G_SN_STATUS WHERE CUSTOMER_SN =:SN¡F¡¦¬°
+¡¥Select WORK_ORDER FROM SAJET.G_SN_STATUS WHERE CUSTOMER_SN =:SN OR SERIAL_NUMBER =:SN¡¦

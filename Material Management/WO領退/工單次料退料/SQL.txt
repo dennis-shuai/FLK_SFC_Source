@@ -1,0 +1,4 @@
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS,FUN_TYPE,FUN_TYPE_IDX,FUN_IDX,DLL_FILENAME)
+ Values
+   ('Material Management', '工單次料退料', 0, sysdate, 1, 'Allow To Execute','超領退',6,3,'WOINFERIORRETURNDLL.DLL');

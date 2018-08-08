@@ -1,0 +1,5 @@
+alter table SAJET.interface_rt_detail add SUBINVENTORY   VARCHAR2(10 BYTE);
+
+alter table SAJET.interface_ht_rt_detail add SUBINVENTORY   VARCHAR2(10 BYTE)
+
+alter table SAJET.G_ERP_RT_ITEM add SUBINVENTORY   VARCHAR2(10 BYTE);

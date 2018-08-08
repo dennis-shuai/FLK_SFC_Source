@@ -1,0 +1,18 @@
+[info]
+name=VCLSkin Skins
+ver=
+author=
+devtool=Delphi/BCB/BDS
+sn=
+fullsource=0
+desc=70+11个VCLSkin的皮肤文件，新增了Office2007风格
+
+╔-----------------------------╗
+┆ 欢迎访问 C++Builder 研究    ┆
+┆ Web:  http://www.ccrun.com  ┆
+┆ Mail: info@ccrun.com        ┆
+┆-----------------------------┆
+┆ 致力于BCB的学习,探讨和研究. ┆
+╚-----------------------------╝
+
+// 63 63 72 75 6E 2E 63 6F 6D

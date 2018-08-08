@@ -1,0 +1,41 @@
+INSERT INTO SAJET.MES_TO_MRB_BASE(TYPE,LAST_VALUE,START_DAY) VALUES('B','0','0702');
+
+INSERT INTO SAJET.MES_TO_MRB_BASE(TYPE,LAST_VALUE,START_DAY) VALUES('FMB','0','0702');
+
+INSERT INTO SAJET.MES_TO_MRB_BASE(TYPE,LAST_VALUE,START_DAY) VALUES('XX','0','0702');
+
+INSERT INTO B2B.DOC_BASE(TYPE,LAST_VALUE,START_WEEK) VALUES('MB','0','01');
+
+alter  table B2B.PT_Items add Transfer_Type_Code varchar(4);
+
+alter  table B2B.HT_PT_Items add Transfer_Type_Code varchar(4);
+
+alter table b2b.pt_serial add  ORIGIN_COUNTRY varchar2(30);  
+
+alter table b2b.pt_serial add  ASSEMBLY_QUANTITY number; 
+
+alter table b2b.ht_pt_serial add  ORIGIN_COUNTRY varchar2(30);  
+
+alter table b2b.ht_pt_serial add  ASSEMBLY_QUANTITY number; 
+
+ALTER TABLE b2b.pt_items ADD CUST_RAW_PART_NUMBER     VarChar2(20);
+             
+ALTER TABLE b2b.pt_items ADD CUST_KIT_PART_NUMBER       VarChar2(20);
+
+ALTER TABLE b2b.pt_items ADD FROM_MANUFACTURING_LOCATION VarChar2(10);
+
+ALTER TABLE b2b.pt_items ADD TO_MANUFACTURING_LOCATION   VarChar2(10);
+
+ALTER TABLE b2b.HT_pt_items ADD CUST_RAW_PART_NUMBER     VarChar2(20);
+             
+ALTER TABLE b2b.HT_pt_items ADD CUST_KIT_PART_NUMBER       VarChar2(20);
+
+ALTER TABLE b2b.HT_pt_items ADD FROM_MANUFACTURING_LOCATION VarChar2(10);
+
+ALTER TABLE b2b.HT_pt_items ADD TO_MANUFACTURING_LOCATION   VarChar2(10);
+
+
+Insert into SAJET.SYS_PROGRAM_FUN
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS, FUN_TYPE, FUN_TYPE_IDX, FUN_IDX, DLL_FILENAME)
+ Values
+   ('EDI', 'MRB', 0, TO_DATE('06/22/2007 08:49:07', 'MM/DD/YYYY HH24:MI:SS'), 0, 'Allow To Execute', 'MRB', '2', '1', 'MRBDLL.dll');

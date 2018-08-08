@@ -1,0 +1,132 @@
+2017-11-11 09:16:22  [          ] (TCenter1.Create)Create Start
+2017-11-11 09:16:22  [          ] File    : F:\Delphi\SFC Source Code\ICT\588-2\HP TestStation\1.0.0.2\HPStation_SFCS.exe
+2017-11-11 09:16:22  [          ] Version : 1.0.0.2
+2017-11-11 09:16:22  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2017-11-11 09:16:22  [          ] (TCenter1.Create)Create Over
+2017-11-11 09:16:22  [          ] (SajetTransStartType)Function Execute Over
+2017-11-11 09:16:23  [          ] (TCenter1.Destroy)Destroy Start
+2017-11-11 09:16:23  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2017-11-11 09:16:23  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2017-11-11 09:16:23  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2017-11-11 09:16:23  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2017-11-11 09:16:23  [          ] (TCenter1.Destroy)Destroy Over
+2017-11-11 09:19:13  [          ] (TCenter1.Create)Create Start
+2017-11-11 09:19:13  [          ] File    : F:\Delphi\SFC Source Code\ICT\588-2\HP TestStation\1.0.0.2\HPStation_SFCS.exe
+2017-11-11 09:19:13  [          ] Version : 1.0.0.3
+2017-11-11 09:19:13  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2017-11-11 09:19:13  [          ] (TCenter1.Create)Create Over
+2017-11-11 09:19:13  [          ] (SajetTransStartType)Function Execute Over
+2017-11-11 09:19:15  [          ] (TCenter1.Destroy)Destroy Start
+2017-11-11 09:19:15  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2017-11-11 09:19:15  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2017-11-11 09:19:15  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2017-11-11 09:19:15  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2017-11-11 09:19:15  [          ] (TCenter1.Destroy)Destroy Over
+2017-11-11 09:21:36  [          ] (TCenter1.Create)Create Start
+2017-11-11 09:21:36  [          ] File    : F:\Delphi\SFC Source Code\ICT\588-2\HP TestStation\1.0.0.2\HPStation_SFCS.exe
+2017-11-11 09:21:36  [          ] Version : 1.0.0.3
+2017-11-11 09:21:36  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2017-11-11 09:21:36  [          ] (TCenter1.Create)Create Over
+2017-11-11 09:21:36  [          ] (SajetTransStartType)Function Execute Over
+2017-11-11 09:21:38  [          ] (TCenter1.Destroy)Destroy Start
+2017-11-11 09:21:38  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2017-11-11 09:21:38  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2017-11-11 09:21:38  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2017-11-11 09:21:38  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2017-11-11 09:21:38  [          ] (TCenter1.Destroy)Destroy Over
+2017-11-11 09:21:58  [          ] (TCenter1.Create)Create Start
+2017-11-11 09:21:58  [          ] File    : F:\Delphi\SFC Source Code\ICT\588-2\HP TestStation\1.0.0.2\HPStation_SFCS.exe
+2017-11-11 09:21:58  [          ] Version : 1.0.0.3
+2017-11-11 09:21:58  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2017-11-11 09:21:58  [          ] (TCenter1.Create)Create Over
+2017-11-11 09:21:58  [          ] (SajetTransStartType)Function Execute Over
+2017-11-11 09:22:01  [          ] (TCenter1.Destroy)Destroy Start
+2017-11-11 09:22:01  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2017-11-11 09:22:01  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2017-11-11 09:22:01  [          ] (TCenter1.Destroy)Destroy Over
+2017-11-11 09:22:01  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2017-11-11 09:22:01  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2017-11-11 09:26:46  [          ] (TCenter1.Create)Create Start
+2017-11-11 09:26:46  [          ] File    : F:\Delphi\SFC Source Code\ICT\588-2\HP TestStation\1.0.0.2\HPStation_SFCS.exe
+2017-11-11 09:26:46  [          ] Version : 1.0.0.3
+2017-11-11 09:26:46  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2017-11-11 09:26:46  [          ] (TCenter1.Create)Create Over
+2017-11-11 09:26:46  [          ] (SajetTransStartType)Function Execute Over
+2017-11-11 09:26:48  [          ] (TCenter1.Destroy)Destroy Start
+2017-11-11 09:26:48  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2017-11-11 09:26:48  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2017-11-11 09:26:48  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2017-11-11 09:26:48  [          ] (TCenter1.Destroy)Destroy Over
+2017-11-11 09:26:48  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2017-11-11 09:30:41  [          ] (TCenter1.Create)Create Start
+2017-11-11 09:30:41  [          ] File    : F:\Delphi\SFC Source Code\ICT\588-2\HP TestStation\1.0.0.2\HPStation_SFCS.exe
+2017-11-11 09:30:41  [          ] Version : 1.0.0.3
+2017-11-11 09:30:41  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2017-11-11 09:30:41  [          ] (TCenter1.Create)Create Over
+2017-11-11 09:30:41  [          ] (SajetTransStartType)Function Execute Over
+2017-11-11 09:30:48  [          ] (TCenter1.Destroy)Destroy Start
+2017-11-11 09:30:48  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2017-11-11 09:30:48  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2017-11-11 09:30:48  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2017-11-11 09:30:48  [          ] (TCenter1.Destroy)Destroy Over
+2017-11-11 09:30:48  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2017-11-11 09:40:13  [          ] (TCenter1.Create)Create Start
+2017-11-11 09:40:13  [          ] File    : F:\Delphi\SFC Source Code\ICT\588-2\HP TestStation\1.0.0.2\HPStation_SFCS.exe
+2017-11-11 09:40:13  [          ] Version : 1.0.0.4
+2017-11-11 09:40:13  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2017-11-11 09:40:13  [          ] (TCenter1.Create)Create Over
+2017-11-11 09:40:13  [          ] (SajetTransStartType)Function Execute Over
+2017-11-11 09:40:14  [          ] (TCenter1.Destroy)Destroy Start
+2017-11-11 09:40:14  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2017-11-11 09:40:14  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2017-11-11 09:40:14  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2017-11-11 09:40:14  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2017-11-11 09:40:14  [          ] (TCenter1.Destroy)Destroy Over
+2017-11-11 09:41:24  [          ] (TCenter1.Create)Create Start
+2017-11-11 09:41:24  [          ] File    : F:\Delphi\SFC Source Code\ICT\588-2\HP TestStation\1.0.0.2\HPStation_SFCS.exe
+2017-11-11 09:41:24  [          ] Version : 1.0.0.4
+2017-11-11 09:41:24  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2017-11-11 09:41:24  [          ] (TCenter1.Create)Create Over
+2017-11-11 09:41:24  [          ] (SajetTransStartType)Function Execute Over
+2017-11-11 09:41:26  [          ] (TCenter1.Destroy)Destroy Start
+2017-11-11 09:41:26  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2017-11-11 09:41:26  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2017-11-11 09:41:26  [          ] (TCenter1.Destroy)Destroy Over
+2017-11-11 09:41:26  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2017-11-11 09:41:26  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2017-11-11 09:42:15  [          ] (TCenter1.Create)Create Start
+2017-11-11 09:42:15  [          ] File    : F:\Delphi\SFC Source Code\ICT\588-2\HP TestStation\1.0.0.2\HPStation_SFCS.exe
+2017-11-11 09:42:15  [          ] Version : 1.0.0.4
+2017-11-11 09:42:15  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2017-11-11 09:42:15  [          ] (TCenter1.Create)Create Over
+2017-11-11 09:42:15  [          ] (SajetTransStartType)Function Execute Over
+2017-11-11 09:42:17  [          ] (TCenter1.Destroy)Destroy Start
+2017-11-11 09:42:17  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2017-11-11 09:42:17  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2017-11-11 09:42:17  [          ] (TCenter1.Destroy)Destroy Over
+2017-11-11 09:42:17  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2017-11-11 09:42:17  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2017-11-11 09:42:33  [          ] (TCenter1.Create)Create Start
+2017-11-11 09:42:33  [          ] File    : F:\Delphi\SFC Source Code\ICT\588-2\HP TestStation\1.0.0.2\HPStation_SFCS.exe
+2017-11-11 09:42:33  [          ] Version : 1.0.0.4
+2017-11-11 09:42:33  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2017-11-11 09:42:33  [          ] (TCenter1.Create)Create Over
+2017-11-11 09:42:33  [          ] (SajetTransStartType)Function Execute Over
+2017-11-11 09:42:35  [          ] (TCenter1.Destroy)Destroy Start
+2017-11-11 09:42:35  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2017-11-11 09:42:35  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2017-11-11 09:42:35  [          ] (TCenter1.Destroy)Destroy Over
+2017-11-11 09:42:35  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2017-11-11 09:42:35  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2017-11-11 09:42:45  [          ] (TCenter1.Create)Create Start
+2017-11-11 09:42:45  [          ] File    : F:\Delphi\SFC Source Code\ICT\588-2\HP TestStation\1.0.0.2\HPStation_SFCS.exe
+2017-11-11 09:42:45  [          ] Version : 1.0.0.4
+2017-11-11 09:42:45  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2017-11-11 09:42:45  [          ] (TCenter1.Create)Create Over
+2017-11-11 09:42:45  [          ] (SajetTransStartType)Function Execute Over
+2017-11-11 09:42:46  [          ] (TCenter1.Destroy)Destroy Start
+2017-11-11 09:42:46  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2017-11-11 09:42:46  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2017-11-11 09:42:46  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2017-11-11 09:42:46  [          ] (TCenter1.Destroy)Destroy Over
+2017-11-11 09:42:46  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over

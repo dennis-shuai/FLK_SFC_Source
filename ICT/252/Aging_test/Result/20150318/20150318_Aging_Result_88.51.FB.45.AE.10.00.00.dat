@@ -1,0 +1,111 @@
+strat_date,strat_time,end_date,end_time,aging_time,actual_time,unit,pass,fail
+2015/03/18,08:53:18,2015/03/18,08:53:21,0:50:00,00:00:03,1,0,1
+product,result,Stiil,noise,stop_time
+P150301804,IRLED Failure,1,0,00:00:00
+
+
+strat_date,strat_time,end_date,end_time,aging_time,actual_time,unit,pass,fail
+2015/03/18,08:54:04,2015/03/18,08:54:18,0:50:00,00:00:01,1,0,1
+product,result,Stiil,noise,stop_time
+P150301804,Re IRLED Failure,0,0,00:00:00
+
+
+strat_date,strat_time,end_date,end_time,aging_time,actual_time,unit,pass,fail
+2015/03/18,11:08:38,2015/03/18,11:08:56,0:50:00,00:00:01,1,0,1
+product,result,Stiil,noise,stop_time
+P150301804,Re IRLED Failure,0,0,00:00:00
+
+
+strat_date,strat_time,end_date,end_time,aging_time,actual_time,unit,pass,fail
+2015/03/18,11:58:46,2015/03/18,12:00:01,0:50:00,00:00:36,11,0,11
+product,result,Stiil,noise,stop_time
+P150301901,Image Noise,3,3,00:00:02
+P150302008,Image Noise,9,5,00:00:26
+P150302003,Image Noise,10,5,00:00:31
+P150302005,Image Noise,3,3,00:00:06
+P150302004,IRLED Warning,1,0,00:00:07
+P150301804,Re IRLED Failure,0,0,00:00:00
+P150301808,Image Noise,3,2,00:00:08
+P150301603,Image Noise,3,2,00:00:10
+P150301908,Image Noise,13,6,00:00:34
+P150301809,Image Noise,3,3,00:00:12
+P150302002,Image Noise,3,3,00:00:13
+
+
+strat_date,strat_time,end_date,end_time,aging_time,actual_time,unit,pass,fail
+2015/03/18,12:02:43,2015/03/18,12:03:15,0:50:00,00:00:27,11,0,11
+product,result,Stiil,noise,stop_time
+P150301901,Image Noise,3,3,00:00:01
+P150302008,Image Noise,6,3,00:00:25
+P150302003,Image Noise,4,3,00:00:14
+P150302005,Image Noise,4,3,00:00:15
+P150302004,Image Noise,3,3,00:00:04
+P150301804,Re IRLED Failure,0,0,00:00:00
+P150301808,Image Noise,3,3,00:00:06
+P150301603,Image Noise,5,3,00:00:21
+P150301908,Image Noise,7,3,00:00:22
+P150301809,Image Noise,3,3,00:00:09
+P150302002,Image Noise,3,3,00:00:10
+
+
+strat_date,strat_time,end_date,end_time,aging_time,actual_time,unit,pass,fail
+2015/03/18,13:31:30,2015/03/18,13:31:54,0:50:00,00:00:23,5,,5
+product,result,Stiil,noise,stop_time
+P150301901,,6,0,
+P150302008,,6,0,
+P150302003,,6,0,
+P150302005,,6,0,
+P150302004,,6,0,
+
+
+strat_date,strat_time,end_date,end_time,aging_time,actual_time,unit,pass,fail
+2015/03/18,13:36:25,2015/03/18,13:37:45,0:50:00,00:01:20,10,,10
+product,result,Stiil,noise,stop_time
+P150301901,,24,6,
+P150302008,,20,4,
+P150302003,,18,2,
+P150302005,,14,0,
+P150302004,,16,2,
+P150301808,Image Noise,4,2,00:00:13
+P150301603,Image Noise,3,3,00:00:04
+P150301908,Image Noise,4,2,00:00:15
+P150301809,Image Noise,7,3,00:00:31
+P150302002,,18,3,
+
+
+strat_date,strat_time,end_date,end_time,aging_time,actual_time,unit,pass,fail
+2015/03/18,13:38:47,2015/03/18,13:41:46,0:50:00,00:02:59,10,0,10
+product,result,Stiil,noise,stop_time
+P150301901,Image Noise,42,7,00:02:44
+P150302008,Image Noise,42,7,00:02:52
+P150302003,Image Noise,22,5,00:01:30
+P150302005,Image Noise,18,3,00:01:44
+P150302004,Image Noise,48,9,00:02:57
+P150301808,Image Noise,41,6,00:02:49
+P150301603,Image Noise,3,2,00:00:05
+P150301908,Image Noise,21,6,00:01:10
+P150301809,Image Noise,37,9,00:02:34
+P150302002,Image Noise,3,3,00:00:09
+
+
+strat_date,strat_time,end_date,end_time,aging_time,actual_time,unit,pass,fail
+2015/03/18,13:48:29,2015/03/18,14:38:32,0:50:00,00:50:03,8,8,0
+product,result,Stiil,noise,stop_time
+P150301901,OK,610,11,
+P150302008,OK,610,10,
+P150302003,OK,606,8,
+P150302005,OK,614,12,
+P150301808,OK,602,7,
+P150301603,OK,606,8,
+P150301809,OK,604,7,
+P150302002,OK,606,8,
+
+
+strat_date,strat_time,end_date,end_time,aging_time,actual_time,unit,pass,fail
+2015/03/18,15:00:57,2015/03/18,15:01:02,0:50:00,00:00:03,3,,3
+product,result,Stiil,noise,stop_time
+P150302004,IRLED Warning,1,0,00:00:00
+P150301804,Re IRLED Failure,0,0,00:00:00
+P150301908,IRLED Warning,1,0,00:00:01
+
+

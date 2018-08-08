@@ -1,0 +1,26 @@
+Insert into SAJET.SYS_PROGRAM_NAME
+   (PROGRAM, EXE_FILENAME, TITLE_NAME, UPDATE_USERID, UPDATE_TIME)
+ Values
+   ('Preventing', 'Preventing', 'Sajet MES / [Preventing]', '0', SYSDATE)
+   
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS,FUN_TYPE,fun_type_idx,fun_idx,dll_filename)
+ Values
+   ('Preventing', 'Query DUB SN', 0, SYSDATE, 1, 'Allow To Execute','Query',1,1,'QueryDUBSNDll.dll');
+
+
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS,FUN_TYPE,FUN_TYPE_IDX,FUN_IDX,DLL_FILENAME)
+ Values
+   ('Preventing', 'Configuration', 0, sysdate, 1, 'Allow To Change','Station Configuration',2,1,'PreventingCfgdll.dll')
+   
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS,FUN_TYPE,FUN_TYPE_IDX,FUN_IDX,DLL_FILENAME)
+ Values
+   ('Preventing', 'Configuration', 1,sysdate, 0, 'Read Only','Station Configuration',2,1,'PreventingCfgdll.dll');
+
+
+Insert into SAJET.SYS_PROGRAM_fun
+   (PROGRAM, FUNCTION, UPDATE_USERID, UPDATE_TIME, AUTH_SEQ, AUTHORITYS,FUN_TYPE,FUN_TYPE_IDX,FUN_IDX,DLL_FILENAME)
+ Values
+   ('Preventing', 'Preventing For Seagate', 0, sysdate, 0, 'Allow To Execute','Execute',3,1,'PreventingForSeagatedll.dll');

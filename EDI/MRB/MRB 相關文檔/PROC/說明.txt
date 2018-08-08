@@ -1,0 +1,50 @@
+1. SAJET.SFC2EDI_DELIVER
+
+      INSERT INTO b2b.PT_ITEMS@SFC2EDI 
+         (DOC_ID, WORK_ORDER_NUMBER, TRANSFER_QUANTITY, FG_ITEM_NUMBER, SEQ_ID,TRANSFER_TYPE_CODE)
+         (SELECT DOC_ID, WORK_ORDER_NUMBER, TRANSFER_QUANTITY, FG_ITEM_NUMBER, SEQ_ID,TRANSFER_TYPE_CODE
+            FROM b2b.PT_ITEMS WHERE MOVE_FLAG = 'Y' AND RECORD_STATUS IS NULL);
+
+      中加入TRANSFER_TYPE_CODE字段。
+
+2. SAJET.MES_PUSH_TITLE_GET_ID 
+  
+  ELSIF TTYPE = 'MB' THEN			--MRB
+      SELECT TTYPE||C_YEAR||C_MONTH||C_DATE||LPAD(SAJET.S_MRB_SN.NEXTVAL,7,0)
+             INTO TRES FROM DUAL;
+
+      中有加入如上語句
+
+
+b2b.b2b.PT_Items增加4欄位
+CUST_RAW_PART_NUMBER     VarChar2(20)             
+CUST_KIT_PART_NUMBER       VarChar2(20)                   預設為CUST_RAW_PART_NUMBER  相同值
+FROM_MANUFACTURING_LOCATION VarChar2(10)    預設為'RAW'
+TO_MANUFACTURING_LOCATION         VarChar2(10)    預設為'MRB'
+ 
+CUST_RAW_PART_NUMBER    取值規則為 以Serial_number  查       ASN_IN_SERIAL中的doc_id, 再以此Doc_id  查b2b.asn_in_shipment 中的CUST_ITEM_NUMBER即是
+ 
+ 
+ 
+b2b.PT_serial增加2欄位
+ 
+ASSEMBLY_QUANTITY     Number                     預設為 1
+ORIGIN_COUNTRY              VarChar2(30)       
+    
+ORIGIN_COUNTRY 規則為判斷Serial_number的首碼: 例如首碼為 '5'  則填入'CN'
+'5','CN',
+'6','CN',  
+'4','TH',
+'9','TH',
+'3','SG',
+'L','SG',
+'Q','SG',
+'1','US',
+'B','US',
+'H','US'
+ 
+b2b.envelope
+Trans_flag    預設為'M'
+ 
+PS.  
+CUST_RAW_PART_NUMBER  CUST_KIT_PART_NUMBER  如果,  你有困難跑上可寫好, 可改天再加, 但欄位先開.

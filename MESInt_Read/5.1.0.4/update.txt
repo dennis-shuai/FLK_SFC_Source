@@ -1,0 +1,19 @@
+update1
+    //sSql:= ' select '+sField+' from sajet.sys_part where part_no= '''+partNO+'''';
+     sSql:= ' select '+sField+' from sajet.sys_part where part_no= :partNO ';
+     ParamByName('partNO').AsString := partNO;
+
+update2
+//SQL.Add('UPDATE ' + psTable + ' SET EXCEPTION_MSG = ''' + psMessage + ''' ' +
+    //        'WHERE ROWID = ''' + psRowID + '''');
+    SQL.Add('UPDATE ' + psTable + ' SET EXCEPTION_MSG = :psMessage ' +
+            'WHERE ROWID = :psRowID ');
+    ParamByName('psMessage').AsString := psMessage;
+    ParamByName('psRowID').AsString := psRowID;
+
+update3
+//SQL.Add('UPDATE ' + psTable + ' SET TRANSFER_FLAG = ''Y'', TRANSFER_TIME = SYSDATE, ' +
+    //        'EXCEPTION_MSG = '''' WHERE ROWID = ''' + psRowID + '''');
+    SQL.Add('UPDATE ' + psTable + ' SET TRANSFER_FLAG = ''Y'', TRANSFER_TIME = SYSDATE, ' +
+            'EXCEPTION_MSG = '''' WHERE ROWID = :psRowID ');
+    ParamByName('psRowID').AsString := psRowID;

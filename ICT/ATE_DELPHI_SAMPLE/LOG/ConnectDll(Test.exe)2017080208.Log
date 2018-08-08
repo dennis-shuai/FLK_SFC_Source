@@ -1,0 +1,8 @@
+2017-08-02 08:10:37  [          ] File    : F:\Delphi\SFC Source Code\ICT\ATE_DELPHI_SAMPLE\Test.exe
+2017-08-02 08:10:37  [          ] Version : 5.0.1.8
+2017-08-02 08:10:37  [          ] (TCenter.Create)Create Start
+2017-08-02 08:10:37  [          ] (TChromaConnect.setDllName)Set DLL Name : F:\Delphi\SFC Source Code\ICT\ATE_DELPHI_SAMPLE\CHROMACONNECT.DLL
+2017-08-02 08:10:37  [          ] (TChromaConnect.setDllName)Version  : 6.0.2.40
+2017-08-02 08:10:37  [          ] (TCenter.Create)Create Over
+2017-08-02 08:10:37  [          ] (SajetTransStartType)Function Execute Over
+2017-08-02 08:10:41  [          ] (TCenter.Destroy)Destroy Start

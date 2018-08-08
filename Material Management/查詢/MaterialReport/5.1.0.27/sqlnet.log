@@ -1,0 +1,40 @@
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.1.1.5)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=OEMSFC)(CID=(PROGRAM=C:\Program Files\Quest Software\Toad for Oracle\toad.exe)(HOST=LINKEY)(USER=linkey))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.4.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.4.0 - Production
+  Time: 03-8月 -2006 08:37:02
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12541
+    TNS-12541: TNS:沒有監聽器
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 沒有監聽器
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.1.1.5)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=OEMSFC)(CID=(PROGRAM=C:\Program Files\Quest Software\Toad for Oracle\toad.exe)(HOST=LINKEY)(USER=linkey))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.4.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.4.0 - Production
+  Time: 03-8月 -2006 08:38:50
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12541
+    TNS-12541: TNS:沒有監聽器
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 沒有監聽器
+    nt secondary err code: 61
+    nt OS err code: 0

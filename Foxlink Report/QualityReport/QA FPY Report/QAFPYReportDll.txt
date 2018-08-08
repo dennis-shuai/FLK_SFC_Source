@@ -1,0 +1,25 @@
+QAFPYReportDll.dll
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+5.8.0.4
+update by  key 2008/12/19
+1. 新加first_fail - ntf 的條件限定 by g_sn_defect_first 的pdline_id;
+
+====================================================================
+5.8.0.3
+update by key 2008/12/19
+1. 可以連接到travel　card 查詢界面，以便查看詳細的process 資料。
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+5.8.0.2
+update by key 2008/12/19
+1.連接子查詢,可以查到defect code的統計值及詳細的SN資料
+2.fail (first_fail  -  NTF)資料，
+線別取不良的最後一個線別，
+defect code 最不良的最後一個 defect code;
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+5.8.0.1
+add by key 2008/12/17
+1. 可以查詢First fail,NTF,FPY值;
+2. NTF QTY 取g_sn_count table中的值;

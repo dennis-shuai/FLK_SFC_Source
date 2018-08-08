@@ -1,0 +1,5 @@
+ begin load file 
+F:\Delphi\SFC Source Code\ICT\IPLock\MainProg\ApServer.cfg
+172.16.245.10
+IP Unlock Close priviledge 1
+IP Unlock  priviledge 1

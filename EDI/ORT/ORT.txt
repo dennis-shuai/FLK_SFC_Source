@@ -1,0 +1,7 @@
+ORTDLL.DLL
+
+5.9.0.1
+2009/4/30
+ADD BY KEY
+1. 選擇正確的ORG
+2. LOCATE 為HDD的原物料倉

@@ -1,0 +1,10 @@
+extern  "C"  __declspec(dllexport) __stdcall void InitDllForm(String cPort,HWND Ahandle );   
+extern  "C"  __declspec(dllexport) __stdcall void CloseDllForm(void);   
+extern  "C"  __declspec(dllexport) __stdcall void CommPortSet(int cPort,String UartSettings );
+extern  "C"  __declspec(dllexport) __stdcall void ShowWeightFormEver(void);
+extern  "C"  __declspec(dllexport) char* __stdcall ShowWeightForm(double DelayTime=500);
+extern  "C"  __declspec(dllexport) __stdcall void ShowDllFormEverAPI(void) ;
+extern  "C"  __declspec(dllexport) char* __stdcall ShowDllFormAPI(double DelayTime=500) ;
+//extern  "C"  __declspec(dllexport) __stdcall void ShowDllFormAPI(double DelayTime= 500) ;
+extern  "C"  __declspec(dllexport) __stdcall AnsiString GetWeightDllAPI(void);
+extern  "C"  __declspec(dllexport) __stdcall AnsiString GetWeightDllMSComm(void) ;

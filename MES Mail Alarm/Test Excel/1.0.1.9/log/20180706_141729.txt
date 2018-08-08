@@ -1,0 +1,3294 @@
+start get time....2018/07/06 14:17:29
+start export excel....2018/07/06 14:17:29
+query data....2018/07/06 14:17:29
+query data ok....2018/07/06 14:17:32
+start excel....2018/07/06 14:17:32
+start excel ok....2018/07/06 14:17:33
+set excel  visible ok....2018/07/06 14:17:33
+set excel  displayAlerts ok....2018/07/06 14:17:33
+excel  WorkBooks add ok....2018/07/06 14:17:33
+start start end hour ....2018/07/06 14:17:33
+start display ....425-5 model2018/07/06 14:17:33
+start set  start address ....2018/07/06 14:17:33
+start add chart....2018/07/06 14:17:33
+start query process....2018/07/06 14:17:33
+start  model:425-5 process List:SMT_INPUT_T....2018/07/06 14:17:34
+start  model:425-5 stage List:SMT....2018/07/06 14:17:34
+start  model:425-5 process List:SMT_MOUNT_T....2018/07/06 14:17:34
+start  model:425-5 stage List:SMT....2018/07/06 14:17:34
+start  model:425-5 process List:SMT_VI_T....2018/07/06 14:17:34
+start  model:425-5 stage List:SMT....2018/07/06 14:17:34
+start  model:425-5 process List:FUNC TEST....2018/07/06 14:17:34
+start  model:425-5 stage List:SMT....2018/07/06 14:17:34
+start  model:425-5 process List:SMT_PACK....2018/07/06 14:17:34
+start  model:425-5 stage List:PACKING....2018/07/06 14:17:34
+start  model:425-5 process List:Rank_PCB....2018/07/06 14:17:34
+start  model:425-5 stage List:COB....2018/07/06 14:17:34
+start query defect....2018/07/06 14:17:34
+start query model rate....2018/07/06 14:17:35
+start add time axis value....2018/07/06 14:17:38
+start TOP3 display....2018/07/06 14:17:39
+start display ....425-6 model2018/07/06 14:18:04
+start set  start address ....2018/07/06 14:18:04
+start add chart....2018/07/06 14:18:04
+start query process....2018/07/06 14:18:04
+start  model:425-6 process List:Attach-Label....2018/07/06 14:18:04
+start  model:425-6 stage List:COB....2018/07/06 14:18:04
+start  model:425-6 process List:Rank_PCB....2018/07/06 14:18:04
+start  model:425-6 stage List:COB....2018/07/06 14:18:04
+start  model:425-6 process List:HODLE MOUNT....2018/07/06 14:18:04
+start  model:425-6 stage List:COB....2018/07/06 14:18:04
+start  model:425-6 process List:CAR REPLACE....2018/07/06 14:18:04
+start  model:425-6 stage List:COB....2018/07/06 14:18:04
+start  model:425-6 process List:COB-VI....2018/07/06 14:18:04
+start  model:425-6 stage List:COB....2018/07/06 14:18:04
+start  model:425-6 process List:AutoTest....2018/07/06 14:18:04
+start  model:425-6 stage List:CM....2018/07/06 14:18:04
+start  model:425-6 process List:CM-VI....2018/07/06 14:18:04
+start  model:425-6 stage List:CM....2018/07/06 14:18:04
+start  model:425-6 process List:Mylar....2018/07/06 14:18:04
+start  model:425-6 stage List:CM....2018/07/06 14:18:04
+start query defect....2018/07/06 14:18:04
+start query model rate....2018/07/06 14:18:06
+start add time axis value....2018/07/06 14:18:08
+start TOP3 display....2018/07/06 14:18:10
+start display ....468 model2018/07/06 14:18:33
+start set  start address ....2018/07/06 14:18:33
+start add chart....2018/07/06 14:18:34
+start query process....2018/07/06 14:18:34
+start  model:468 process List:Attach-Label....2018/07/06 14:18:34
+start  model:468 stage List:COB....2018/07/06 14:18:34
+start  model:468 process List:FQC....2018/07/06 14:18:34
+start  model:468 stage List:CM....2018/07/06 14:18:34
+start  model:468 process List:CM-VI....2018/07/06 14:18:34
+start  model:468 stage List:CM....2018/07/06 14:18:34
+start  model:468 process List:Mylar....2018/07/06 14:18:34
+start  model:468 stage List:CM....2018/07/06 14:18:34
+start query defect....2018/07/06 14:18:34
+start query model rate....2018/07/06 14:18:35
+start add time axis value....2018/07/06 14:18:37
+start TOP3 display....2018/07/06 14:18:38
+start display ....474-1 model2018/07/06 14:19:02
+start set  start address ....2018/07/06 14:19:02
+start add chart....2018/07/06 14:19:02
+start query process....2018/07/06 14:19:02
+start  model:474-1 process List:SMT_PACK....2018/07/06 14:19:02
+start  model:474-1 stage List:PACKING....2018/07/06 14:19:02
+start query defect....2018/07/06 14:19:02
+start query model rate....2018/07/06 14:19:03
+start add time axis value....2018/07/06 14:19:04
+start TOP3 display....2018/07/06 14:19:05
+start display ....495 model2018/07/06 14:19:25
+start set  start address ....2018/07/06 14:19:25
+start add chart....2018/07/06 14:19:25
+start query process....2018/07/06 14:19:25
+start  model:495 process List:AutoTest....2018/07/06 14:19:25
+start  model:495 stage List:CM....2018/07/06 14:19:25
+start  model:495 process List:CM-VI....2018/07/06 14:19:25
+start  model:495 stage List:CM....2018/07/06 14:19:25
+start  model:495 process List:Mylar....2018/07/06 14:19:25
+start  model:495 stage List:CM....2018/07/06 14:19:25
+start  model:495 process List:OQC-TEST....2018/07/06 14:19:25
+start  model:495 stage List:CM....2018/07/06 14:19:25
+start query defect....2018/07/06 14:19:25
+start query model rate....2018/07/06 14:19:27
+start add time axis value....2018/07/06 14:19:29
+start TOP3 display....2018/07/06 14:19:30
+start display ....503-3 AIO model2018/07/06 14:19:54
+start set  start address ....2018/07/06 14:19:54
+start add chart....2018/07/06 14:19:54
+start query process....2018/07/06 14:19:54
+start  model:503-3 AIO process List:OQC-TEST....2018/07/06 14:19:54
+start  model:503-3 AIO stage List:CM....2018/07/06 14:19:54
+start query defect....2018/07/06 14:19:54
+start query model rate....2018/07/06 14:19:56
+start add time axis value....2018/07/06 14:19:57
+start TOP3 display....2018/07/06 14:19:58
+start display ....517-1 model2018/07/06 14:20:19
+start set  start address ....2018/07/06 14:20:19
+start add chart....2018/07/06 14:20:19
+start query process....2018/07/06 14:20:19
+start  model:517-1 process List:Attach-Label....2018/07/06 14:20:19
+start  model:517-1 stage List:COB....2018/07/06 14:20:19
+start  model:517-1 process List:AutoTest....2018/07/06 14:20:19
+start  model:517-1 stage List:CM....2018/07/06 14:20:19
+start  model:517-1 process List:FQC....2018/07/06 14:20:20
+start  model:517-1 stage List:CM....2018/07/06 14:20:20
+start  model:517-1 process List:SN_Binding....2018/07/06 14:20:20
+start  model:517-1 stage List:CM....2018/07/06 14:20:20
+start  model:517-1 process List:CM-PACK-CARTON....2018/07/06 14:20:20
+start  model:517-1 stage List:CM....2018/07/06 14:20:20
+start  model:517-1 process List:CM-PACK-PALLET....2018/07/06 14:20:20
+start  model:517-1 stage List:CM....2018/07/06 14:20:20
+start query defect....2018/07/06 14:20:20
+start query model rate....2018/07/06 14:20:21
+start add time axis value....2018/07/06 14:20:23
+start TOP3 display....2018/07/06 14:20:25
+start display ....536-1 model2018/07/06 14:20:49
+start set  start address ....2018/07/06 14:20:49
+start add chart....2018/07/06 14:20:49
+start query process....2018/07/06 14:20:49
+start  model:536-1 process List:SMT_INPUT_T....2018/07/06 14:20:49
+start  model:536-1 stage List:SMT....2018/07/06 14:20:49
+start  model:536-1 process List:SMT_MOUNT_T....2018/07/06 14:20:49
+start  model:536-1 stage List:SMT....2018/07/06 14:20:49
+start  model:536-1 process List:SMT_VI_T....2018/07/06 14:20:49
+start  model:536-1 stage List:SMT....2018/07/06 14:20:49
+start  model:536-1 process List:FUNC TEST....2018/07/06 14:20:49
+start  model:536-1 stage List:SMT....2018/07/06 14:20:49
+start  model:536-1 process List:SMT_PACK....2018/07/06 14:20:49
+start  model:536-1 stage List:PACKING....2018/07/06 14:20:49
+start  model:536-1 process List:CM-Input....2018/07/06 14:20:49
+start  model:536-1 stage List:CM....2018/07/06 14:20:49
+start  model:536-1 process List:AutoTest....2018/07/06 14:20:49
+start  model:536-1 stage List:CM....2018/07/06 14:20:49
+start  model:536-1 process List:AutoTest_IR....2018/07/06 14:20:49
+start  model:536-1 stage List:CM....2018/07/06 14:20:49
+start query defect....2018/07/06 14:20:49
+start query model rate....2018/07/06 14:20:51
+start add time axis value....2018/07/06 14:20:53
+start TOP3 display....2018/07/06 14:20:55
+start display ....553 model2018/07/06 14:21:20
+start set  start address ....2018/07/06 14:21:20
+start add chart....2018/07/06 14:21:20
+start query process....2018/07/06 14:21:20
+start  model:553 process List:SMT_INPUT_T....2018/07/06 14:21:20
+start  model:553 stage List:SMT....2018/07/06 14:21:20
+start  model:553 process List:SMT_MOUNT_T....2018/07/06 14:21:20
+start  model:553 stage List:SMT....2018/07/06 14:21:20
+start  model:553 process List:SMT_VI_T....2018/07/06 14:21:20
+start  model:553 stage List:SMT....2018/07/06 14:21:20
+start  model:553 process List:FUNC TEST....2018/07/06 14:21:20
+start  model:553 stage List:SMT....2018/07/06 14:21:20
+start  model:553 process List:SMT_PACK....2018/07/06 14:21:20
+start  model:553 stage List:PACKING....2018/07/06 14:21:20
+start  model:553 process List:Attach-Label....2018/07/06 14:21:20
+start  model:553 stage List:COB....2018/07/06 14:21:20
+start  model:553 process List:Rank_PCB....2018/07/06 14:21:20
+start  model:553 stage List:COB....2018/07/06 14:21:20
+start  model:553 process List:COB_Plasma....2018/07/06 14:21:20
+start  model:553 stage List:COB....2018/07/06 14:21:20
+start  model:553 process List:Mylar....2018/07/06 14:21:20
+start  model:553 stage List:CM....2018/07/06 14:21:20
+start  model:553 process List:CM-PACK-CARTON....2018/07/06 14:21:20
+start  model:553 stage List:CM....2018/07/06 14:21:20
+start  model:553 process List:CM-PACK-PALLET....2018/07/06 14:21:20
+start  model:553 stage List:CM....2018/07/06 14:21:20
+start query defect....2018/07/06 14:21:20
+start query model rate....2018/07/06 14:21:22
+start add time axis value....2018/07/06 14:21:24
+start TOP3 display....2018/07/06 14:21:26
+start display ....553-1 model2018/07/06 14:21:49
+start set  start address ....2018/07/06 14:21:49
+start add chart....2018/07/06 14:21:49
+start query process....2018/07/06 14:21:50
+start  model:553-1 process List:CM-PACK-PALLET....2018/07/06 14:21:50
+start  model:553-1 stage List:CM....2018/07/06 14:21:50
+start query defect....2018/07/06 14:21:50
+start query model rate....2018/07/06 14:21:50
+start add time axis value....2018/07/06 14:21:51
+start TOP3 display....2018/07/06 14:21:52
+start display ....553-2 model2018/07/06 14:22:13
+start set  start address ....2018/07/06 14:22:13
+start add chart....2018/07/06 14:22:13
+start query process....2018/07/06 14:22:13
+start  model:553-2 process List:DIE BOND....2018/07/06 14:22:13
+start  model:553-2 stage List:COB....2018/07/06 14:22:13
+start  model:553-2 process List:HODLE MOUNT....2018/07/06 14:22:13
+start  model:553-2 stage List:COB....2018/07/06 14:22:14
+start  model:553-2 process List:CAR REPLACE....2018/07/06 14:22:14
+start  model:553-2 stage List:COB....2018/07/06 14:22:14
+start  model:553-2 process List:COB-VI....2018/07/06 14:22:14
+start  model:553-2 stage List:COB....2018/07/06 14:22:14
+start query defect....2018/07/06 14:22:14
+start query model rate....2018/07/06 14:22:14
+start add time axis value....2018/07/06 14:22:15
+start TOP3 display....2018/07/06 14:22:17
+start display ....553-4 model2018/07/06 14:22:41
+start set  start address ....2018/07/06 14:22:41
+start add chart....2018/07/06 14:22:41
+start query process....2018/07/06 14:22:41
+start  model:553-4 process List:CM-Input....2018/07/06 14:22:41
+start  model:553-4 stage List:CM....2018/07/06 14:22:41
+start  model:553-4 process List:AutoTest....2018/07/06 14:22:41
+start  model:553-4 stage List:CM....2018/07/06 14:22:41
+start  model:553-4 process List:CM-VI....2018/07/06 14:22:41
+start  model:553-4 stage List:CM....2018/07/06 14:22:41
+start  model:553-4 process List:Mylar....2018/07/06 14:22:41
+start  model:553-4 stage List:CM....2018/07/06 14:22:41
+start query defect....2018/07/06 14:22:41
+start query model rate....2018/07/06 14:22:43
+start add time axis value....2018/07/06 14:22:45
+start TOP3 display....2018/07/06 14:22:46
+start display ....559-1 model2018/07/06 14:23:10
+start set  start address ....2018/07/06 14:23:10
+start add chart....2018/07/06 14:23:10
+start query process....2018/07/06 14:23:10
+start  model:559-1 process List:Attach-Label....2018/07/06 14:23:11
+start  model:559-1 stage List:COB....2018/07/06 14:23:11
+start  model:559-1 process List:AF_Bake_Out....2018/07/06 14:23:11
+start  model:559-1 stage List:CM....2018/07/06 14:23:11
+start  model:559-1 process List:FQC....2018/07/06 14:23:11
+start  model:559-1 stage List:CM....2018/07/06 14:23:11
+start  model:559-1 process List:CM-PACK-CARTON....2018/07/06 14:23:11
+start  model:559-1 stage List:CM....2018/07/06 14:23:11
+start  model:559-1 process List:CM-PACK-PALLET....2018/07/06 14:23:11
+start  model:559-1 stage List:CM....2018/07/06 14:23:11
+start query defect....2018/07/06 14:23:11
+start query model rate....2018/07/06 14:23:13
+start add time axis value....2018/07/06 14:23:15
+start TOP3 display....2018/07/06 14:23:16
+start display ....566 model2018/07/06 14:23:40
+start set  start address ....2018/07/06 14:23:40
+start add chart....2018/07/06 14:23:40
+start query process....2018/07/06 14:23:40
+start  model:566 process List:CM-VI....2018/07/06 14:23:40
+start  model:566 stage List:CM....2018/07/06 14:23:40
+start  model:566 process List:Mylar....2018/07/06 14:23:40
+start  model:566 stage List:CM....2018/07/06 14:23:41
+start  model:566 process List:CM-PACK-CARTON....2018/07/06 14:23:41
+start  model:566 stage List:CM....2018/07/06 14:23:41
+start  model:566 process List:CM-PACK-PALLET....2018/07/06 14:23:41
+start  model:566 stage List:CM....2018/07/06 14:23:41
+start query defect....2018/07/06 14:23:41
+start query model rate....2018/07/06 14:23:42
+start add time axis value....2018/07/06 14:23:44
+start TOP3 display....2018/07/06 14:23:45
+start display ....579(NS) model2018/07/06 14:24:08
+start set  start address ....2018/07/06 14:24:08
+start add chart....2018/07/06 14:24:08
+start query process....2018/07/06 14:24:08
+start  model:579(NS) process List:CM-PACK-CARTON....2018/07/06 14:24:08
+start  model:579(NS) stage List:CM....2018/07/06 14:24:08
+start  model:579(NS) process List:CM-PACK-PALLET....2018/07/06 14:24:08
+start  model:579(NS) stage List:CM....2018/07/06 14:24:08
+start query defect....2018/07/06 14:24:08
+start query model rate....2018/07/06 14:24:08
+start add time axis value....2018/07/06 14:24:09
+start TOP3 display....2018/07/06 14:24:11
+start display ....579-1 model2018/07/06 14:24:31
+start set  start address ....2018/07/06 14:24:31
+start add chart....2018/07/06 14:24:32
+start query process....2018/07/06 14:24:32
+start  model:579-1 process List:AutoTest....2018/07/06 14:24:32
+start  model:579-1 stage List:CM....2018/07/06 14:24:32
+start  model:579-1 process List:CM-VI....2018/07/06 14:24:32
+start  model:579-1 stage List:CM....2018/07/06 14:24:32
+start  model:579-1 process List:Mylar....2018/07/06 14:24:32
+start  model:579-1 stage List:CM....2018/07/06 14:24:32
+start  model:579-1 process List:OQC-TEST....2018/07/06 14:24:32
+start  model:579-1 stage List:CM....2018/07/06 14:24:32
+start  model:579-1 process List:CM-PACK-CARTON....2018/07/06 14:24:32
+start  model:579-1 stage List:CM....2018/07/06 14:24:32
+start  model:579-1 process List:CM-PACK-PALLET....2018/07/06 14:24:32
+start  model:579-1 stage List:CM....2018/07/06 14:24:32
+start query defect....2018/07/06 14:24:32
+start query model rate....2018/07/06 14:24:34
+start add time axis value....2018/07/06 14:24:36
+start TOP3 display....2018/07/06 14:24:37
+start display ....584 model2018/07/06 14:25:01
+start set  start address ....2018/07/06 14:25:02
+start add chart....2018/07/06 14:25:02
+start query process....2018/07/06 14:25:02
+start  model:584 process List:AutoTest....2018/07/06 14:25:02
+start  model:584 stage List:CM....2018/07/06 14:25:02
+start  model:584 process List:CM-VI....2018/07/06 14:25:02
+start  model:584 stage List:CM....2018/07/06 14:25:02
+start  model:584 process List:Mylar....2018/07/06 14:25:02
+start  model:584 stage List:CM....2018/07/06 14:25:02
+start  model:584 process List:CM-PACK-PALLET....2018/07/06 14:25:02
+start  model:584 stage List:CM....2018/07/06 14:25:02
+start query defect....2018/07/06 14:25:02
+start query model rate....2018/07/06 14:25:04
+start add time axis value....2018/07/06 14:25:06
+start TOP3 display....2018/07/06 14:25:07
+start display ....584-L model2018/07/06 14:25:30
+start set  start address ....2018/07/06 14:25:30
+start add chart....2018/07/06 14:25:30
+start query process....2018/07/06 14:25:30
+start  model:584-L process List:AutoTest....2018/07/06 14:25:30
+start  model:584-L stage List:CM....2018/07/06 14:25:30
+start query defect....2018/07/06 14:25:31
+start query model rate....2018/07/06 14:25:32
+start add time axis value....2018/07/06 14:25:34
+start TOP3 display....2018/07/06 14:25:35
+start display ....587-1 model2018/07/06 14:25:56
+start set  start address ....2018/07/06 14:25:56
+start add chart....2018/07/06 14:25:56
+start query process....2018/07/06 14:25:57
+start  model:587-1 process List:AutoTest....2018/07/06 14:25:57
+start  model:587-1 stage List:CM....2018/07/06 14:25:57
+start  model:587-1 process List:CM-VI....2018/07/06 14:25:57
+start  model:587-1 stage List:CM....2018/07/06 14:25:57
+start  model:587-1 process List:Mylar....2018/07/06 14:25:57
+start  model:587-1 stage List:CM....2018/07/06 14:25:57
+start  model:587-1 process List:OQC-TEST....2018/07/06 14:25:57
+start  model:587-1 stage List:CM....2018/07/06 14:25:57
+start  model:587-1 process List:CM-PACK-CARTON....2018/07/06 14:25:57
+start  model:587-1 stage List:CM....2018/07/06 14:25:57
+start  model:587-1 process List:CM-PACK-PALLET....2018/07/06 14:25:57
+start  model:587-1 stage List:CM....2018/07/06 14:25:57
+start query defect....2018/07/06 14:25:57
+start query model rate....2018/07/06 14:25:59
+start add time axis value....2018/07/06 14:26:01
+start TOP3 display....2018/07/06 14:26:02
+start display ....587-4 AIO model2018/07/06 14:26:27
+start set  start address ....2018/07/06 14:26:28
+start add chart....2018/07/06 14:26:28
+start query process....2018/07/06 14:26:28
+start  model:587-4 AIO process List:Attach-Label....2018/07/06 14:26:28
+start  model:587-4 AIO stage List:COB....2018/07/06 14:26:28
+start  model:587-4 AIO process List:AutoTest....2018/07/06 14:26:28
+start  model:587-4 AIO stage List:CM....2018/07/06 14:26:28
+start  model:587-4 AIO process List:CM-VI....2018/07/06 14:26:28
+start  model:587-4 AIO stage List:CM....2018/07/06 14:26:28
+start  model:587-4 AIO process List:Mylar....2018/07/06 14:26:28
+start  model:587-4 AIO stage List:CM....2018/07/06 14:26:28
+start query defect....2018/07/06 14:26:28
+start query model rate....2018/07/06 14:26:30
+start add time axis value....2018/07/06 14:26:32
+start TOP3 display....2018/07/06 14:26:33
+start display ....600-1 model2018/07/06 14:26:57
+start set  start address ....2018/07/06 14:26:57
+start add chart....2018/07/06 14:26:57
+start query process....2018/07/06 14:26:57
+start  model:600-1 process List:Attach-Label....2018/07/06 14:26:57
+start  model:600-1 stage List:COB....2018/07/06 14:26:57
+start  model:600-1 process List:Rank_PCB....2018/07/06 14:26:57
+start  model:600-1 stage List:COB....2018/07/06 14:26:57
+start  model:600-1 process List:HODLE MOUNT....2018/07/06 14:26:57
+start  model:600-1 stage List:COB....2018/07/06 14:26:57
+start  model:600-1 process List:CAR REPLACE....2018/07/06 14:26:57
+start  model:600-1 stage List:COB....2018/07/06 14:26:58
+start  model:600-1 process List:COB-VI....2018/07/06 14:26:58
+start  model:600-1 stage List:COB....2018/07/06 14:26:58
+start  model:600-1 process List:Sponge_AOI....2018/07/06 14:26:58
+start  model:600-1 stage List:COB....2018/07/06 14:26:58
+start  model:600-1 process List:AutoTest....2018/07/06 14:26:58
+start  model:600-1 stage List:CM....2018/07/06 14:26:58
+start  model:600-1 process List:CM-VI....2018/07/06 14:26:58
+start  model:600-1 stage List:CM....2018/07/06 14:26:58
+start  model:600-1 process List:Mylar....2018/07/06 14:26:58
+start  model:600-1 stage List:CM....2018/07/06 14:26:58
+start  model:600-1 process List:OQC-TEST....2018/07/06 14:26:58
+start  model:600-1 stage List:CM....2018/07/06 14:26:58
+start  model:600-1 process List:OQC....2018/07/06 14:26:58
+start  model:600-1 stage List:CM....2018/07/06 14:26:58
+start  model:600-1 process List:CM-PACK-CARTON....2018/07/06 14:26:58
+start  model:600-1 stage List:CM....2018/07/06 14:26:58
+start  model:600-1 process List:CM-PACK-PALLET....2018/07/06 14:26:58
+start  model:600-1 stage List:CM....2018/07/06 14:26:58
+start query defect....2018/07/06 14:26:58
+start query model rate....2018/07/06 14:27:00
+start add time axis value....2018/07/06 14:27:03
+start TOP3 display....2018/07/06 14:27:04
+start display ....608-1 model2018/07/06 14:27:31
+start set  start address ....2018/07/06 14:27:31
+start add chart....2018/07/06 14:27:32
+start query process....2018/07/06 14:27:32
+start  model:608-1 process List:Attach-Label....2018/07/06 14:27:32
+start  model:608-1 stage List:COB....2018/07/06 14:27:32
+start query defect....2018/07/06 14:27:32
+start query model rate....2018/07/06 14:27:32
+start add time axis value....2018/07/06 14:27:33
+start TOP3 display....2018/07/06 14:27:34
+start display ....613-4 model2018/07/06 14:27:55
+start set  start address ....2018/07/06 14:27:55
+start add chart....2018/07/06 14:27:55
+start query process....2018/07/06 14:27:55
+start  model:613-4 process List:CM-PACK-PALLET....2018/07/06 14:27:56
+start  model:613-4 stage List:CM....2018/07/06 14:27:56
+start query defect....2018/07/06 14:27:56
+start query model rate....2018/07/06 14:27:56
+start add time axis value....2018/07/06 14:27:57
+start TOP3 display....2018/07/06 14:27:58
+start display ....625 model2018/07/06 14:28:19
+start set  start address ....2018/07/06 14:28:19
+start add chart....2018/07/06 14:28:19
+start query process....2018/07/06 14:28:19
+start  model:625 process List:AutoTest....2018/07/06 14:28:19
+start  model:625 stage List:CM....2018/07/06 14:28:20
+start  model:625 process List:CM-VI....2018/07/06 14:28:20
+start  model:625 stage List:CM....2018/07/06 14:28:20
+start  model:625 process List:Mylar....2018/07/06 14:28:20
+start  model:625 stage List:CM....2018/07/06 14:28:20
+start  model:625 process List:OQC-TEST....2018/07/06 14:28:20
+start  model:625 stage List:CM....2018/07/06 14:28:20
+start query defect....2018/07/06 14:28:20
+start query model rate....2018/07/06 14:28:22
+start add time axis value....2018/07/06 14:28:23
+start TOP3 display....2018/07/06 14:28:25
+start display ....627 model2018/07/06 14:28:49
+start set  start address ....2018/07/06 14:28:49
+start add chart....2018/07/06 14:28:49
+start query process....2018/07/06 14:28:49
+start  model:627 process List:AutoTest....2018/07/06 14:28:49
+start  model:627 stage List:CM....2018/07/06 14:28:49
+start  model:627 process List:Mylar....2018/07/06 14:28:49
+start  model:627 stage List:CM....2018/07/06 14:28:49
+start  model:627 process List:CM-PACK-CARTON....2018/07/06 14:28:49
+start  model:627 stage List:CM....2018/07/06 14:28:49
+start query defect....2018/07/06 14:28:49
+start query model rate....2018/07/06 14:28:51
+start add time axis value....2018/07/06 14:28:53
+start TOP3 display....2018/07/06 14:28:54
+start display ....631 model2018/07/06 14:29:17
+start set  start address ....2018/07/06 14:29:17
+start add chart....2018/07/06 14:29:17
+start query process....2018/07/06 14:29:18
+start  model:631 process List:CM-Input....2018/07/06 14:29:18
+start  model:631 stage List:CM....2018/07/06 14:29:18
+start  model:631 process List:AutoTest....2018/07/06 14:29:18
+start  model:631 stage List:CM....2018/07/06 14:29:18
+start  model:631 process List:AutoTest_IR....2018/07/06 14:29:18
+start  model:631 stage List:CM....2018/07/06 14:29:18
+start  model:631 process List:CM-VI....2018/07/06 14:29:18
+start  model:631 stage List:CM....2018/07/06 14:29:18
+start  model:631 process List:Mylar....2018/07/06 14:29:18
+start  model:631 stage List:CM....2018/07/06 14:29:18
+start  model:631 process List:OQC-TEST....2018/07/06 14:29:18
+start  model:631 stage List:CM....2018/07/06 14:29:18
+start  model:631 process List:CM-PACK-PALLET....2018/07/06 14:29:18
+start  model:631 stage List:CM....2018/07/06 14:29:18
+start query defect....2018/07/06 14:29:18
+start query model rate....2018/07/06 14:29:20
+start add time axis value....2018/07/06 14:29:22
+start TOP3 display....2018/07/06 14:29:24
+start display ....634 model2018/07/06 14:29:49
+start set  start address ....2018/07/06 14:29:49
+start add chart....2018/07/06 14:29:49
+start query process....2018/07/06 14:29:49
+start  model:634 process List:CM-VI....2018/07/06 14:29:49
+start  model:634 stage List:CM....2018/07/06 14:29:49
+start  model:634 process List:Mylar....2018/07/06 14:29:49
+start  model:634 stage List:CM....2018/07/06 14:29:50
+start query defect....2018/07/06 14:29:50
+start query model rate....2018/07/06 14:29:50
+start add time axis value....2018/07/06 14:29:51
+start TOP3 display....2018/07/06 14:29:52
+start display ....636 model2018/07/06 14:30:13
+start set  start address ....2018/07/06 14:30:13
+start add chart....2018/07/06 14:30:13
+start query process....2018/07/06 14:30:14
+start  model:636 process List:Rank_PCB....2018/07/06 14:30:14
+start  model:636 stage List:COB....2018/07/06 14:30:14
+start  model:636 process List:HODLE MOUNT....2018/07/06 14:30:14
+start  model:636 stage List:COB....2018/07/06 14:30:14
+start  model:636 process List:CAR REPLACE....2018/07/06 14:30:14
+start  model:636 stage List:COB....2018/07/06 14:30:14
+start  model:636 process List:COB-VI....2018/07/06 14:30:14
+start  model:636 stage List:COB....2018/07/06 14:30:14
+start query defect....2018/07/06 14:30:14
+start query model rate....2018/07/06 14:30:14
+start add time axis value....2018/07/06 14:30:16
+start TOP3 display....2018/07/06 14:30:17
+start display ....637 model2018/07/06 14:30:38
+start set  start address ....2018/07/06 14:30:38
+start add chart....2018/07/06 14:30:38
+start query process....2018/07/06 14:30:38
+start  model:637 process List:Attach-Label....2018/07/06 14:30:38
+start  model:637 stage List:COB....2018/07/06 14:30:38
+start query defect....2018/07/06 14:30:38
+start query model rate....2018/07/06 14:30:38
+start add time axis value....2018/07/06 14:30:39
+start TOP3 display....2018/07/06 14:30:41
+start display ....650 model2018/07/06 14:31:02
+start set  start address ....2018/07/06 14:31:02
+start add chart....2018/07/06 14:31:02
+start query process....2018/07/06 14:31:02
+start  model:650 process List:Attach-Label....2018/07/06 14:31:02
+start  model:650 stage List:COB....2018/07/06 14:31:02
+start  model:650 process List:Rank_PCB....2018/07/06 14:31:02
+start  model:650 stage List:COB....2018/07/06 14:31:02
+start  model:650 process List:COB_Plasma....2018/07/06 14:31:02
+start  model:650 stage List:COB....2018/07/06 14:31:02
+start  model:650 process List:HODLE MOUNT....2018/07/06 14:31:02
+start  model:650 stage List:COB....2018/07/06 14:31:02
+start  model:650 process List:CAR REPLACE....2018/07/06 14:31:02
+start  model:650 stage List:COB....2018/07/06 14:31:02
+start  model:650 process List:COB-VI....2018/07/06 14:31:02
+start  model:650 stage List:COB....2018/07/06 14:31:02
+start  model:650 process List:Focus....2018/07/06 14:31:02
+start  model:650 stage List:CM....2018/07/06 14:31:02
+start  model:650 process List:FQC....2018/07/06 14:31:02
+start  model:650 stage List:CM....2018/07/06 14:31:02
+start  model:650 process List:CM-VI....2018/07/06 14:31:02
+start  model:650 stage List:CM....2018/07/06 14:31:02
+start  model:650 process List:OQC-TEST....2018/07/06 14:31:02
+start  model:650 stage List:CM....2018/07/06 14:31:02
+start query defect....2018/07/06 14:31:02
+start query model rate....2018/07/06 14:31:04
+start add time axis value....2018/07/06 14:31:07
+start TOP3 display....2018/07/06 14:31:08
+start display ....651 model2018/07/06 14:31:38
+start set  start address ....2018/07/06 14:31:38
+start add chart....2018/07/06 14:31:38
+start query process....2018/07/06 14:31:38
+start  model:651 process List:Attach-Label....2018/07/06 14:31:40
+start  model:651 stage List:COB....2018/07/06 14:31:40
+start  model:651 process List:Rank_PCB....2018/07/06 14:31:40
+start  model:651 stage List:COB....2018/07/06 14:31:40
+start  model:651 process List:COB_Plasma....2018/07/06 14:31:40
+start  model:651 stage List:COB....2018/07/06 14:31:40
+start  model:651 process List:DIE BOND....2018/07/06 14:31:40
+start  model:651 stage List:COB....2018/07/06 14:31:40
+start  model:651 process List:HODLE MOUNT....2018/07/06 14:31:40
+start  model:651 stage List:COB....2018/07/06 14:31:40
+start  model:651 process List:CAR REPLACE....2018/07/06 14:31:40
+start  model:651 stage List:COB....2018/07/06 14:31:40
+start  model:651 process List:COB-VI....2018/07/06 14:31:40
+start  model:651 stage List:COB....2018/07/06 14:31:40
+start  model:651 process List:Focus....2018/07/06 14:31:40
+start  model:651 stage List:CM....2018/07/06 14:31:40
+start  model:651 process List:FQC....2018/07/06 14:31:40
+start  model:651 stage List:CM....2018/07/06 14:31:40
+start  model:651 process List:OTP....2018/07/06 14:31:40
+start  model:651 stage List:CM....2018/07/06 14:31:40
+start  model:651 process List:CHECK_OTP....2018/07/06 14:31:40
+start  model:651 stage List:CM....2018/07/06 14:31:40
+start  model:651 process List:CM-VI....2018/07/06 14:31:40
+start  model:651 stage List:CM....2018/07/06 14:31:40
+start query defect....2018/07/06 14:31:40
+start query model rate....2018/07/06 14:31:42
+start add time axis value....2018/07/06 14:31:45
+start TOP3 display....2018/07/06 14:31:46
+start display ....655 model2018/07/06 14:32:23
+start set  start address ....2018/07/06 14:32:23
+start add chart....2018/07/06 14:32:23
+start query process....2018/07/06 14:32:24
+start  model:655 process List:AutoTest....2018/07/06 14:32:24
+start  model:655 stage List:CM....2018/07/06 14:32:24
+start  model:655 process List:CM-VI....2018/07/06 14:32:24
+start  model:655 stage List:CM....2018/07/06 14:32:24
+start  model:655 process List:Mylar....2018/07/06 14:32:24
+start  model:655 stage List:CM....2018/07/06 14:32:24
+start  model:655 process List:OQC-TEST....2018/07/06 14:32:24
+start  model:655 stage List:CM....2018/07/06 14:32:24
+start  model:655 process List:CM-PACK-CARTON....2018/07/06 14:32:24
+start  model:655 stage List:CM....2018/07/06 14:32:24
+start  model:655 process List:CM-PACK-PALLET....2018/07/06 14:32:24
+start  model:655 stage List:CM....2018/07/06 14:32:24
+start query defect....2018/07/06 14:32:24
+start query model rate....2018/07/06 14:32:25
+start add time axis value....2018/07/06 14:32:28
+start TOP3 display....2018/07/06 14:32:29
+start display ....655(NS) model2018/07/06 14:32:53
+start set  start address ....2018/07/06 14:32:53
+start add chart....2018/07/06 14:32:53
+start query process....2018/07/06 14:32:53
+start  model:655(NS) process List:SMT_INPUT_T....2018/07/06 14:32:53
+start  model:655(NS) stage List:SMT....2018/07/06 14:32:53
+start  model:655(NS) process List:SMT_MOUNT_T....2018/07/06 14:32:53
+start  model:655(NS) stage List:SMT....2018/07/06 14:32:53
+start  model:655(NS) process List:SMT_VI_T....2018/07/06 14:32:53
+start  model:655(NS) stage List:SMT....2018/07/06 14:32:53
+start  model:655(NS) process List:FUNC TEST....2018/07/06 14:32:53
+start  model:655(NS) stage List:SMT....2018/07/06 14:32:53
+start  model:655(NS) process List:SMT_PACK....2018/07/06 14:32:53
+start  model:655(NS) stage List:PACKING....2018/07/06 14:32:53
+start  model:655(NS) process List:OQC-TEST....2018/07/06 14:32:53
+start  model:655(NS) stage List:CM....2018/07/06 14:32:53
+start  model:655(NS) process List:CM-PACK-CARTON....2018/07/06 14:32:53
+start  model:655(NS) stage List:CM....2018/07/06 14:32:53
+start  model:655(NS) process List:CM-PACK-PALLET....2018/07/06 14:32:53
+start  model:655(NS) stage List:CM....2018/07/06 14:32:53
+start query defect....2018/07/06 14:32:53
+start query model rate....2018/07/06 14:32:55
+start add time axis value....2018/07/06 14:32:57
+start TOP3 display....2018/07/06 14:32:58
+start display ....657 model2018/07/06 14:33:23
+start set  start address ....2018/07/06 14:33:23
+start add chart....2018/07/06 14:33:23
+start query process....2018/07/06 14:33:23
+start  model:657 process List:COB-VI....2018/07/06 14:33:23
+start  model:657 stage List:COB....2018/07/06 14:33:23
+start  model:657 process List:CM-Input....2018/07/06 14:33:23
+start  model:657 stage List:CM....2018/07/06 14:33:23
+start query defect....2018/07/06 14:33:23
+start query model rate....2018/07/06 14:33:23
+start add time axis value....2018/07/06 14:33:24
+start TOP3 display....2018/07/06 14:33:25
+start display ....666-1 model2018/07/06 14:33:47
+start set  start address ....2018/07/06 14:33:47
+start add chart....2018/07/06 14:33:48
+start query process....2018/07/06 14:33:48
+start  model:666-1 process List:AutoTest....2018/07/06 14:33:48
+start  model:666-1 stage List:CM....2018/07/06 14:33:48
+start  model:666-1 process List:FQC....2018/07/06 14:33:48
+start  model:666-1 stage List:CM....2018/07/06 14:33:48
+start  model:666-1 process List:CM-VI....2018/07/06 14:33:48
+start  model:666-1 stage List:CM....2018/07/06 14:33:48
+start query defect....2018/07/06 14:33:48
+start query model rate....2018/07/06 14:33:49
+start add time axis value....2018/07/06 14:33:51
+start TOP3 display....2018/07/06 14:33:53
+start display ....691 model2018/07/06 14:34:17
+start set  start address ....2018/07/06 14:34:17
+start add chart....2018/07/06 14:34:17
+start query process....2018/07/06 14:34:17
+start  model:691 process List:AutoTest....2018/07/06 14:34:17
+start  model:691 stage List:CM....2018/07/06 14:34:17
+start  model:691 process List:OTP....2018/07/06 14:34:17
+start  model:691 stage List:CM....2018/07/06 14:34:17
+start  model:691 process List:CHECK_OTP....2018/07/06 14:34:17
+start  model:691 stage List:CM....2018/07/06 14:34:17
+start  model:691 process List:CM-VI....2018/07/06 14:34:17
+start  model:691 stage List:CM....2018/07/06 14:34:17
+start  model:691 process List:OQC-TEST....2018/07/06 14:34:17
+start  model:691 stage List:CM....2018/07/06 14:34:17
+start query defect....2018/07/06 14:34:17
+start query model rate....2018/07/06 14:34:19
+start add time axis value....2018/07/06 14:34:21
+start TOP3 display....2018/07/06 14:34:23
+start display ....692 model2018/07/06 14:34:48
+start set  start address ....2018/07/06 14:34:48
+start add chart....2018/07/06 14:34:48
+start query process....2018/07/06 14:34:48
+start  model:692 process List:Rank_PCB....2018/07/06 14:34:48
+start  model:692 stage List:COB....2018/07/06 14:34:48
+start  model:692 process List:COB_Plasma....2018/07/06 14:34:48
+start  model:692 stage List:COB....2018/07/06 14:34:48
+start  model:692 process List:DIE BOND....2018/07/06 14:34:48
+start  model:692 stage List:COB....2018/07/06 14:34:48
+start  model:692 process List:COB-VI....2018/07/06 14:34:48
+start  model:692 stage List:COB....2018/07/06 14:34:48
+start  model:692 process List:CM-Input....2018/07/06 14:34:48
+start  model:692 stage List:CM....2018/07/06 14:34:48
+start  model:692 process List:OQC_CHECK....2018/07/06 14:34:48
+start  model:692 stage List:CM....2018/07/06 14:34:48
+start  model:692 process List:FQC....2018/07/06 14:34:48
+start  model:692 stage List:CM....2018/07/06 14:34:48
+start  model:692 process List:OTP....2018/07/06 14:34:48
+start  model:692 stage List:CM....2018/07/06 14:34:48
+start  model:692 process List:CHECK_OTP....2018/07/06 14:34:48
+start  model:692 stage List:CM....2018/07/06 14:34:48
+start  model:692 process List:CM-VI....2018/07/06 14:34:48
+start  model:692 stage List:CM....2018/07/06 14:34:48
+start  model:692 process List:OQC-TEST....2018/07/06 14:34:48
+start  model:692 stage List:CM....2018/07/06 14:34:48
+start query defect....2018/07/06 14:34:48
+start query model rate....2018/07/06 14:34:50
+start add time axis value....2018/07/06 14:34:53
+start TOP3 display....2018/07/06 14:34:54
+start display ....701 model2018/07/06 14:35:22
+start set  start address ....2018/07/06 14:35:22
+start add chart....2018/07/06 14:35:22
+start query process....2018/07/06 14:35:22
+start  model:701 process List:AutoTest....2018/07/06 14:35:22
+start  model:701 stage List:CM....2018/07/06 14:35:22
+start  model:701 process List:CM-VI....2018/07/06 14:35:22
+start  model:701 stage List:CM....2018/07/06 14:35:22
+start  model:701 process List:Mylar....2018/07/06 14:35:22
+start  model:701 stage List:CM....2018/07/06 14:35:22
+start  model:701 process List:CM-PACK-CARTON....2018/07/06 14:35:22
+start  model:701 stage List:CM....2018/07/06 14:35:22
+start  model:701 process List:CM-PACK-PALLET....2018/07/06 14:35:22
+start  model:701 stage List:CM....2018/07/06 14:35:22
+start query defect....2018/07/06 14:35:22
+start query model rate....2018/07/06 14:35:24
+start add time axis value....2018/07/06 14:35:26
+start TOP3 display....2018/07/06 14:35:27
+save excel (F:\Delphi\SFC Source Code\MES Mail Alarm\時段報表\1.0.1.8\Report\2018年7月6日 14時 各機種時段生產報表.xlsx)...2018/07/06 14:35:52
+close excel ...2018/07/06 14:35:53
+start send mail....2018/07/06 14:35:54
+start get yield by stage....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get smt yield 1 ....2018/07/06 14:35:54
+start get smt yield 2 ....2018/07/06 14:35:54
+start get smt yield 3 ....2018/07/06 14:35:54
+start get smt yield 4 ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cob yield 6 ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get all yield  array1 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cob yield 1 ....2018/07/06 14:35:54
+start get cob yield 2 ....2018/07/06 14:35:54
+start get cob yield 3 ....2018/07/06 14:35:54
+start get cob yield 4 ....2018/07/06 14:35:54
+start get cob yield 5 ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get cm yield 6 ....2018/07/06 14:35:54
+start get all yield  array2 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cob yield 1 ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get all yield  array3 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get all yield  array4 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get cm yield 1 ....2018/07/06 14:35:54
+start get all yield  array5 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get all yield  array6 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cob yield 1 ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get cm yield 2 ....2018/07/06 14:35:54
+start get all yield  array7 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get smt yield 1 ....2018/07/06 14:35:54
+start get smt yield 2 ....2018/07/06 14:35:54
+start get smt yield 3 ....2018/07/06 14:35:54
+start get smt yield 4 ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get cm yield 7 ....2018/07/06 14:35:54
+start get all yield  array8 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get smt yield 1 ....2018/07/06 14:35:54
+start get smt yield 2 ....2018/07/06 14:35:54
+start get smt yield 3 ....2018/07/06 14:35:54
+start get smt yield 4 ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cob yield 6 ....2018/07/06 14:35:54
+start get cob yield 7 ....2018/07/06 14:35:54
+start get cob yield 8 ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get all yield  array9 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get all yield  array10 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cob yield 1 ....2018/07/06 14:35:54
+start get cob yield 2 ....2018/07/06 14:35:54
+start get cob yield 3 ....2018/07/06 14:35:54
+start get cob yield 4 ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get all yield  array11 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get cm yield 2 ....2018/07/06 14:35:54
+start get all yield  array12 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cob yield 1 ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get all yield  array13 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get all yield  array14 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get all yield  array15 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get cm yield 1 ....2018/07/06 14:35:54
+start get all yield  array16 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get cm yield 1 ....2018/07/06 14:35:54
+start get all yield  array17 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get cm yield 1 ....2018/07/06 14:35:54
+start get all yield  array18 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get cm yield 1 ....2018/07/06 14:35:54
+start get all yield  array19 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cob yield 1 ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get cm yield 2 ....2018/07/06 14:35:54
+start get all yield  array20 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cob yield 1 ....2018/07/06 14:35:54
+start get cob yield 2 ....2018/07/06 14:35:54
+start get cob yield 3 ....2018/07/06 14:35:54
+start get cob yield 4 ....2018/07/06 14:35:54
+start get cob yield 5 ....2018/07/06 14:35:54
+start get cob yield 6 ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get cm yield 7 ....2018/07/06 14:35:54
+start get all yield  array21 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cob yield 1 ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get all yield  array22 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get all yield  array23 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get cm yield 1 ....2018/07/06 14:35:54
+start get all yield  array24 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get cm yield 1 ....2018/07/06 14:35:54
+start get all yield  array25 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get cm yield 2 ....2018/07/06 14:35:54
+start get all yield  array26 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get all yield  array27 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cob yield 1 ....2018/07/06 14:35:54
+start get cob yield 2 ....2018/07/06 14:35:54
+start get cob yield 3 ....2018/07/06 14:35:54
+start get cob yield 4 ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get all yield  array28 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cob yield 1 ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get all yield  array29 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cob yield 1 ....2018/07/06 14:35:54
+start get cob yield 2 ....2018/07/06 14:35:54
+start get cob yield 3 ....2018/07/06 14:35:54
+start get cob yield 4 ....2018/07/06 14:35:54
+start get cob yield 5 ....2018/07/06 14:35:54
+start get cob yield 6 ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get all yield  array30 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cob yield 1 ....2018/07/06 14:35:54
+start get cob yield 2 ....2018/07/06 14:35:54
+start get cob yield 3 ....2018/07/06 14:35:54
+start get cob yield 4 ....2018/07/06 14:35:54
+start get cob yield 5 ....2018/07/06 14:35:54
+start get cob yield 6 ....2018/07/06 14:35:54
+start get cob yield 7 ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get all yield  array31 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get cob yield  ....2018/07/06 14:35:54
+start get cm yield ....2018/07/06 14:35:54
+start get cm yield 1 ....2018/07/06 14:35:54
+start get all yield  array32 ....2018/07/06 14:35:54
+start get smt yield ....2018/07/06 14:35:54
+start get smt yield 1 ....2018/07/06 14:35:54
+start get smt yield 2 ....2018/07/06 14:35:55
+start get smt yield 3 ....2018/07/06 14:35:55
+start get smt yield 4 ....2018/07/06 14:35:55
+start get cob yield  ....2018/07/06 14:35:55
+start get cm yield ....2018/07/06 14:35:55
+start get all yield  array33 ....2018/07/06 14:35:55
+start get smt yield ....2018/07/06 14:35:55
+start get cob yield  ....2018/07/06 14:35:55
+start get cob yield 1 ....2018/07/06 14:35:55
+start get cm yield ....2018/07/06 14:35:55
+start get all yield  array34 ....2018/07/06 14:35:55
+start get smt yield ....2018/07/06 14:35:55
+start get cob yield  ....2018/07/06 14:35:55
+start get cm yield ....2018/07/06 14:35:55
+start get cm yield 1 ....2018/07/06 14:35:55
+start get all yield  array35 ....2018/07/06 14:35:55
+start get smt yield ....2018/07/06 14:35:55
+start get cob yield  ....2018/07/06 14:35:55
+start get cm yield ....2018/07/06 14:35:55
+start get cm yield 1 ....2018/07/06 14:35:55
+start get all yield  array36 ....2018/07/06 14:35:55
+start get smt yield ....2018/07/06 14:35:55
+start get cob yield  ....2018/07/06 14:35:55
+start get cob yield 1 ....2018/07/06 14:35:55
+start get cob yield 2 ....2018/07/06 14:35:55
+start get cob yield 3 ....2018/07/06 14:35:55
+start get cob yield 4 ....2018/07/06 14:35:55
+start get cm yield ....2018/07/06 14:35:55
+start get all yield  array37 ....2018/07/06 14:35:55
+start get smt yield ....2018/07/06 14:35:55
+start get cob yield  ....2018/07/06 14:35:55
+start get cm yield ....2018/07/06 14:35:55
+start get cm yield 1 ....2018/07/06 14:35:55
+start get all yield  array38 ....2018/07/06 14:35:55
+start get output by stage....2018/07/06 14:35:55
+start get process count 29...2018/07/06 14:35:55
+start get stage:SMT...2018/07/06 14:35:55
+start get process:SMT_INPUT_T...2018/07/06 14:35:55
+start set smt array length 1....2018/07/06 14:35:55
+start get smt Input....2018/07/06 14:35:55
+End get smt Input....2018/07/06 14:35:55
+start get stage:SMT...2018/07/06 14:35:55
+start get process:SMT_MOUNT_T...2018/07/06 14:35:55
+start get stage:SMT...2018/07/06 14:35:55
+start get process:SMT_VI_T...2018/07/06 14:35:55
+start set smt array length 2....2018/07/06 14:35:55
+start get smt Output....2018/07/06 14:35:55
+start get stage:SMT...2018/07/06 14:35:55
+start get process:FUNC TEST...2018/07/06 14:35:55
+start get stage:PACKING...2018/07/06 14:35:55
+start get process:SMT_PACK...2018/07/06 14:35:55
+start get stage:COB...2018/07/06 14:35:55
+start get process:Rank_PCB...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get process count 29...2018/07/06 14:35:55
+start get stage:COB...2018/07/06 14:35:55
+start get process:Attach-Label...2018/07/06 14:35:55
+start get stage:COB...2018/07/06 14:35:55
+start get process:Rank_PCB...2018/07/06 14:35:55
+start get stage:COB...2018/07/06 14:35:55
+start get process:HODLE MOUNT...2018/07/06 14:35:55
+start set Cob array length 1....2018/07/06 14:35:55
+start get COB Output....2018/07/06 14:35:55
+start get stage:COB...2018/07/06 14:35:55
+start get process:CAR REPLACE...2018/07/06 14:35:55
+start get stage:COB...2018/07/06 14:35:55
+start get process:COB-VI...2018/07/06 14:35:55
+start get stage:CM...2018/07/06 14:35:55
+start get process:AutoTest...2018/07/06 14:35:55
+start set CM array length 1....2018/07/06 14:35:55
+start get CM Input....2018/07/06 14:35:55
+start get CM Output....2018/07/06 14:35:55
+start get stage:CM...2018/07/06 14:35:55
+start get process:CM-VI...2018/07/06 14:35:55
+start get stage:CM...2018/07/06 14:35:55
+start get process:Mylar...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get process count 29...2018/07/06 14:35:55
+start get stage:COB...2018/07/06 14:35:55
+start get process:Attach-Label...2018/07/06 14:35:55
+start get stage:CM...2018/07/06 14:35:55
+start get process:FQC...2018/07/06 14:35:55
+start get stage:CM...2018/07/06 14:35:55
+start get process:CM-VI...2018/07/06 14:35:55
+start get stage:CM...2018/07/06 14:35:55
+start get process:Mylar...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get process count 29...2018/07/06 14:35:55
+start get stage:PACKING...2018/07/06 14:35:55
+start get process:SMT_PACK...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:55
+start get stage:...2018/07/06 14:35:55
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get process count 29...2018/07/06 14:35:56
+start get stage:CM...2018/07/06 14:35:56
+start get process:AutoTest...2018/07/06 14:35:56
+start set CM array length 2....2018/07/06 14:35:56
+start get CM Input....2018/07/06 14:35:56
+start get CM Output....2018/07/06 14:35:56
+start get stage:CM...2018/07/06 14:35:56
+start get process:CM-VI...2018/07/06 14:35:56
+start get stage:CM...2018/07/06 14:35:56
+start get process:Mylar...2018/07/06 14:35:56
+start get stage:CM...2018/07/06 14:35:56
+start get process:OQC-TEST...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get process count 29...2018/07/06 14:35:56
+start get stage:CM...2018/07/06 14:35:56
+start get process:OQC-TEST...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get process count 29...2018/07/06 14:35:56
+start get stage:COB...2018/07/06 14:35:56
+start get process:Attach-Label...2018/07/06 14:35:56
+start get stage:CM...2018/07/06 14:35:56
+start get process:AutoTest...2018/07/06 14:35:56
+start set CM array length 3....2018/07/06 14:35:56
+start get CM Input....2018/07/06 14:35:56
+start get CM Output....2018/07/06 14:35:56
+start get stage:CM...2018/07/06 14:35:56
+start get process:FQC...2018/07/06 14:35:56
+start get stage:CM...2018/07/06 14:35:56
+start get process:SN_Binding...2018/07/06 14:35:56
+start get stage:CM...2018/07/06 14:35:56
+start get process:CM-PACK-CARTON...2018/07/06 14:35:56
+start get stage:CM...2018/07/06 14:35:56
+start get process:CM-PACK-PALLET...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get stage:...2018/07/06 14:35:56
+start get process:...2018/07/06 14:35:56
+start get process count 29...2018/07/06 14:35:56
+start get stage:SMT...2018/07/06 14:35:56
+start get process:SMT_INPUT_T...2018/07/06 14:35:56
+start set smt array length 2....2018/07/06 14:35:56
+start get smt Input....2018/07/06 14:35:56
+End get smt Input....2018/07/06 14:35:56
+start get stage:SMT...2018/07/06 14:35:56
+start get process:SMT_MOUNT_T...2018/07/06 14:35:56
+start get stage:SMT...2018/07/06 14:35:56
+start get process:SMT_VI_T...2018/07/06 14:35:56
+start set smt array length 3....2018/07/06 14:35:56
+start get smt Output....2018/07/06 14:35:56
+start get stage:SMT...2018/07/06 14:35:56
+start get process:FUNC TEST...2018/07/06 14:35:57
+start get stage:PACKING...2018/07/06 14:35:57
+start get process:SMT_PACK...2018/07/06 14:35:57
+start get stage:CM...2018/07/06 14:35:57
+start get process:CM-Input...2018/07/06 14:35:57
+start get stage:CM...2018/07/06 14:35:57
+start get process:AutoTest...2018/07/06 14:35:57
+start set CM array length 4....2018/07/06 14:35:57
+start get CM Input....2018/07/06 14:35:57
+start get CM Output....2018/07/06 14:35:57
+start get stage:CM...2018/07/06 14:35:57
+start get process:AutoTest_IR...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get process count 29...2018/07/06 14:35:57
+start get stage:SMT...2018/07/06 14:35:57
+start get process:SMT_INPUT_T...2018/07/06 14:35:57
+start set smt array length 3....2018/07/06 14:35:57
+start get smt Input....2018/07/06 14:35:57
+End get smt Input....2018/07/06 14:35:57
+start get stage:SMT...2018/07/06 14:35:57
+start get process:SMT_MOUNT_T...2018/07/06 14:35:57
+start get stage:SMT...2018/07/06 14:35:57
+start get process:SMT_VI_T...2018/07/06 14:35:57
+start set smt array length 4....2018/07/06 14:35:57
+start get smt Output....2018/07/06 14:35:57
+start get stage:SMT...2018/07/06 14:35:57
+start get process:FUNC TEST...2018/07/06 14:35:57
+start get stage:PACKING...2018/07/06 14:35:57
+start get process:SMT_PACK...2018/07/06 14:35:57
+start get stage:COB...2018/07/06 14:35:57
+start get process:Attach-Label...2018/07/06 14:35:57
+start get stage:COB...2018/07/06 14:35:57
+start get process:Rank_PCB...2018/07/06 14:35:57
+start get stage:COB...2018/07/06 14:35:57
+start get process:COB_Plasma...2018/07/06 14:35:57
+start get stage:CM...2018/07/06 14:35:57
+start get process:Mylar...2018/07/06 14:35:57
+start get stage:CM...2018/07/06 14:35:57
+start get process:CM-PACK-CARTON...2018/07/06 14:35:57
+start get stage:CM...2018/07/06 14:35:57
+start get process:CM-PACK-PALLET...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get process count 29...2018/07/06 14:35:57
+start get stage:CM...2018/07/06 14:35:57
+start get process:CM-PACK-PALLET...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get process count 29...2018/07/06 14:35:57
+start get stage:COB...2018/07/06 14:35:57
+start get process:DIE BOND...2018/07/06 14:35:57
+start get stage:COB...2018/07/06 14:35:57
+start get process:HODLE MOUNT...2018/07/06 14:35:57
+start set Cob array length 2....2018/07/06 14:35:57
+start get COB Output....2018/07/06 14:35:57
+start get stage:COB...2018/07/06 14:35:57
+start get process:CAR REPLACE...2018/07/06 14:35:57
+start get stage:COB...2018/07/06 14:35:57
+start get process:COB-VI...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get stage:...2018/07/06 14:35:57
+start get process:...2018/07/06 14:35:57
+start get process count 29...2018/07/06 14:35:57
+start get stage:CM...2018/07/06 14:35:57
+start get process:CM-Input...2018/07/06 14:35:57
+start get stage:CM...2018/07/06 14:35:57
+start get process:AutoTest...2018/07/06 14:35:57
+start set CM array length 5....2018/07/06 14:35:57
+start get CM Input....2018/07/06 14:35:57
+start get CM Output....2018/07/06 14:35:57
+start get stage:CM...2018/07/06 14:35:58
+start get process:CM-VI...2018/07/06 14:35:58
+start get stage:CM...2018/07/06 14:35:58
+start get process:Mylar...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get process count 29...2018/07/06 14:35:58
+start get stage:COB...2018/07/06 14:35:58
+start get process:Attach-Label...2018/07/06 14:35:58
+start get stage:CM...2018/07/06 14:35:58
+start get process:AF_Bake_Out...2018/07/06 14:35:58
+start get stage:CM...2018/07/06 14:35:58
+start get process:FQC...2018/07/06 14:35:58
+start get stage:CM...2018/07/06 14:35:58
+start get process:CM-PACK-CARTON...2018/07/06 14:35:58
+start get stage:CM...2018/07/06 14:35:58
+start get process:CM-PACK-PALLET...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get process count 29...2018/07/06 14:35:58
+start get stage:CM...2018/07/06 14:35:58
+start get process:CM-VI...2018/07/06 14:35:58
+start get stage:CM...2018/07/06 14:35:58
+start get process:Mylar...2018/07/06 14:35:58
+start get stage:CM...2018/07/06 14:35:58
+start get process:CM-PACK-CARTON...2018/07/06 14:35:58
+start get stage:CM...2018/07/06 14:35:58
+start get process:CM-PACK-PALLET...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get process count 29...2018/07/06 14:35:58
+start get stage:CM...2018/07/06 14:35:58
+start get process:CM-PACK-CARTON...2018/07/06 14:35:58
+start get stage:CM...2018/07/06 14:35:58
+start get process:CM-PACK-PALLET...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:58
+start get process:...2018/07/06 14:35:58
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get process count 29...2018/07/06 14:35:59
+start get stage:CM...2018/07/06 14:35:59
+start get process:AutoTest...2018/07/06 14:35:59
+start set CM array length 6....2018/07/06 14:35:59
+start get CM Input....2018/07/06 14:35:59
+start get CM Output....2018/07/06 14:35:59
+start get stage:CM...2018/07/06 14:35:59
+start get process:CM-VI...2018/07/06 14:35:59
+start get stage:CM...2018/07/06 14:35:59
+start get process:Mylar...2018/07/06 14:35:59
+start get stage:CM...2018/07/06 14:35:59
+start get process:OQC-TEST...2018/07/06 14:35:59
+start get stage:CM...2018/07/06 14:35:59
+start get process:CM-PACK-CARTON...2018/07/06 14:35:59
+start get stage:CM...2018/07/06 14:35:59
+start get process:CM-PACK-PALLET...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get process count 29...2018/07/06 14:35:59
+start get stage:CM...2018/07/06 14:35:59
+start get process:AutoTest...2018/07/06 14:35:59
+start set CM array length 7....2018/07/06 14:35:59
+start get CM Input....2018/07/06 14:35:59
+start get CM Output....2018/07/06 14:35:59
+start get stage:CM...2018/07/06 14:35:59
+start get process:CM-VI...2018/07/06 14:35:59
+start get stage:CM...2018/07/06 14:35:59
+start get process:Mylar...2018/07/06 14:35:59
+start get stage:CM...2018/07/06 14:35:59
+start get process:CM-PACK-PALLET...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get process count 29...2018/07/06 14:35:59
+start get stage:CM...2018/07/06 14:35:59
+start get process:AutoTest...2018/07/06 14:35:59
+start set CM array length 8....2018/07/06 14:35:59
+start get CM Input....2018/07/06 14:35:59
+start get CM Output....2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get process count 29...2018/07/06 14:35:59
+start get stage:CM...2018/07/06 14:35:59
+start get process:AutoTest...2018/07/06 14:35:59
+start set CM array length 9....2018/07/06 14:35:59
+start get CM Input....2018/07/06 14:35:59
+start get CM Output....2018/07/06 14:35:59
+start get stage:CM...2018/07/06 14:35:59
+start get process:CM-VI...2018/07/06 14:35:59
+start get stage:CM...2018/07/06 14:35:59
+start get process:Mylar...2018/07/06 14:35:59
+start get stage:CM...2018/07/06 14:35:59
+start get process:OQC-TEST...2018/07/06 14:35:59
+start get stage:CM...2018/07/06 14:35:59
+start get process:CM-PACK-CARTON...2018/07/06 14:35:59
+start get stage:CM...2018/07/06 14:35:59
+start get process:CM-PACK-PALLET...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:35:59
+start get process:...2018/07/06 14:35:59
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get process count 29...2018/07/06 14:36:00
+start get stage:COB...2018/07/06 14:36:00
+start get process:Attach-Label...2018/07/06 14:36:00
+start get stage:CM...2018/07/06 14:36:00
+start get process:AutoTest...2018/07/06 14:36:00
+start set CM array length 10....2018/07/06 14:36:00
+start get CM Input....2018/07/06 14:36:00
+start get CM Output....2018/07/06 14:36:00
+start get stage:CM...2018/07/06 14:36:00
+start get process:CM-VI...2018/07/06 14:36:00
+start get stage:CM...2018/07/06 14:36:00
+start get process:Mylar...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get process count 29...2018/07/06 14:36:00
+start get stage:COB...2018/07/06 14:36:00
+start get process:Attach-Label...2018/07/06 14:36:00
+start get stage:COB...2018/07/06 14:36:00
+start get process:Rank_PCB...2018/07/06 14:36:00
+start get stage:COB...2018/07/06 14:36:00
+start get process:HODLE MOUNT...2018/07/06 14:36:00
+start set Cob array length 3....2018/07/06 14:36:00
+start get COB Output....2018/07/06 14:36:00
+start get stage:COB...2018/07/06 14:36:00
+start get process:CAR REPLACE...2018/07/06 14:36:00
+start get stage:COB...2018/07/06 14:36:00
+start get process:COB-VI...2018/07/06 14:36:00
+start get stage:COB...2018/07/06 14:36:00
+start get process:Sponge_AOI...2018/07/06 14:36:00
+start get stage:CM...2018/07/06 14:36:00
+start get process:AutoTest...2018/07/06 14:36:00
+start set CM array length 11....2018/07/06 14:36:00
+start get CM Input....2018/07/06 14:36:00
+start get CM Output....2018/07/06 14:36:00
+start get stage:CM...2018/07/06 14:36:00
+start get process:CM-VI...2018/07/06 14:36:00
+start get stage:CM...2018/07/06 14:36:00
+start get process:Mylar...2018/07/06 14:36:00
+start get stage:CM...2018/07/06 14:36:00
+start get process:OQC-TEST...2018/07/06 14:36:00
+start get stage:CM...2018/07/06 14:36:00
+start get process:OQC...2018/07/06 14:36:00
+start get stage:CM...2018/07/06 14:36:00
+start get process:CM-PACK-CARTON...2018/07/06 14:36:00
+start get stage:CM...2018/07/06 14:36:00
+start get process:CM-PACK-PALLET...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get process count 29...2018/07/06 14:36:00
+start get stage:COB...2018/07/06 14:36:00
+start get process:Attach-Label...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get process count 29...2018/07/06 14:36:00
+start get stage:CM...2018/07/06 14:36:00
+start get process:CM-PACK-PALLET...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:00
+start get stage:...2018/07/06 14:36:00
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get process count 29...2018/07/06 14:36:01
+start get stage:CM...2018/07/06 14:36:01
+start get process:AutoTest...2018/07/06 14:36:01
+start set CM array length 12....2018/07/06 14:36:01
+start get CM Input....2018/07/06 14:36:01
+start get CM Output....2018/07/06 14:36:01
+start get stage:CM...2018/07/06 14:36:01
+start get process:CM-VI...2018/07/06 14:36:01
+start get stage:CM...2018/07/06 14:36:01
+start get process:Mylar...2018/07/06 14:36:01
+start get stage:CM...2018/07/06 14:36:01
+start get process:OQC-TEST...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get process count 29...2018/07/06 14:36:01
+start get stage:CM...2018/07/06 14:36:01
+start get process:AutoTest...2018/07/06 14:36:01
+start set CM array length 13....2018/07/06 14:36:01
+start get CM Input....2018/07/06 14:36:01
+start get CM Output....2018/07/06 14:36:01
+start get stage:CM...2018/07/06 14:36:01
+start get process:Mylar...2018/07/06 14:36:01
+start get stage:CM...2018/07/06 14:36:01
+start get process:CM-PACK-CARTON...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get process count 29...2018/07/06 14:36:01
+start get stage:CM...2018/07/06 14:36:01
+start get process:CM-Input...2018/07/06 14:36:01
+start get stage:CM...2018/07/06 14:36:01
+start get process:AutoTest...2018/07/06 14:36:01
+start set CM array length 14....2018/07/06 14:36:01
+start get CM Input....2018/07/06 14:36:01
+start get CM Output....2018/07/06 14:36:01
+start get stage:CM...2018/07/06 14:36:01
+start get process:AutoTest_IR...2018/07/06 14:36:01
+start get stage:CM...2018/07/06 14:36:01
+start get process:CM-VI...2018/07/06 14:36:01
+start get stage:CM...2018/07/06 14:36:01
+start get process:Mylar...2018/07/06 14:36:01
+start get stage:CM...2018/07/06 14:36:01
+start get process:OQC-TEST...2018/07/06 14:36:01
+start get stage:CM...2018/07/06 14:36:01
+start get process:CM-PACK-PALLET...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get process count 29...2018/07/06 14:36:01
+start get stage:CM...2018/07/06 14:36:01
+start get process:CM-VI...2018/07/06 14:36:01
+start get stage:CM...2018/07/06 14:36:01
+start get process:Mylar...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:01
+start get stage:...2018/07/06 14:36:01
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get process count 29...2018/07/06 14:36:02
+start get stage:COB...2018/07/06 14:36:02
+start get process:Rank_PCB...2018/07/06 14:36:02
+start get stage:COB...2018/07/06 14:36:02
+start get process:HODLE MOUNT...2018/07/06 14:36:02
+start set Cob array length 4....2018/07/06 14:36:02
+start get COB Output....2018/07/06 14:36:02
+start get stage:COB...2018/07/06 14:36:02
+start get process:CAR REPLACE...2018/07/06 14:36:02
+start get stage:COB...2018/07/06 14:36:02
+start get process:COB-VI...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get process count 29...2018/07/06 14:36:02
+start get stage:COB...2018/07/06 14:36:02
+start get process:Attach-Label...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get process count 29...2018/07/06 14:36:02
+start get stage:COB...2018/07/06 14:36:02
+start get process:Attach-Label...2018/07/06 14:36:02
+start get stage:COB...2018/07/06 14:36:02
+start get process:Rank_PCB...2018/07/06 14:36:02
+start get stage:COB...2018/07/06 14:36:02
+start get process:COB_Plasma...2018/07/06 14:36:02
+start get stage:COB...2018/07/06 14:36:02
+start get process:HODLE MOUNT...2018/07/06 14:36:02
+start set Cob array length 5....2018/07/06 14:36:02
+start get COB Output....2018/07/06 14:36:02
+start get stage:COB...2018/07/06 14:36:02
+start get process:CAR REPLACE...2018/07/06 14:36:02
+start get stage:COB...2018/07/06 14:36:02
+start get process:COB-VI...2018/07/06 14:36:02
+start get stage:CM...2018/07/06 14:36:02
+start get process:Focus...2018/07/06 14:36:02
+start get stage:CM...2018/07/06 14:36:02
+start get process:FQC...2018/07/06 14:36:02
+start get stage:CM...2018/07/06 14:36:02
+start get process:CM-VI...2018/07/06 14:36:02
+start get stage:CM...2018/07/06 14:36:02
+start get process:OQC-TEST...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get process count 29...2018/07/06 14:36:02
+start get stage:COB...2018/07/06 14:36:02
+start get process:Attach-Label...2018/07/06 14:36:02
+start get stage:COB...2018/07/06 14:36:02
+start get process:Rank_PCB...2018/07/06 14:36:02
+start get stage:COB...2018/07/06 14:36:02
+start get process:COB_Plasma...2018/07/06 14:36:02
+start get stage:COB...2018/07/06 14:36:02
+start get process:DIE BOND...2018/07/06 14:36:02
+start get stage:COB...2018/07/06 14:36:02
+start get process:HODLE MOUNT...2018/07/06 14:36:02
+start set Cob array length 6....2018/07/06 14:36:02
+start get COB Output....2018/07/06 14:36:02
+start get stage:COB...2018/07/06 14:36:02
+start get process:CAR REPLACE...2018/07/06 14:36:02
+start get stage:COB...2018/07/06 14:36:02
+start get process:COB-VI...2018/07/06 14:36:02
+start get stage:CM...2018/07/06 14:36:02
+start get process:Focus...2018/07/06 14:36:02
+start get stage:CM...2018/07/06 14:36:02
+start get process:FQC...2018/07/06 14:36:02
+start get stage:CM...2018/07/06 14:36:02
+start get process:OTP...2018/07/06 14:36:02
+start get stage:CM...2018/07/06 14:36:02
+start get process:CHECK_OTP...2018/07/06 14:36:02
+start get stage:CM...2018/07/06 14:36:02
+start get process:CM-VI...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:02
+start get stage:...2018/07/06 14:36:02
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get process count 29...2018/07/06 14:36:03
+start get stage:CM...2018/07/06 14:36:03
+start get process:AutoTest...2018/07/06 14:36:03
+start set CM array length 15....2018/07/06 14:36:03
+start get CM Input....2018/07/06 14:36:03
+start get CM Output....2018/07/06 14:36:03
+start get stage:CM...2018/07/06 14:36:03
+start get process:CM-VI...2018/07/06 14:36:03
+start get stage:CM...2018/07/06 14:36:03
+start get process:Mylar...2018/07/06 14:36:03
+start get stage:CM...2018/07/06 14:36:03
+start get process:OQC-TEST...2018/07/06 14:36:03
+start get stage:CM...2018/07/06 14:36:03
+start get process:CM-PACK-CARTON...2018/07/06 14:36:03
+start get stage:CM...2018/07/06 14:36:03
+start get process:CM-PACK-PALLET...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get process count 29...2018/07/06 14:36:03
+start get stage:SMT...2018/07/06 14:36:03
+start get process:SMT_INPUT_T...2018/07/06 14:36:03
+start set smt array length 4....2018/07/06 14:36:03
+start get smt Input....2018/07/06 14:36:03
+End get smt Input....2018/07/06 14:36:03
+start get stage:SMT...2018/07/06 14:36:03
+start get process:SMT_MOUNT_T...2018/07/06 14:36:03
+start get stage:SMT...2018/07/06 14:36:03
+start get process:SMT_VI_T...2018/07/06 14:36:03
+start set smt array length 5....2018/07/06 14:36:03
+start get smt Output....2018/07/06 14:36:03
+start get stage:SMT...2018/07/06 14:36:03
+start get process:FUNC TEST...2018/07/06 14:36:03
+start get stage:PACKING...2018/07/06 14:36:03
+start get process:SMT_PACK...2018/07/06 14:36:03
+start get stage:CM...2018/07/06 14:36:03
+start get process:OQC-TEST...2018/07/06 14:36:03
+start get stage:CM...2018/07/06 14:36:03
+start get process:CM-PACK-CARTON...2018/07/06 14:36:03
+start get stage:CM...2018/07/06 14:36:03
+start get process:CM-PACK-PALLET...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get process count 29...2018/07/06 14:36:03
+start get stage:COB...2018/07/06 14:36:03
+start get process:COB-VI...2018/07/06 14:36:03
+start get stage:CM...2018/07/06 14:36:03
+start get process:CM-Input...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get process count 29...2018/07/06 14:36:03
+start get stage:CM...2018/07/06 14:36:03
+start get process:AutoTest...2018/07/06 14:36:03
+start set CM array length 16....2018/07/06 14:36:03
+start get CM Input....2018/07/06 14:36:03
+start get CM Output....2018/07/06 14:36:03
+start get stage:CM...2018/07/06 14:36:03
+start get process:FQC...2018/07/06 14:36:03
+start get stage:CM...2018/07/06 14:36:03
+start get process:CM-VI...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:03
+start get stage:...2018/07/06 14:36:03
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get process count 29...2018/07/06 14:36:04
+start get stage:CM...2018/07/06 14:36:04
+start get process:AutoTest...2018/07/06 14:36:04
+start set CM array length 17....2018/07/06 14:36:04
+start get CM Input....2018/07/06 14:36:04
+start get CM Output....2018/07/06 14:36:04
+start get stage:CM...2018/07/06 14:36:04
+start get process:OTP...2018/07/06 14:36:04
+start get stage:CM...2018/07/06 14:36:04
+start get process:CHECK_OTP...2018/07/06 14:36:04
+start get stage:CM...2018/07/06 14:36:04
+start get process:CM-VI...2018/07/06 14:36:04
+start get stage:CM...2018/07/06 14:36:04
+start get process:OQC-TEST...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get process count 29...2018/07/06 14:36:04
+start get stage:COB...2018/07/06 14:36:04
+start get process:Rank_PCB...2018/07/06 14:36:04
+start get stage:COB...2018/07/06 14:36:04
+start get process:COB_Plasma...2018/07/06 14:36:04
+start get stage:COB...2018/07/06 14:36:04
+start get process:DIE BOND...2018/07/06 14:36:04
+start get stage:COB...2018/07/06 14:36:04
+start get process:COB-VI...2018/07/06 14:36:04
+start get stage:CM...2018/07/06 14:36:04
+start get process:CM-Input...2018/07/06 14:36:04
+start get stage:CM...2018/07/06 14:36:04
+start get process:OQC_CHECK...2018/07/06 14:36:04
+start get stage:CM...2018/07/06 14:36:04
+start get process:FQC...2018/07/06 14:36:04
+start get stage:CM...2018/07/06 14:36:04
+start get process:OTP...2018/07/06 14:36:04
+start get stage:CM...2018/07/06 14:36:04
+start get process:CHECK_OTP...2018/07/06 14:36:04
+start get stage:CM...2018/07/06 14:36:04
+start get process:CM-VI...2018/07/06 14:36:04
+start get stage:CM...2018/07/06 14:36:04
+start get process:OQC-TEST...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get process count 29...2018/07/06 14:36:04
+start get stage:CM...2018/07/06 14:36:04
+start get process:AutoTest...2018/07/06 14:36:04
+start set CM array length 18....2018/07/06 14:36:04
+start get CM Input....2018/07/06 14:36:04
+start get CM Output....2018/07/06 14:36:04
+start get stage:CM...2018/07/06 14:36:04
+start get process:CM-VI...2018/07/06 14:36:04
+start get stage:CM...2018/07/06 14:36:04
+start get process:Mylar...2018/07/06 14:36:04
+start get stage:CM...2018/07/06 14:36:04
+start get process:CM-PACK-CARTON...2018/07/06 14:36:04
+start get stage:CM...2018/07/06 14:36:04
+start get process:CM-PACK-PALLET...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get stage:...2018/07/06 14:36:04
+start get process:...2018/07/06 14:36:04
+start get K: 4..M: 6...N: 18...2018/07/06 14:36:04
+start get smt WIP 0...2018/07/06 14:36:05
+start get smt WIP 1...2018/07/06 14:36:05
+start get smt WIP 2...2018/07/06 14:36:05
+start get smt WIP 3...2018/07/06 14:36:05
+start get COB WIP 0...2018/07/06 14:36:05
+start get COB WIP 1...2018/07/06 14:36:05
+start get COB WIP 2...2018/07/06 14:36:05
+start get COB WIP 3...2018/07/06 14:36:05
+start get COB WIP 4...2018/07/06 14:36:05
+start get COB WIP 5...2018/07/06 14:36:05
+start get CM WIP 0...2018/07/06 14:36:05
+start get CM WIP 1...2018/07/06 14:36:05
+start get CM WIP 2...2018/07/06 14:36:05
+start get CM WIP 3...2018/07/06 14:36:05
+start get CM WIP 4...2018/07/06 14:36:05
+start get CM WIP 5...2018/07/06 14:36:05
+start get CM WIP 6...2018/07/06 14:36:05
+start get CM WIP 7...2018/07/06 14:36:05
+start get CM WIP 8...2018/07/06 14:36:05
+start get CM WIP 9...2018/07/06 14:36:05
+start get CM WIP 10...2018/07/06 14:36:05
+start get CM WIP 11...2018/07/06 14:36:05
+start get CM WIP 12...2018/07/06 14:36:05
+start get CM WIP 13...2018/07/06 14:36:05
+start get CM WIP 14...2018/07/06 14:36:05
+start get CM WIP 15...2018/07/06 14:36:05
+start get CM WIP 16...2018/07/06 14:36:05
+start get CM WIP 17...2018/07/06 14:36:05
+start send smt message ...2018/07/06 14:36:05
+End send SMT message(  ...2018/07/06 14:36:05
+start send Cob message ...2018/07/06 14:36:05
+End send COB message(  ...2018/07/06 14:36:05
+start send CM message ...2018/07/06 14:36:05
+End send CM message(  ...2018/07/06 14:36:05
+start send atach file(F:\Delphi\SFC Source Code\MES Mail Alarm\時段報表\1.0.1.8\Report\2018年7月6日 14時 各機種時段生產報表.xlsx)...2018/07/06 14:36:05
+start send mail ...2018/07/06 143605
+end send mail...2018/0706 143606

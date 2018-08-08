@@ -1,0 +1,7 @@
+QProcessReportDll.dll
+
+所有不良詳細報表
+sajet.g_sn_defect table中的所有記錄都會list出來。
+====================================================
+5.8.0.1
+add by key 2008/12/19

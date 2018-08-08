@@ -1,0 +1,10 @@
+PartNo ORT
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+5.8.0.1
+2008/12/5 ADD BY KEY
+1. 新加table sys_part_ort and sys_ht_part_ort
+其中，target_process_id 為目標站如，ORT測試站;
+      COMPARE_process_id 為參考比對站別，如F3-TEST;
+2. 一個料號只能有一筆資料。
+

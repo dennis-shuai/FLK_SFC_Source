@@ -1,0 +1,46 @@
+CREATE OR REPLACE procedure
+         SAJET.KEY_WIP_INCOMING(tterminalid in number,tnow in date,
+		   TPALLET in varchar2,TEMPID IN varchar2, tres out varchar2) is
+cursor sn_cursor is
+   select serial_number
+     from sajet.g_sn_status
+       where  pallet_no = Tpallet;
+sn_record sn_cursor%rowtype;
+C_EMPNO SAJET.SYS_EMP.EMP_NO%TYPE;
+begin	
+    TRES:='OK';
+	SELECT EMP_NO INTO C_EMPNO FROM SAJET.SYS_EMP WHERE EMP_ID=TEMPID;
+    Begin
+	     for sn_record in sn_cursor loop  
+	          SAJET.SJ_CKRT_ROUTE(TTERMINALID, SN_RECORD.SERIAL_NUMBER, TRES); 
+              IF TRES <> 'OK' THEN
+                  TRES := 'ROUTE ERROR (' ||SN_RECORD.SERIAL_NUMBER||')';
+                  GOTO ENDP;
+              END IF; 
+		 END LOOP;
+	
+		 for sn_record in sn_cursor loop   
+             SAJET.SJ_GO(TTERMINALID, SN_RECORD.SERIAL_NUMBER, TNOW, TRES, C_EMPNO);
+             IF TRES <> 'OK' THEN
+			      TRES:='UPDATE ERROR(SJ_GO) !';
+                  GOTO ENDP;
+              END IF;
+	     END LOOP;
+		  
+      COMMIT;
+   
+     EXCEPTION
+      WHEN OTHERS THEN
+	       ROLLBACK;
+           TRES := 'UPDATE ERROR(G_SN_STATUS)';
+           GOTO ENDP;
+     END; 
+  <<endp>>	
+     ROLLBACK;     
+     NULL;
+exception
+  when others then
+    rollback;
+    tres:='KEY_WIP_INCOMING ERROR';
+end;
+/

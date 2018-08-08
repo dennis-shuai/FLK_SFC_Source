@@ -1,0 +1,114 @@
+object Login: TLogin
+  Left = 526
+  Top = 405
+  BorderIcons = [biSystemMenu, biMaximize]
+  BorderStyle = bsDialog
+  Caption = #20351#29992#32773#30331#37636
+  ClientHeight = 153
+  ClientWidth = 237
+  Color = clBtnFace
+  DefaultMonitor = dmDesktop
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = #26032#32048#26126#39636
+  Font.Style = []
+  KeyPreview = True
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 17
+    Top = 28
+    Width = 73
+    Height = 13
+    AutoSize = False
+    Caption = #20351#29992#32773#32232#34399':'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = #26032#32048#26126#39636
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object Label2: TLabel
+    Left = 17
+    Top = 69
+    Width = 72
+    Height = 13
+    AutoSize = False
+    Caption = #23494#30908':'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = #26032#32048#26126#39636
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object edtID: TEdit
+    Left = 88
+    Top = 24
+    Width = 129
+    Height = 21
+    CharCase = ecUpperCase
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnKeyPress = edtIDKeyPress
+  end
+  object edtPW: TEdit
+    Left = 88
+    Top = 65
+    Width = 129
+    Height = 21
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    PasswordChar = '*'
+    TabOrder = 1
+    OnKeyPress = edtPWKeyPress
+  end
+  object btnDone: TButton
+    Left = 50
+    Top = 110
+    Width = 65
+    Height = 25
+    Caption = #30906#23450
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = #26032#32048#26126#39636
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnClick = btnDoneClick
+  end
+  object btnCancel: TButton
+    Left = 137
+    Top = 112
+    Width = 65
+    Height = 25
+    Caption = #36864#20986
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = #26032#32048#26126#39636
+    Font.Style = []
+    ModalResult = 2
+    ParentFont = False
+    TabOrder = 3
+    OnClick = btnCancelClick
+  end
+end

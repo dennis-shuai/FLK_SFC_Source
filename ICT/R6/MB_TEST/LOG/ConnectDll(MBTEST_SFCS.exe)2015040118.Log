@@ -1,0 +1,271 @@
+2015-04-01 18:43:03  [          ] (TCenter1.Create)Create Start
+2015-04-01 18:43:03  [          ] File    : E:\Delphi\SFC Source Code\ICT\R6\MB_TEST\MBTEST_SFCS.exe
+2015-04-01 18:43:03  [          ] Version : 1.0.0.1
+2015-04-01 18:43:03  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-04-01 18:43:03  [          ] (TCenter1.Create)Create Over
+2015-04-01 18:43:03  [          ] (SajetTransStartType)Function Execute Over
+2015-04-01 18:43:04  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 18:43:04  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4306
+2015-04-01 18:43:04  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4306]
+2015-04-01 18:43:04  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4306 OK
+2015-04-01 18:43:04  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4306]
+2015-04-01 18:43:04  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:4306]
+2015-04-01 18:43:06  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:5][D:1][P:1][B:0][Data:Device (1) On LineLine : 4F-CM-252Stage : CMProcess : Aging_TestTerminal : Aging_Test02][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-34-46-2D-43-4D-2D-32-35-32-0D-53-74-61-67-65-20-3A-20-43-4D-0D-50-72-6F-63-65-73-73-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-30-32-0D-]
+2015-04-01 18:43:15  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:757055;78988481102]
+2015-04-01 18:43:15  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;757055;78988481102][172.16.245.10:4306]
+2015-04-01 18:43:15  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : OK;OK;
+2015-04-01 18:43:15  [          ] (SajetTransferData)Exexecute Result=TRUE
+2015-04-01 18:44:14  [          ] (TCenter1.Create)Create Start
+2015-04-01 18:44:14  [          ] File    : E:\Delphi\SFC Source Code\ICT\R6\MB_TEST\MBTEST_SFCS.exe
+2015-04-01 18:44:14  [          ] Version : 1.0.0.1
+2015-04-01 18:44:14  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-04-01 18:44:14  [          ] (TCenter1.Create)Create Over
+2015-04-01 18:44:14  [          ] (SajetTransStartType)Function Execute Over
+2015-04-01 18:44:14  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 18:44:14  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4322
+2015-04-01 18:44:14  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4322]
+2015-04-01 18:44:14  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4322 OK
+2015-04-01 18:44:14  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4322]
+2015-04-01 18:44:32  [          ] (TCenter1.Create)Create Start
+2015-04-01 18:44:32  [          ] File    : E:\Delphi\SFC Source Code\ICT\R6\MB_TEST\MBTEST_SFCS.exe
+2015-04-01 18:44:32  [          ] Version : 1.0.0.1
+2015-04-01 18:44:32  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-04-01 18:44:32  [          ] (TCenter1.Create)Create Over
+2015-04-01 18:44:32  [          ] (SajetTransStartType)Function Execute Over
+2015-04-01 18:44:32  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 18:44:32  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4329
+2015-04-01 18:44:32  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4329]
+2015-04-01 18:44:32  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4329 OK
+2015-04-01 18:44:32  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4329]
+2015-04-01 18:44:33  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:4329]
+2015-04-01 18:44:40  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:5][D:1][P:1][B:0][Data:Device (1) On LineLine : 4F-CM-252Stage : CMProcess : Aging_TestTerminal : Aging_Test02][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-34-46-2D-43-4D-2D-32-35-32-0D-53-74-61-67-65-20-3A-20-43-4D-0D-50-72-6F-63-65-73-73-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-30-32-0D-]
+2015-04-01 18:44:40  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 18:44:40  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4330
+2015-04-01 18:44:40  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(1) with Status : TRUE[172.16.245.10:4329]
+2015-04-01 18:44:40  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(2) with Status : TRUE[172.16.245.10:4329]
+2015-04-01 18:44:40  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(3) with Status : TRUE[172.16.245.10:4329]
+2015-04-01 18:44:40  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(4) with Status : TRUE[172.16.245.10:4329]
+2015-04-01 18:44:40  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(5) with Status : TRUE[172.16.245.10:4329]
+2015-04-01 18:44:40  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(6) with Status : TRUE[172.16.245.10:4329]
+2015-04-01 18:44:40  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(7) with Status : TRUE[172.16.245.10:4329]
+2015-04-01 18:44:40  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(8) with Status : TRUE[172.16.245.10:4329]
+2015-04-01 18:44:40  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(9) with Status : TRUE[172.16.245.10:4329]
+2015-04-01 18:44:40  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(10) with Status : TRUE[172.16.245.10:4329]
+2015-04-01 18:44:40  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(11) with Status : TRUE[172.16.245.10:4329]
+2015-04-01 18:44:42  [ERROR     ] (TThreadTCPServerMainPCClient.ClientExecute.rsvDataFromSocket)Discoonect with Zero Length Over 10 times[172.16.245.10:4329]
+2015-04-01 18:44:42  [          ] (TThreadTCPServerPCClient.ServerSocketClientDisconnect)TCP/IP Client Disconnect - 172.16.245.10:6211
+2015-04-01 18:44:46  [TEST      ] (TThreadTCPServerPCClient.executeRsvData.checkLink)Show Form Connect
+2015-04-01 18:44:46  [ERROR     ] (TThreadTCPServerSend.Execute.sendDataToRemote)Write error 6, 控制碼無效。
+2015-04-01 18:44:46  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4330]
+2015-04-01 18:44:46  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4330 OK
+2015-04-01 18:44:46  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Over[172.16.245.10:4329]
+2015-04-01 18:44:46  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread Start[172.16.245.10:4329]
+2015-04-01 18:44:46  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4330]
+2015-02015-04-01 18:44:54  [          ] (TCenter1.Create)Create Start
+2015-04-01 18:44:54  [          ] File    : E:\Delphi\SFC Source Code\ICT\R6\MB_TEST\MBTEST_SFCS.exe
+2015-04-01 18:44:54  [          ] Version : 1.0.0.1
+2015-04-01 18:44:54  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-04-01 18:44:54  [          ] (TCenter1.Create)Create Over
+2015-04-01 18:44:54  [          ] (SajetTransStartType)Function Execute Over
+2015-04-01 18:44:54  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 18:44:54  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4333
+2015-04-01 18:44:54  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4333]
+2015-04-01 18:44:54  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4333 OK
+2015-04-01 18:44:54  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4333]
+2015-04-01 18:44:55  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:4333]
+2015-04-01 18:44:56  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:5][D:1][P:1][B:0][Data:Device (1) On LineLine : 4F-CM-252Stage : CMProcess : Aging_TestTerminal : Aging_Test02][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-34-46-2D-43-4D-2D-32-35-32-0D-53-74-61-67-65-20-3A-20-43-4D-0D-50-72-6F-63-65-73-73-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-30-32-0D-]
+2015-04-01 18:45:05  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:757055;78988481102]
+2015-04-01 18:45:05  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;757055;78988481102][172.16.245.10:4333]
+2015-04-01 18:45:05  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : OK;OK;
+2015-04-01 18:45:05  [          ] (SajetTransferData)Exexecute Result=TRUE
+2015-04-01 18:46:29  [          ] (TCenter1.Create)Create Start
+2015-04-01 18:46:29  [          ] File    : E:\Delphi\SFC Source Code\ICT\R6\MB_TEST\MBTEST_SFCS.exe
+2015-04-01 18:46:29  [          ] Version : 1.0.0.1
+2015-04-01 18:46:29  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-04-01 18:46:29  [          ] (TCenter1.Create)Create Over
+2015-04-01 18:46:29  [          ] (SajetTransStartType)Function Execute Over
+2015-04-01 18:46:29  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 18:46:29  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4372
+2015-04-01 18:46:29  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4372]
+2015-04-01 18:46:29  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4372 OK
+2015-04-01 18:46:29  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4372]
+2015-04-01 18:46:30  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:4372]
+2015-04-01 18:46:33  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:5][D:1][P:1][B:0][Data:Device (1) On LineLine : 4F-CM-252Stage : CMProcess : Aging_TestTerminal : Aging_Test02][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-34-46-2D-43-4D-2D-32-35-32-0D-53-74-61-67-65-20-3A-20-43-4D-0D-50-72-6F-63-65-73-73-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-30-32-0D-]
+2015-04-01 18:46:43  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:757055;78988481102]
+2015-04-01 18:46:43  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;757055;78988481102][172.16.245.10:4372]
+2015-04-01 18:46:43  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : OK;OK;
+2015-04-01 18:46:43  [          ] (SajetTransferData)Exexecute Result=TRUE
+2015-04-01 18:46:52  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(1) with Status : TRUE[172.16.245.10:4372]
+2015-04-01 18:46:54  [ERROR     ] (TThreadTCPServerMainPCClient.ClientExecute.rsvDataFromSocket)Read error 64, 指定的網路名稱無法使用。[172.16.245.10:4372]
+2015-04-01 18:46:54  [          ] (TThreadTCPServerPCClient.ServerSocketClientDisconnect)TCP/IP Client Disconnect - 172.16.245.10:6211
+2015-04-01 18:46:54  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 18:46:54  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4374
+2015-04-01 18:47:00  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4374]
+2015-04-01 18:47:00  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4374 OK
+2015-04-01 18:47:06  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4374]
+2015-04-01 18:47:06  [WARRING   ] Reconnect Check Timeout[172.16.245.10:4374]
+2015-04-01 18:47:06  [          ] (TThreadTCPServerPCClient.ServerSocketClientDisconnect)TCP/IP Client Disconnect - 172.16.245.10:6211
+2015-04-01 18:47:09  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 18:47:09  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4376
+2015-04-01 18:47:09  [ERROR     ] (TThreadTCPServerSend.Execute.sendDataToRemote)Write error 6, 控制碼無效。
+2015-04-01 18:47:09  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4376]
+2015-04-01 18:47:09  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4376 OK
+2015-04-01 18:47:09  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4376]
+2015-04-01 18:47:38  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 18:47:38  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4377
+2015-04-01 18:47:38  [TEST      ] (TThreadTCPServerPCClient.executeRsvData.checkLink)Show Form Connect
+2015-04-01 18:47:38  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:4376]
+2015-04-01 18:47:38  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(1) with Status : TRUE[172.16.245.10:4376]
+2015-04-01 18:47:38  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(2) with Status : TRUE[172.16.245.10:4376]
+2015-04-01 18:47:38  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(3) with Status : TRUE[172.16.245.10:4376]
+2015-04-01 18:47:38  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(4) with Status : TRUE[172.16.245.10:4376]
+2015-04-01 18:47:38  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(5) with Status : TRUE[172.16.245.10:4376]
+2015-04-01 18:47:46  [ERROR     ] (TThreadTCPServerMainPCClient.ClientExecute.rsvDataFromSocket)Read error 64, 指定的網路名稱無法使用。[172.16.245.10:4376]
+2015-04-01 18:47:46  [          ] (TThreadTCPServerPCClient.ServerSocketClientDisconnect)TCP/IP Client Disconnect - 172.16.245.10:6211
+2015-04-01 18:47:53  [          ] 2015-04-01 18:48:20  [          ] (TCenter1.Create)Create Start
+2015-04-01 18:48:20  [          ] File    : E:\Delphi\SFC Source Code\ICT\R6\MB_TEST\MBTEST_SFCS.exe
+2015-04-01 18:48:20  [          ] Version : 1.0.0.1
+2015-04-01 18:48:20  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-04-01 18:48:20  [          ] (TCenter1.Create)Create Over
+2015-04-01 18:48:20  [          ] (SajetTransStartType)Function Execute Over
+2015-04-01 18:48:20  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 18:48:20  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4387
+2015-04-01 18:48:20  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4387]
+2015-04-01 18:48:20  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4387 OK
+2015-04-01 18:48:20  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4387]
+2015-04-01 18:48:21  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:4387]
+2015-04-01 18:48:22  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:5][D:1][P:1][B:0][Data:Device (1) On LineLine : 4F-CM-252Stage : CMProcess : Aging_TestTerminal : Aging_Test02][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-34-46-2D-43-4D-2D-32-35-32-0D-53-74-61-67-65-20-3A-20-43-4D-0D-50-72-6F-63-65-73-73-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-30-32-0D-]
+2015-04-01 18:48:30  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:757055;78988481102]
+2015-04-01 18:48:30  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;757055;78988481102][172.16.245.10:4387]
+2015-04-01 18:48:30  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : OK;OK;
+2015-04-01 18:48:30  [          ] (SajetTransferData)Exexecute Result=TRUE
+2015-04-01 18:48:38  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(1) with Status : TRUE[172.16.245.10:4387]
+2015-04-01 18:48:38  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(2) with Status : TRUE[172.16.245.10:4387]
+2015-04-01 18:48:44  [ERROR     ] (TThreadTCPServerMainPCClient.ClientExecute.rsvDataFromSocket)Read error 64, 指定的網路名稱無法使用。[172.16.245.10:4387]
+2015-04-01 18:48:44  [          ] (TThreadTCPServerPCClient.ServerSocketClientDisconnect)TCP/IP Client Disconnect - 172.16.245.10:6211
+2015-04-01 18:48:59  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 18:48:59  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4389
+2015-04-01 18:49:04  [ERROR     ] (TThreadTCPServerSend.Execute.sendDataToRemote)Write error 6, 控制碼無效。
+2015-04-01 18:49:04  [          ] (SajetTransferData)Function Execute Start [P:4][C:7][Data:757055;;5300703;FAIL;123]
+2015-04-01 18:49:04  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4389]
+2015-04-01 18:49:04  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4389 OK
+2015-04-01 18:49:04  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4389]
+2015-04-01 18:49:04  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 18:49:04  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4391
+2015-04-01 18:49:04  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4391]
+2015-04-01 18:49:04  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4391 OK
+2015-04-01 18:49:04  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 18:49:04  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4393
+2015-04-01 18:49:04  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4391]
+2015-04-01 18:49:04  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4393]
+2015-04-01 18:49:04  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4393 OK
+2015-04-01 18:49:04  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4393]
+2015-04-01 18:49:10  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 18:49:10  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4394
+2015-04-01 18:49:10  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4394]
+2015-04-01 18:49:10  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4394 OK
+2015-04-01 18:49:10  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4394]
+2015-04-01 18:49:17  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 18:49:17  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4396
+2015-04-01 18:49:17  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4396]
+2015-04-01 18:49:17  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4396 OK
+2015-04-01 18:49:17  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4396]
+2015-04-01 18:49:25  [          ] (TCenter1.Create)Create Start
+2015-04-01 18:49:25  [          ] File    : E:\Delphi\SFC Source Code\ICT\R6\MB_TEST\MBTEST_SFCS.exe
+2015-04-01 18:49:25  [          ] Version : 1.0.0.1
+2015-04-01 18:49:25  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-04-01 18:49:25  [          ] (TCenter1.Create)Create Over
+2015-04-01 18:49:25  [          ] (SajetTransStartType)Function Execute Over
+2015-04-01 18:49:25  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 18:49:25  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4399
+2015-04-01 18:49:25  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4399]
+2015-04-01 18:49:25  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4399]
+2015-04-01 18:49:25  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4399 OK
+2015-04-01 18:49:26  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:4399]
+2015-04-01 18:49:26  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:5][D:1][P:1][B:0][Data:Device (1) On LineLine : 4F-CM-252Stage : CMProcess : Aging_TestTerminal : Aging_Test02][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-34-46-2D-43-4D-2D-32-35-32-0D-53-74-61-67-65-20-3A-20-43-4D-0D-50-72-6F-63-65-73-73-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-30-32-0D-]
+2015-04-01 18:49:32  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:757055;78988481102]
+2015-04-01 18:49:32  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;757055;78988481102][172.16.245.10:4399]
+2015-04-01 18:49:32  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : OK;OK;
+2015-04-01 18:49:32  [          ] (SajetTransferData)Exexecute Result=TRUE
+2015-04-01 18:49:33  [          ] (SajetTransferData)Function Execute Start [P:4][C:7][Data:757055;;5300703;FAIL;123]
+2015-04-01 18:49:33  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:7;757055;;5300703;FAIL;123][172.16.245.10:4399]
+2015-04-01 18:49:33  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : NG;[EC999] ROUTE NG:[5300703]ROUTE END (Attach-Label);
+2015-04-01 18:49:33  [          ] (SajetTransferData)Exexecute Result=FALSE
+2015-04-01 18:49:34  [          ] (SajetTransferData)Function Execute Start [P:4][C:7][Data:757055;;5300802;FAIL;123]
+2015-04-01 18:49:34  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:7;757055;;5300802;FAIL;123][172.16.245.10:4399]
+2015-04-01 18:49:34  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : NG;[EC999] ROUTE NG:[5300802]ROUTE END (Attach-Label);
+2015-04-01 18:49:34  [          ] (SajetTransferData)Exexecute Result=FALSE
+2015-04-01 18:49:35  [          ] (SajetTransferData)Function Execute Start [P:4][C:7][Data:757055;;5300804;FAIL;123]
+2015-04-01 18:49:35  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:7;757055;;5300804;FAIL;123][172.16.245.10:4399]
+2015-04-01 18:49:35  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : NG;[EC999] ROUTE NG:[5300804]ROUTE END (Attach-Label);
+2015-04-01 18:49:35  [          ] (SajetTransferData)Exexecute Result=FALSE
+2015-04-01 18:49:36  [          ] (SajetTransferData)Function Execute Start [P:4][C:7][Data:757055;;5300804;FAIL;123]
+2015-04-01 18:49:36  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:7;757055;;5300804;FAIL;123][172.16.245.10:4399]
+2015-04-01 18:49:36  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : NG;[EC999] ROUTE NG:[5300804]ROUTE END (Attach-Label);
+2015-04-01 18:49:36  [          ] (SajetTransferData)Exexecute Result=FALSE
+2015-04-01 18:49:37  [          ] (SajetTransferData)Function Execute Start [P:4][C:7][Data:757055;;5300803;FAIL;123]
+2015-04-01 18:49:37  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:7;757055;;5300803;FAIL;123][172.16.245.10:4399]
+2015-04-01 18:49:37  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : NG;[EC999] ROUTE NG:[5300803]ROUTE END (Attach-Label);
+2015-04-01 18:49:37  [          ] (SajetTransferData)Exexecute Result=FALSE
+2015-04-01 18:49:38  [          ] (SajetTransferData)Function Execute Start [P:4][C:7][Data:757055;;5300703;FAIL;123]
+2015-04-01 18:49:38  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:7;757055;;5300703;FAIL;123][172.16.245.10:4399]
+2015-04-01 18:49:38  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : NG;[EC999] ROUTE NG:[5300703]ROUTE END (Attach-Label);
+2015-04-01 18:49:38  [          ] (SajetTransferData)Exexecute Result=FALSE
+2015-04-01 18:49:49  [          ] (TCenter1.Destroy)Destroy Start
+2015-04-01 18:49:49  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2015-04-01 18:49:49  [          ] (TThreadTCPServerPCClient.ServerSocketClientDisconnect)TCP/IP Client Disconnect - 172.16.245.10:6211
+2015-04-01 18:49:49  [ERROR     ] (TThreadTCPServerMainPCClient.ClientExecute.rsvDataFromSocket)Read error 6, 控制碼無效。[172.16.245.10:4399]
+2015-04-01 18:49:49  [TEST      ] (TThreadTCPServerPCClient.executeRsvData.checkLink)Show Form Connect
+2015-04-01 18:49:49  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Over[172.16.245.10:4399]
+2015-04-01 18:49:49  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread Start[172.16.245.10:4399]
+2015-04-01 18:49:49  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread OK[172.16.245.10:4399]
+2015-04-01 18:49:49  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Start
+2015-04-01 18:49:49  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Over
+2015-04-01 18:49:49  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Start
+2015-04-01 18:49:49  [          ] (TThreadTCPServerRsv.Destroy)Destroy Send Thread Over
+2015-04-01 18:49:49  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Over
+2015-04-01 18:49:49  [          ] (TCenter1.Destroy)Destroy Over
+2015-04-01 18:50:26  [          ] (TCenter1.Create)Create Start
+2015-04-01 18:50:26  [          ] File    : E:\Delphi\SFC Source Code\ICT\R6\MB_TEST\MBTEST_SFCS.exe
+2015-04-01 18:50:26  [          ] Version : 1.0.0.1
+2015-04-01 18:50:26  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-04-01 18:50:26  [          ] (TCenter1.Create)Create Over
+2015-04-01 18:50:26  [          ] (SajetTransStartType)Function Execute Over
+2015-04-01 18:50:27  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 18:50:27  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4423
+2015-04-01 18:50:27  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4423]
+2015-04-01 18:50:27  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4423]
+2015-04-01 18:50:27  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4423 OK
+2015-04-01 18:50:28  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:4423]
+2015-04-01 18:50:29  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:5][D:1][P:1][B:0][Data:Device (1) On LineLine : 4F-CM-252Stage : CMProcess : Aging_TestTerminal : Aging_Test02][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-34-46-2D-43-4D-2D-32-35-32-0D-53-74-61-67-65-20-3A-20-43-4D-0D-50-72-6F-63-65-73-73-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-30-32-0D-]
+2015-04-01 18:50:37  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:757055;78988481102]
+2015-04-01 18:50:37  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;757055;78988481102][172.16.245.10:4423]
+2015-04-01 18:50:37  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : OK;OK;
+2015-04-01 18:50:37  [          ] (SajetTransferData)Exexecute Result=TRUE
+2015-04-01 18:50:42  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(1) with Status : TRUE[172.16.245.10:4423]
+2015-04-01 18:50:42  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(2) with Status : TRUE[172.16.245.10:4423]
+2015-04-01 18:50:42  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(3) with Status : TRUE[172.16.245.10:4423]
+2015-04-01 18:50:42  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(4) with Status : TRUE[172.16.245.10:4423]
+2015-04-01 18:50:42  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(5) with Status : TRUE[172.16.245.10:4423]
+2015-04-01 18:50:42  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(6) with Status : TRUE[172.16.245.10:4423]
+2015-04-01 18:50:42  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(7) with Status : TRUE[172.16.245.10:4423]
+2015-04-01 18:50:42  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(8) with Status : TRUE[172.16.245.10:4423]
+2015-04-01 18:50:42  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(9) with Status : TRUE[172.16.245.10:4423]
+2015-04-01 18:50:42  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(10) with Status : TRUE[172.16.245.10:4423]
+2015-04-01 18:50:42  [WARRING   ] (TThreadTCPServerMainPCClient.rsvDataFromSocket)Rsv Data Null Data(11) with Status : TRUE[172.16.245.10:4423]
+2015-04-01 18:50:44  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-01 18:50:44  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4425
+2015-04-01 18:50:44  [ERROR     ] (TThreadTCPServerMainPCClient.ClientExecute.rsvDataFromSocket)Discoonect with Zero Length Over 10 times[172.16.245.10:4423]
+2015-04-01 18:50:44  [          ] (TThreadTCPServerPCClient.ServerSocketClientDisconnect)TCP/IP Client Disconnect - 172.16.245.10:6211
+2015-04-01 18:50:44  [TEST      ] (TThreadTCPServerPCClient.executeRsvData.checkLink)Show Form Connect
+2015-04-01 18:50:46  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4425]
+2015-04-01 18:50:46  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4425]
+2015-04-01 18:50:46  [ERROR     ] (TThreadTCPServerSend.Execute.sendDataToRemote)Write error 6, 控制碼無效。
+2015-04-01 18:50:46  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[172.16.245.10:4425]
+2015-04-01 18:50:46  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4425 OK
+2015-04-01 18:50:46  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Over[172.16.245.10:4423]
+2015-04-01 18:50:46  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread Start[172.16.245.10:4423]
+2015-04-01 18:50:46  [          ] (TThreadTCPServerMainPCClient.Destroy)Destroy TCP Server Thread OK[172.16.245.10:4423]
+2015-04-01 18:50:48  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:5][D:1][P:1][B:0][Data:Device (1) On LineLine : 4F-CM-252Stage : CMProcess : Aging_TestTerminal : Aging_Test02][Data(Hex):44-65-76-69-63-65-20-28-31-29-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-34-46-2D-43-4D-2D-32-35-32-0D-53-74-61-67-65-20-3A-20-43-4D-0D-50-72-6F-63-65-73-73-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-41-67-69-6E-67-5F-54-65-73-74-30-32-0D-]
+2015-04-01 18:50:49  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Start
+2015-04-01 18:50:49  [          ] (TThreadTCPServerSend.Destroy)Destroy Send Thread Over

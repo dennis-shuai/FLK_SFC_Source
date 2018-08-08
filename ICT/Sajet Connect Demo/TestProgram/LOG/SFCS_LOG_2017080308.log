@@ -1,0 +1,38 @@
+2017/08/03 08:00:17  Start Connect OK
+2017/08/03 08:00:17  Program:TestSajetConnect.exe
+2017/08/03 08:00:22  Execute procedure:SAJET.CCM_645_TEST_LINK
+2017/08/03 08:00:22  TSAJET1:1
+2017/08/03 08:00:22  TSAJET2:123
+2017/08/03 08:00:22  TSAJET3:1234
+2017/08/03 08:00:22  TSAJET4:N/A
+2017/08/03 08:00:22  TSAJET5:N/A
+2017/08/03 08:00:22  TSAJET6:N/A
+2017/08/03 08:00:22  TSAJET7:N/A
+2017/08/03 08:00:22  TLINEID:11855
+2017/08/03 08:00:22  TSTAGEID:10022
+2017/08/03 08:00:22  TPROCESSID:100337
+2017/08/03 08:00:22  TTERMINALID:10013449
+2017/08/03 08:00:22  Execute result:NG;[EC201] EMP NO NG;
+2017/08/03 08:00:23  Execute Close Connection
+2017/08/03 08:00:23  End Connection OK
+2017/08/03 08:00:32  Execute Close Connection
+2017/08/03 08:00:32  End Connection OK
+2017/08/03 08:03:31  NG;have not start connect 
+2017/08/03 08:03:34  NG;have not start connect 
+2017/08/03 08:03:35  Execute Close Connection
+2017/08/03 08:03:35  End Connection OK
+2017/08/03 08:03:37  Start Connect OK
+2017/08/03 08:03:37  Program:TestSajetConnect.exe
+2017/08/03 08:05:06  Start Connect OK
+2017/08/03 08:05:06  Program:TestSajetConnect.exe
+2017/08/03 08:27:51  NG;have not start connecttion 
+2017/08/03 08:27:52  NG;have not start connecttion 
+2017/08/03 08:27:52  NG;have not start connecttion 
+2017/08/03 08:27:52  NG;have not start connecttion 
+2017/08/03 08:27:52  NG;have not start connecttion 
+2017/08/03 08:27:54  NG;have not start connecttion 
+2017/08/03 08:27:56  NG;have not start connecttion 
+2017/08/03 08:27:57  Execute Close Connection
+2017/08/03 08:27:57  End Connection OK
+2017/08/03 08:27:58  Start Connect OK
+2017/08/03 08:27:58  Program:TestSajetConnect.exe

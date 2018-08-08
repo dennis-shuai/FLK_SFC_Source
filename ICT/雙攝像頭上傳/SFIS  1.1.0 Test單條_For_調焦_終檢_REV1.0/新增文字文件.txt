@@ -1,0 +1,2 @@
+strs.Delete((strs.Count-1);
+strs.SaveToFile(FilePath);

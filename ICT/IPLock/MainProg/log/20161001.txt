@@ -1,0 +1,5 @@
+ begin load file 
+F:\Delphi\SFC Source Code\ICT\IPLock\MainProg\ApServer.cfg
+172.16.245.10
+異常類別:EBrokerException
+異常消息:No server available

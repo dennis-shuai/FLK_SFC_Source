@@ -1,0 +1,158 @@
+CREATE OR REPLACE PROCEDURE
+                 Mes_Erp_Wip_Deliver(TTYPE IN VARCHAR2, TWO IN VARCHAR2, TQTY IN NUMBER,
+  TSUBINV IN VARCHAR2, TLOCATOR IN VARCHAR2, TPUSH IN VARCHAR2, TPALLET IN VARCHAR2, TEMPID IN VARCHAR2, TRES OUT VARCHAR2) AS
+C_ID 	VARCHAR2(25);
+C_EDID  VARCHAR2(25);
+C_ERP	VARCHAR2(1);
+CCOUNT	NUMBER;
+C_SQTY  NUMBER;
+C_QTY	NUMBER;
+C_DOC 	VARCHAR2(25);
+C_ITEM_NO VARCHAR2(25);
+C_KPSN  VARCHAR2(25);
+C_SEQ	NUMBER;
+C_SN	VARCHAR2(25);
+C_ORGID SAJET.SYS_FACTORY.FACTORY_CODE%TYPE;
+C_APPLICATION_SENDER_CODE VARCHAR2(15);
+
+CURSOR sn_cursor IS
+   SELECT SERIAL_NUMBER, VERSION FROM sajet.G_SN_STATUS WHERE PALLET_NO = TPALLET;
+
+sn_record sn_cursor%ROWTYPE;
+
+CURSOR kp_cursor IS
+SELECT ITEM_PART_SN, VERSION FROM sajet.G_SN_KEYPARTS
+            WHERE SERIAL_NUMBER = C_SN AND WORK_ORDER = TWO ORDER BY UPDATE_TIME;
+
+kp_record kp_cursor%ROWTYPE;
+
+BEGIN
+-- ***** check Set Qty *****
+   C_QTY := TQTY;
+
+   SELECT COUNT(*) INTO CCOUNT FROM SAJET.SYS_BASE WHERE PARAM_NAME = 'Set Qty Field';
+
+   IF CCOUNT > 0 THEN
+   BEGIN
+      SELECT TO_NUMBER(NVL(b.OPTION10, '0')) INTO C_SQTY FROM SAJET.G_WO_BASE a, SAJET.SYS_PART b
+       WHERE a.WORK_ORDER = TWO AND a.MODEL_ID = b.PART_ID AND ROWNUM = 1;
+
+      IF C_SQTY > 1 THEN
+         C_QTY := C_QTY / C_SQTY;
+      END IF;
+   EXCEPTION
+      WHEN OTHERS THEN
+         C_QTY := TQTY;
+   END;
+   END IF;
+-- *************************
+
+  C_ID := 'XX';
+
+  IF TTYPE = 'Semifinished' THEN
+     SAJET.Mes_Push_Title_Get_Id('B1', C_ID);
+  ELSIF TTYPE = 'Goods' THEN
+     SAJET.Mes_Push_Title_Get_Id('C1', C_ID);
+  END IF;
+
+  IF C_ID = 'XX' THEN
+     TRES := 'TTYPE ERROR ('||TTYPE||')';
+  ELSE
+     IF TPUSH = 'Y' THEN C_ERP := 'Y';
+     ELSE C_ERP := 'N';
+     END IF;
+
+     INSERT INTO sajet.MES_TO_ERP_WIP_DELIVER
+            (work_order, qty, subinv, locator, pallet_no, check_code, to_erp, user_id, seq_id)
+     VALUES (TWO, C_QTY, tsubinv, tlocator, TPALLET, C_ID, C_ERP, TEMPID, C_ID);
+
+	 
+	 --UPDATE BY KEY FOR FIFO 20070813
+     IF C_ERP='Y' THEN
+       UPDATE sajet.G_WO_BASE
+          SET erp_qty = erp_qty + TQTY
+        WHERE work_order = TWO AND ROWNUM = 1;
+     END IF;
+     --update sajet.g_wo_base
+      --  set erp_qty = erp_qty + TQTY
+      --where work_order = TWO and rownum = 1;
+
+     COMMIT;
+
+
+
+-- ***** EDI BEGIN *****
+    --IF SUBSTR(TPALLET, 1, 2) = 'PF' THEN 
+    --不是試產工令並且以PF字母開頭的pallet 入庫時才上傳EDI系統
+      IF (SUBSTR(TPALLET, 1, 2) = 'PF' OR SUBSTR(TPALLET, 1, 2) = 'PK') AND  (SUBSTR(TWO, 1,1) <> 'S') THEN
+	    
+		C_APPLICATION_SENDER_CODE:='XXX';
+		SELECT A.FACTORY_CODE INTO C_ORGID FROM SAJET.SYS_FACTORY A,SAJET.G_WO_BASE B
+            WHERE A.FACTORY_ID=B.FACTORY_ID AND B.WORK_ORDER=TWO AND ROWNUM=1;
+	    IF C_ORGID='85' THEN 
+		    --C_APPLICATION_SENDER_CODE := 'FD1';
+		   C_APPLICATION_SENDER_CODE :='657200226';   
+	    END IF;
+	    IF (C_ORGID='509') OR (C_ORGID='1437')  THEN 
+		    --C_APPLICATION_SENDER_CODE := 'H21';
+		    C_APPLICATION_SENDER_CODE :='544976293';   
+        END IF;
+		 
+	    
+	    SAJET.Mes_Edi_Get_Id('PT', C_DOC);
+
+        C_EDID := SUBSTR(C_ID,5,9);
+
+        SELECT a.OPTION7 INTO C_ITEM_NO FROM sajet.G_WO_BASE b, sajet.SYS_PART a
+         WHERE b.WORK_ORDER = TWO AND b.MODEL_ID = a.PART_ID AND ROWNUM = 1;
+
+        INSERT INTO b2b.ENVELOPE
+               (DOC_ID, SENDER_ID, RECEIVER_ID, DIRECTION, B2B_MSG_TYPE, DATASOURCE, DOC_DATETIME, TRANS_FLAG, SEQ_ID)
+        VALUES (C_DOC, '657200226', '098533326', 'OUT', '867', 'EDI', SYSDATE, 'N', C_EDID);
+
+        INSERT INTO b2b.PT_HEADER
+               (DOC_ID, SENDER_ID, RECEIVER_ID, INVENTORY_BATCH_ID, FINISH_DATE, SYSTEM_DATE, SEQ_ID,
+			    APPLICATION_SENDER_CODE,INVENTORY_LOCATION_NAME)
+        VALUES (C_DOC, '657200226', '098533326', TPALLET, SYSDATE, SYSDATE, C_EDID, 
+		        C_APPLICATION_SENDER_CODE,TSUBINV);
+
+        INSERT INTO b2b.PT_ITEMS
+               (DOC_ID, WORK_ORDER_NUMBER, TRANSFER_QUANTITY, FG_ITEM_NUMBER, SEQ_ID)
+        VALUES (C_DOC, TWO, TQTY, C_ITEM_NO, C_EDID);
+
+        FOR sn_record IN sn_cursor LOOP
+           C_SN := sn_record.SERIAL_NUMBER;
+
+           INSERT INTO b2b.PT_SERIAL
+                  (DOC_ID, SERIAL_NUMBER, WORK_ORDER_NUMBER, FIRMWARE_VERSION, SEQ_ID)
+           VALUES (C_DOC, C_SN, TWO, sn_record.VERSION, C_EDID);
+
+           BEGIN
+              C_SEQ := 0;
+              FOR kp_record IN kp_cursor LOOP
+                 C_SEQ := C_SEQ + 1;
+                 INSERT INTO b2b.PT_REFERENCE
+                     (DOC_ID, SERIAL_NUMBER, WORK_ORDER_NUMBER, DRIVE_SERIAL_NUMBER, DRIVE_POSITION, DRIVE_FIRMWARE_VERSION, SEQ_ID)
+                 VALUES (C_DOC, C_SN, TWO, kp_record.ITEM_PART_SN, C_SEQ, kp_record.VERSION, C_EDID);
+              END LOOP;
+           EXCEPTION
+              WHEN OTHERS THEN
+                 INSERT INTO b2b.PT_REFERENCE
+                     (DOC_ID, SERIAL_NUMBER, WORK_ORDER_NUMBER, DRIVE_SERIAL_NUMBER, DRIVE_POSITION, SEQ_ID)
+                 VALUES (C_DOC, C_SN, TWO, C_SN, C_SEQ, C_EDID);
+           END;
+
+        END LOOP;
+
+        COMMIT;
+     END IF;
+-- ***** EDI END *****
+
+     TRES := 'OK';
+  END IF;
+EXCEPTION
+   WHEN OTHERS THEN
+      ROLLBACK;
+      TRES := 'MES_TO_ERP_WIP_DELIVER ERROR';
+END;
+/

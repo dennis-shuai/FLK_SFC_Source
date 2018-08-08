@@ -1,0 +1,11 @@
+2015-04-24 18:06:22  [          ] (TCenter1.Create)Create Start
+2015-04-24 18:06:22  [          ] File    : E:\Delphi\SFC Source Code\ICT\R6\MB_TEST\FQC1_SFCS.exe
+2015-04-24 18:06:22  [          ] Version : 1.0.0.1
+2015-04-24 18:06:22  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2015-04-24 18:06:22  [          ] (TCenter1.Create)Create Over
+2015-04-24 18:06:22  [          ] (SajetTransStartType)Function Execute Over
+2015-04-24 18:06:22  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 172.16.245.10:6211
+2015-04-24 18:06:22  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4181
+2015-04-24 18:06:22  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[172.16.245.10:4181]
+2015-04-24 18:06:22  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 172.16.245.10:4181 OK
+2015-04-24 18:06:22  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[172.16.245.10:4181]
