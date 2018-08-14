@@ -115,7 +115,7 @@ AutoIncBuild=0
 MajorVer=5
 MinorVer=7
 Release=0
-Build=1
+Build=2
 Debug=0
 PreRelease=0
 Special=0
@@ -126,7 +126,7 @@ CodePage=950
 [Version Info Keys]
 CompanyName=peng_key
 FileDescription=
-FileVersion=5.7.0.1
+FileVersion=5.7.0.2
 InternalName=
 LegalCopyright=
 LegalTrademarks=

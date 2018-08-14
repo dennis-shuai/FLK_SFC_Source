@@ -1,9 +1,9 @@
 object fMain: TfMain
-  Left = 218
-  Top = 127
+  Left = 345
+  Top = 101
   BorderStyle = bsNone
-  ClientHeight = 548
-  ClientWidth = 981
+  ClientHeight = 761
+  ClientWidth = 1027
   Color = clSilver
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -45,8 +45,8 @@ object fMain: TfMain
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 981
-    Height = 548
+    Width = 1027
+    Height = 761
     Align = alClient
     BevelOuter = bvNone
     Color = clWhite
@@ -54,18 +54,18 @@ object fMain: TfMain
     object ImageAll: TImage
       Left = 0
       Top = 0
-      Width = 981
-      Height = 548
+      Width = 1027
+      Height = 761
       Align = alClient
       ParentShowHint = False
       ShowHint = False
       Transparent = True
     end
     object Image2: TImage
-      Left = 536
-      Top = 488
+      Left = 568
+      Top = 680
       Width = 75
-      Height = 18
+      Height = 17
       Picture.Data = {
         07544269746D617026140000424D261400000000000036000000280000004D00
         0000160000000100180000000000F0130000120B0000120B0000000000000000
@@ -233,8 +233,8 @@ object fMain: TfMain
       Transparent = True
     end
     object Image1: TImage
-      Left = 640
-      Top = 488
+      Left = 656
+      Top = 680
       Width = 75
       Height = 18
       Picture.Data = {
@@ -433,7 +433,7 @@ object fMain: TfMain
     end
     object Label5: TLabel
       Left = 24
-      Top = 104
+      Top = 88
       Width = 70
       Height = 16
       Caption = #27231#31278':'#12288#12288#12288
@@ -446,8 +446,8 @@ object fMain: TfMain
       Transparent = True
     end
     object btnAdd: TSpeedButton
-      Left = 640
-      Top = 488
+      Left = 656
+      Top = 680
       Width = 75
       Height = 18
       Cursor = crHandPoint
@@ -463,7 +463,7 @@ object fMain: TfMain
     end
     object Label2: TLabel
       Left = 24
-      Top = 72
+      Top = 56
       Width = 65
       Height = 16
       Caption = 'SN:'#12288#12288#12288
@@ -477,7 +477,7 @@ object fMain: TfMain
     end
     object Label6: TLabel
       Left = 277
-      Top = 104
+      Top = 88
       Width = 92
       Height = 16
       Caption = #27231#21488#32232#34399#65306#12288#12288
@@ -491,7 +491,7 @@ object fMain: TfMain
     end
     object Label3: TLabel
       Left = 525
-      Top = 104
+      Top = 88
       Width = 92
       Height = 16
       Caption = #26657#39511#39006#22411#65306#12288#12288
@@ -505,7 +505,7 @@ object fMain: TfMain
     end
     object Label4: TLabel
       Left = 293
-      Top = 72
+      Top = 56
       Width = 92
       Height = 16
       Caption = #27231#21488#39006#22411#65306#12288#12288
@@ -519,7 +519,7 @@ object fMain: TfMain
     end
     object Label7: TLabel
       Left = 24
-      Top = 38
+      Top = 30
       Width = 66
       Height = 16
       Caption = #26657#39511#21934#34399#65306
@@ -533,7 +533,7 @@ object fMain: TfMain
     end
     object btnNewLot: TSpeedButton
       Left = 310
-      Top = 32
+      Top = 24
       Width = 24
       Height = 25
       Hint = 'Add New Lot'
@@ -553,8 +553,8 @@ object fMain: TfMain
       OnClick = btnNewLotClick
     end
     object btnSave: TSpeedButton
-      Left = 536
-      Top = 488
+      Left = 568
+      Top = 680
       Width = 75
       Height = 18
       Cursor = crHandPoint
@@ -570,7 +570,7 @@ object fMain: TfMain
     end
     object edtSN: TEdit
       Left = 88
-      Top = 72
+      Top = 56
       Width = 177
       Height = 21
       Color = 8454143
@@ -580,7 +580,7 @@ object fMain: TfMain
     end
     object cmbMachine: TComboBox
       Left = 384
-      Top = 70
+      Top = 54
       Width = 137
       Height = 21
       Color = 8454143
@@ -591,33 +591,34 @@ object fMain: TfMain
     end
     object cmbInterval: TComboBox
       Left = 607
-      Top = 102
+      Top = 86
       Width = 106
       Height = 21
       Color = 8454143
       ImeName = #20013#25991'(?'#20307') - 2345'#29579#29260#25340#38899'?'#20837#27861
       ItemHeight = 13
       TabOrder = 2
+      OnSelect = cmbIntervalSelect
     end
     object pnltotal: TPanel
       Left = 24
-      Top = 130
+      Top = 114
       Width = 705
-      Height = 342
+      Height = 557
       Color = clBlack
       TabOrder = 3
       object pnlItem1: TPanel
         Left = 2
         Top = 2
         Width = 703
-        Height = 33
+        Height = 27
         Color = clWhite
         TabOrder = 0
         object LabItem1: TLabel
           Left = 16
-          Top = 10
+          Top = 3
           Width = 180
-          Height = 16
+          Height = 20
           AutoSize = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlue
@@ -628,7 +629,7 @@ object fMain: TfMain
         end
         object Lablmax1: TLabel
           Left = 272
-          Top = 10
+          Top = 5
           Width = 56
           Height = 13
           Caption = 'Max Value: '
@@ -636,7 +637,7 @@ object fMain: TfMain
         end
         object Lablmin1: TLabel
           Left = 392
-          Top = 10
+          Top = 5
           Width = 50
           Height = 13
           Caption = 'Min Value:'
@@ -644,21 +645,21 @@ object fMain: TfMain
         end
         object LabMax1: TLabel
           Left = 328
-          Top = 10
+          Top = 5
           Width = 3
           Height = 13
           Visible = False
         end
         object LabMin1: TLabel
           Left = 448
-          Top = 10
+          Top = 5
           Width = 3
           Height = 13
           Visible = False
         end
         object edtItem1: TEdit
           Left = 512
-          Top = 6
+          Top = 5
           Width = 121
           Height = 21
           ImeName = #20013#25991'(?'#20307') - 2345'#29579#29260#25340#38899'?'#20837#27861
@@ -669,7 +670,7 @@ object fMain: TfMain
         end
         object chkItem1: TCheckBox
           Left = 208
-          Top = 7
+          Top = 5
           Width = 49
           Height = 20
           Caption = 'OK'
@@ -680,23 +681,23 @@ object fMain: TfMain
           Left = 640
           Top = 1
           Width = 60
-          Height = 30
+          Height = 25
           Color = clWhite
           TabOrder = 2
         end
       end
       object pnlItem2: TPanel
         Left = 2
-        Top = 36
+        Top = 29
         Width = 703
-        Height = 33
+        Height = 27
         Color = clWhite
         TabOrder = 1
         object LabItem2: TLabel
           Left = 16
-          Top = 10
+          Top = 3
           Width = 180
-          Height = 16
+          Height = 20
           AutoSize = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlue
@@ -748,7 +749,7 @@ object fMain: TfMain
         end
         object chkItem2: TCheckBox
           Left = 208
-          Top = 7
+          Top = 4
           Width = 49
           Height = 20
           Caption = 'OK'
@@ -759,23 +760,23 @@ object fMain: TfMain
           Left = 640
           Top = 1
           Width = 60
-          Height = 30
+          Height = 25
           Color = clWhite
           TabOrder = 2
         end
       end
       object pnlItem3: TPanel
         Left = 2
-        Top = 70
+        Top = 56
         Width = 703
-        Height = 33
+        Height = 27
         Color = clWhite
         TabOrder = 2
         object LabItem3: TLabel
           Left = 16
-          Top = 10
+          Top = 3
           Width = 180
-          Height = 16
+          Height = 20
           AutoSize = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlue
@@ -827,7 +828,7 @@ object fMain: TfMain
         end
         object chkItem3: TCheckBox
           Left = 208
-          Top = 7
+          Top = 4
           Width = 49
           Height = 20
           Caption = 'OK'
@@ -838,23 +839,23 @@ object fMain: TfMain
           Left = 640
           Top = 1
           Width = 60
-          Height = 30
+          Height = 25
           Color = clWhite
           TabOrder = 2
         end
       end
       object pnlItem4: TPanel
         Left = 2
-        Top = 104
+        Top = 84
         Width = 703
-        Height = 33
+        Height = 27
         Color = clWhite
         TabOrder = 3
         object LabItem4: TLabel
           Left = 16
-          Top = 10
+          Top = 3
           Width = 180
-          Height = 16
+          Height = 20
           AutoSize = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlue
@@ -906,7 +907,7 @@ object fMain: TfMain
         end
         object chkItem4: TCheckBox
           Left = 208
-          Top = 7
+          Top = 4
           Width = 49
           Height = 20
           Caption = 'OK'
@@ -917,23 +918,23 @@ object fMain: TfMain
           Left = 640
           Top = 1
           Width = 60
-          Height = 30
+          Height = 25
           Color = clWhite
           TabOrder = 2
         end
       end
       object pnlItem5: TPanel
         Left = 2
-        Top = 138
+        Top = 112
         Width = 703
-        Height = 33
+        Height = 27
         Color = clWhite
         TabOrder = 4
         object LabItem5: TLabel
           Left = 16
-          Top = 10
+          Top = 3
           Width = 180
-          Height = 16
+          Height = 20
           AutoSize = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlue
@@ -941,7 +942,6 @@ object fMain: TfMain
           Font.Name = 'MS Sans Serif'
           Font.Style = [fsBold]
           ParentFont = False
-          Visible = False
         end
         object LablMax5: TLabel
           Left = 272
@@ -986,7 +986,7 @@ object fMain: TfMain
         end
         object chkItem5: TCheckBox
           Left = 208
-          Top = 7
+          Top = 4
           Width = 49
           Height = 20
           Caption = 'OK'
@@ -997,23 +997,23 @@ object fMain: TfMain
           Left = 640
           Top = 1
           Width = 60
-          Height = 30
+          Height = 25
           Color = clWhite
           TabOrder = 2
         end
       end
       object pnlItem6: TPanel
         Left = 2
-        Top = 172
+        Top = 140
         Width = 703
-        Height = 33
+        Height = 27
         Color = clWhite
         TabOrder = 5
         object LabItem6: TLabel
           Left = 16
-          Top = 10
+          Top = 3
           Width = 180
-          Height = 16
+          Height = 20
           AutoSize = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlue
@@ -1065,7 +1065,7 @@ object fMain: TfMain
         end
         object chkItem6: TCheckBox
           Left = 208
-          Top = 7
+          Top = 4
           Width = 49
           Height = 20
           Caption = 'OK'
@@ -1076,23 +1076,23 @@ object fMain: TfMain
           Left = 640
           Top = 1
           Width = 60
-          Height = 30
+          Height = 25
           Color = clWhite
           TabOrder = 2
         end
       end
       object pnlItem7: TPanel
         Left = 2
-        Top = 206
+        Top = 168
         Width = 703
-        Height = 33
+        Height = 27
         Color = clWhite
         TabOrder = 6
         object LabItem7: TLabel
           Left = 16
-          Top = 10
+          Top = 3
           Width = 180
-          Height = 16
+          Height = 20
           AutoSize = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlue
@@ -1144,7 +1144,7 @@ object fMain: TfMain
         end
         object chkItem7: TCheckBox
           Left = 208
-          Top = 7
+          Top = 4
           Width = 49
           Height = 20
           Caption = 'OK'
@@ -1155,23 +1155,23 @@ object fMain: TfMain
           Left = 640
           Top = 1
           Width = 60
-          Height = 30
+          Height = 25
           Color = clWhite
           TabOrder = 2
         end
       end
       object pnlItem8: TPanel
         Left = 2
-        Top = 240
+        Top = 196
         Width = 703
-        Height = 33
+        Height = 27
         Color = clWhite
         TabOrder = 7
         object LabItem8: TLabel
           Left = 16
-          Top = 10
+          Top = 3
           Width = 180
-          Height = 16
+          Height = 20
           AutoSize = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlue
@@ -1223,7 +1223,7 @@ object fMain: TfMain
         end
         object chkItem8: TCheckBox
           Left = 208
-          Top = 7
+          Top = 4
           Width = 49
           Height = 20
           Caption = 'OK'
@@ -1234,23 +1234,23 @@ object fMain: TfMain
           Left = 640
           Top = 1
           Width = 60
-          Height = 30
+          Height = 25
           Color = clWhite
           TabOrder = 2
         end
       end
       object pnlItem9: TPanel
         Left = 2
-        Top = 274
+        Top = 224
         Width = 703
-        Height = 33
+        Height = 27
         Color = clWhite
         TabOrder = 8
         object LabItem9: TLabel
           Left = 16
-          Top = 10
+          Top = 3
           Width = 180
-          Height = 16
+          Height = 20
           AutoSize = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlue
@@ -1302,7 +1302,7 @@ object fMain: TfMain
         end
         object chkItem9: TCheckBox
           Left = 208
-          Top = 7
+          Top = 4
           Width = 49
           Height = 20
           Caption = 'OK'
@@ -1313,23 +1313,23 @@ object fMain: TfMain
           Left = 640
           Top = 1
           Width = 60
-          Height = 30
+          Height = 25
           Color = clWhite
           TabOrder = 2
         end
       end
       object pnlItem10: TPanel
         Left = 2
-        Top = 308
+        Top = 252
         Width = 703
-        Height = 33
+        Height = 27
         Color = clWhite
         TabOrder = 9
         object LabItem10: TLabel
           Left = 16
-          Top = 10
+          Top = 3
           Width = 180
-          Height = 16
+          Height = 20
           AutoSize = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlue
@@ -1380,7 +1380,7 @@ object fMain: TfMain
         end
         object chkItem10: TCheckBox
           Left = 208
-          Top = 7
+          Top = 4
           Width = 49
           Height = 20
           Caption = 'OK'
@@ -1391,7 +1391,797 @@ object fMain: TfMain
           Left = 640
           Top = 1
           Width = 60
-          Height = 30
+          Height = 25
+          Color = clWhite
+          TabOrder = 2
+        end
+      end
+      object pnlItem11: TPanel
+        Left = 2
+        Top = 280
+        Width = 703
+        Height = 27
+        Color = clWhite
+        TabOrder = 10
+        object LabItem11: TLabel
+          Left = 16
+          Top = 3
+          Width = 180
+          Height = 20
+          AutoSize = False
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlue
+          Font.Height = -13
+          Font.Name = 'MS Sans Serif'
+          Font.Style = [fsBold]
+          ParentFont = False
+        end
+        object LablMax11: TLabel
+          Left = 272
+          Top = 5
+          Width = 56
+          Height = 13
+          Caption = 'Max Value: '
+          Visible = False
+        end
+        object LablMin11: TLabel
+          Left = 392
+          Top = 5
+          Width = 50
+          Height = 13
+          Caption = 'Min Value:'
+          Visible = False
+        end
+        object LabMax11: TLabel
+          Left = 328
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object LabMin11: TLabel
+          Left = 448
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object edtItem11: TEdit
+          Left = 512
+          Top = 5
+          Width = 121
+          Height = 21
+          ImeName = #20013#25991'(?'#20307') - 2345'#29579#29260#25340#38899'?'#20837#27861
+          TabOrder = 0
+          Visible = False
+          OnChange = edtItem1Change
+          OnKeyPress = edtItem1KeyPress
+        end
+        object chkItem11: TCheckBox
+          Left = 208
+          Top = 5
+          Width = 49
+          Height = 20
+          Caption = 'OK'
+          TabOrder = 1
+          Visible = False
+        end
+        object pnlResult11: TPanel
+          Left = 640
+          Top = 1
+          Width = 60
+          Height = 25
+          Color = clWhite
+          TabOrder = 2
+        end
+      end
+      object pnlItem12: TPanel
+        Left = 2
+        Top = 308
+        Width = 703
+        Height = 27
+        Color = clWhite
+        TabOrder = 11
+        object LabItem12: TLabel
+          Left = 16
+          Top = 3
+          Width = 180
+          Height = 20
+          AutoSize = False
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlue
+          Font.Height = -13
+          Font.Name = 'MS Sans Serif'
+          Font.Style = [fsBold]
+          ParentFont = False
+        end
+        object LablMax12: TLabel
+          Left = 272
+          Top = 5
+          Width = 56
+          Height = 13
+          Caption = 'Max Value: '
+          Visible = False
+        end
+        object LablMin12: TLabel
+          Left = 392
+          Top = 5
+          Width = 50
+          Height = 13
+          Caption = 'Min Value:'
+          Visible = False
+        end
+        object LabMax12: TLabel
+          Left = 328
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object LabMin12: TLabel
+          Left = 448
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object edtItem12: TEdit
+          Left = 512
+          Top = 5
+          Width = 121
+          Height = 21
+          ImeName = #20013#25991'(?'#20307') - 2345'#29579#29260#25340#38899'?'#20837#27861
+          TabOrder = 0
+          Visible = False
+          OnChange = edtItem1Change
+          OnKeyPress = edtItem1KeyPress
+        end
+        object chkItem12: TCheckBox
+          Left = 208
+          Top = 5
+          Width = 49
+          Height = 20
+          Caption = 'OK'
+          TabOrder = 1
+          Visible = False
+        end
+        object pnlResult12: TPanel
+          Left = 640
+          Top = 1
+          Width = 60
+          Height = 25
+          Color = clWhite
+          TabOrder = 2
+        end
+      end
+      object pnlItem16: TPanel
+        Left = 2
+        Top = 420
+        Width = 703
+        Height = 27
+        Color = clWhite
+        TabOrder = 15
+        object LabItem16: TLabel
+          Left = 16
+          Top = 3
+          Width = 180
+          Height = 20
+          AutoSize = False
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlue
+          Font.Height = -13
+          Font.Name = 'MS Sans Serif'
+          Font.Style = [fsBold]
+          ParentFont = False
+        end
+        object LablMax16: TLabel
+          Left = 272
+          Top = 5
+          Width = 56
+          Height = 13
+          Caption = 'Max Value: '
+          Visible = False
+        end
+        object LablMin16: TLabel
+          Left = 392
+          Top = 5
+          Width = 50
+          Height = 13
+          Caption = 'Min Value:'
+          Visible = False
+        end
+        object LabMax16: TLabel
+          Left = 328
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object LabMin16: TLabel
+          Left = 448
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object edtItem16: TEdit
+          Left = 512
+          Top = 5
+          Width = 121
+          Height = 21
+          ImeName = #20013#25991'(?'#20307') - 2345'#29579#29260#25340#38899'?'#20837#27861
+          TabOrder = 0
+          Visible = False
+          OnChange = edtItem1Change
+          OnKeyPress = edtItem1KeyPress
+        end
+        object chkItem16: TCheckBox
+          Left = 208
+          Top = 5
+          Width = 49
+          Height = 20
+          Caption = 'OK'
+          TabOrder = 1
+          Visible = False
+        end
+        object pnlResult16: TPanel
+          Left = 640
+          Top = 1
+          Width = 60
+          Height = 25
+          Color = clWhite
+          TabOrder = 2
+        end
+      end
+      object pnlItem15: TPanel
+        Left = 2
+        Top = 392
+        Width = 703
+        Height = 27
+        Color = clWhite
+        TabOrder = 14
+        object LabItem15: TLabel
+          Left = 16
+          Top = 3
+          Width = 180
+          Height = 20
+          AutoSize = False
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlue
+          Font.Height = -13
+          Font.Name = 'MS Sans Serif'
+          Font.Style = [fsBold]
+          ParentFont = False
+        end
+        object LablMax15: TLabel
+          Left = 272
+          Top = 5
+          Width = 56
+          Height = 13
+          Caption = 'Max Value: '
+          Visible = False
+        end
+        object LablMin15: TLabel
+          Left = 392
+          Top = 5
+          Width = 50
+          Height = 13
+          Caption = 'Min Value:'
+          Visible = False
+        end
+        object LabMax15: TLabel
+          Left = 328
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object LabMin15: TLabel
+          Left = 448
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object edtItem15: TEdit
+          Left = 512
+          Top = 5
+          Width = 121
+          Height = 21
+          ImeName = #20013#25991'(?'#20307') - 2345'#29579#29260#25340#38899'?'#20837#27861
+          TabOrder = 0
+          Visible = False
+          OnChange = edtItem1Change
+          OnKeyPress = edtItem1KeyPress
+        end
+        object chkItem15: TCheckBox
+          Left = 208
+          Top = 5
+          Width = 49
+          Height = 20
+          Caption = 'OK'
+          TabOrder = 1
+          Visible = False
+        end
+        object pnlResult15: TPanel
+          Left = 640
+          Top = 1
+          Width = 60
+          Height = 25
+          Color = clWhite
+          TabOrder = 2
+        end
+      end
+      object pnlItem14: TPanel
+        Left = 2
+        Top = 364
+        Width = 703
+        Height = 27
+        Color = clWhite
+        TabOrder = 13
+        object LabItem14: TLabel
+          Left = 16
+          Top = 3
+          Width = 180
+          Height = 20
+          AutoSize = False
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlue
+          Font.Height = -13
+          Font.Name = 'MS Sans Serif'
+          Font.Style = [fsBold]
+          ParentFont = False
+        end
+        object LablMax14: TLabel
+          Left = 272
+          Top = 5
+          Width = 56
+          Height = 13
+          Caption = 'Max Value: '
+          Visible = False
+        end
+        object LablMin14: TLabel
+          Left = 392
+          Top = 5
+          Width = 50
+          Height = 13
+          Caption = 'Min Value:'
+          Visible = False
+        end
+        object LabMax14: TLabel
+          Left = 328
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object LabMin14: TLabel
+          Left = 448
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object edtItem14: TEdit
+          Left = 512
+          Top = 5
+          Width = 121
+          Height = 21
+          ImeName = #20013#25991'(?'#20307') - 2345'#29579#29260#25340#38899'?'#20837#27861
+          TabOrder = 0
+          Visible = False
+          OnChange = edtItem1Change
+          OnKeyPress = edtItem1KeyPress
+        end
+        object chkItem14: TCheckBox
+          Left = 208
+          Top = 5
+          Width = 49
+          Height = 20
+          Caption = 'OK'
+          TabOrder = 1
+          Visible = False
+        end
+        object pnlResult14: TPanel
+          Left = 640
+          Top = 1
+          Width = 60
+          Height = 25
+          Color = clWhite
+          TabOrder = 2
+        end
+      end
+      object pnlItem13: TPanel
+        Left = 2
+        Top = 336
+        Width = 703
+        Height = 27
+        Color = clWhite
+        TabOrder = 12
+        object LabItem13: TLabel
+          Left = 16
+          Top = 3
+          Width = 180
+          Height = 20
+          AutoSize = False
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlue
+          Font.Height = -13
+          Font.Name = 'MS Sans Serif'
+          Font.Style = [fsBold]
+          ParentFont = False
+        end
+        object LablMax13: TLabel
+          Left = 272
+          Top = 5
+          Width = 56
+          Height = 13
+          Caption = 'Max Value: '
+          Visible = False
+        end
+        object LablMin13: TLabel
+          Left = 392
+          Top = 5
+          Width = 50
+          Height = 13
+          Caption = 'Min Value:'
+          Visible = False
+        end
+        object LabMax13: TLabel
+          Left = 328
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object LabMin13: TLabel
+          Left = 448
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object edtItem13: TEdit
+          Left = 512
+          Top = 5
+          Width = 121
+          Height = 21
+          ImeName = #20013#25991'(?'#20307') - 2345'#29579#29260#25340#38899'?'#20837#27861
+          TabOrder = 0
+          Visible = False
+          OnChange = edtItem1Change
+          OnKeyPress = edtItem1KeyPress
+        end
+        object chkItem13: TCheckBox
+          Left = 208
+          Top = 5
+          Width = 49
+          Height = 20
+          Caption = 'OK'
+          TabOrder = 1
+          Visible = False
+        end
+        object pnlResult13: TPanel
+          Left = 640
+          Top = 1
+          Width = 60
+          Height = 25
+          Color = clWhite
+          TabOrder = 2
+        end
+      end
+      object pnlItem20: TPanel
+        Left = 2
+        Top = 528
+        Width = 703
+        Height = 27
+        Color = clWhite
+        TabOrder = 19
+        object LabItem20: TLabel
+          Left = 16
+          Top = 3
+          Width = 180
+          Height = 20
+          AutoSize = False
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlue
+          Font.Height = -13
+          Font.Name = 'MS Sans Serif'
+          Font.Style = [fsBold]
+          ParentFont = False
+        end
+        object LablMax20: TLabel
+          Left = 272
+          Top = 5
+          Width = 56
+          Height = 13
+          Caption = 'Max Value: '
+          Visible = False
+        end
+        object LablMin20: TLabel
+          Left = 392
+          Top = 5
+          Width = 50
+          Height = 13
+          Caption = 'Min Value:'
+          Visible = False
+        end
+        object LabMax20: TLabel
+          Left = 328
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object LabMin20: TLabel
+          Left = 448
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object edtItem20: TEdit
+          Left = 512
+          Top = 5
+          Width = 121
+          Height = 21
+          ImeName = #20013#25991'(?'#20307') - 2345'#29579#29260#25340#38899'?'#20837#27861
+          TabOrder = 0
+          Visible = False
+          OnChange = edtItem1Change
+          OnKeyPress = edtItem1KeyPress
+        end
+        object chkItem20: TCheckBox
+          Left = 208
+          Top = 5
+          Width = 49
+          Height = 20
+          Caption = 'OK'
+          TabOrder = 1
+          Visible = False
+        end
+        object pnlResult20: TPanel
+          Left = 640
+          Top = 1
+          Width = 60
+          Height = 25
+          Color = clWhite
+          TabOrder = 2
+        end
+      end
+      object pnlItem19: TPanel
+        Left = 2
+        Top = 500
+        Width = 703
+        Height = 27
+        Color = clWhite
+        TabOrder = 18
+        object LabItem19: TLabel
+          Left = 16
+          Top = 3
+          Width = 180
+          Height = 20
+          AutoSize = False
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlue
+          Font.Height = -13
+          Font.Name = 'MS Sans Serif'
+          Font.Style = [fsBold]
+          ParentFont = False
+        end
+        object LablMax19: TLabel
+          Left = 272
+          Top = 5
+          Width = 56
+          Height = 13
+          Caption = 'Max Value: '
+          Visible = False
+        end
+        object LablMin19: TLabel
+          Left = 392
+          Top = 5
+          Width = 50
+          Height = 13
+          Caption = 'Min Value:'
+          Visible = False
+        end
+        object LabMax19: TLabel
+          Left = 328
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object LabMin19: TLabel
+          Left = 448
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object edtItem19: TEdit
+          Left = 512
+          Top = 5
+          Width = 121
+          Height = 21
+          ImeName = #20013#25991'(?'#20307') - 2345'#29579#29260#25340#38899'?'#20837#27861
+          TabOrder = 0
+          Visible = False
+          OnChange = edtItem1Change
+          OnKeyPress = edtItem1KeyPress
+        end
+        object chkItem19: TCheckBox
+          Left = 208
+          Top = 5
+          Width = 49
+          Height = 20
+          Caption = 'OK'
+          TabOrder = 1
+          Visible = False
+        end
+        object pnlResult19: TPanel
+          Left = 640
+          Top = 1
+          Width = 60
+          Height = 25
+          Color = clWhite
+          TabOrder = 2
+        end
+      end
+      object pnlItem18: TPanel
+        Left = 2
+        Top = 472
+        Width = 703
+        Height = 27
+        Color = clWhite
+        TabOrder = 17
+        object LabItem18: TLabel
+          Left = 16
+          Top = 3
+          Width = 180
+          Height = 20
+          AutoSize = False
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlue
+          Font.Height = -13
+          Font.Name = 'MS Sans Serif'
+          Font.Style = [fsBold]
+          ParentFont = False
+        end
+        object LablMax18: TLabel
+          Left = 272
+          Top = 5
+          Width = 56
+          Height = 13
+          Caption = 'Max Value: '
+          Visible = False
+        end
+        object LablMin18: TLabel
+          Left = 392
+          Top = 5
+          Width = 50
+          Height = 13
+          Caption = 'Min Value:'
+          Visible = False
+        end
+        object LabMax18: TLabel
+          Left = 328
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object LabMin18: TLabel
+          Left = 448
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object edtItem18: TEdit
+          Left = 512
+          Top = 5
+          Width = 121
+          Height = 21
+          ImeName = #20013#25991'(?'#20307') - 2345'#29579#29260#25340#38899'?'#20837#27861
+          TabOrder = 0
+          Visible = False
+          OnChange = edtItem1Change
+          OnKeyPress = edtItem1KeyPress
+        end
+        object chkItem18: TCheckBox
+          Left = 208
+          Top = 5
+          Width = 49
+          Height = 20
+          Caption = 'OK'
+          TabOrder = 1
+          Visible = False
+        end
+        object pnlResult18: TPanel
+          Left = 640
+          Top = 1
+          Width = 60
+          Height = 25
+          Color = clWhite
+          TabOrder = 2
+        end
+      end
+      object pnlItem17: TPanel
+        Left = 2
+        Top = 448
+        Width = 703
+        Height = 27
+        Color = clWhite
+        TabOrder = 16
+        object LabItem17: TLabel
+          Left = 16
+          Top = 3
+          Width = 180
+          Height = 20
+          AutoSize = False
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlue
+          Font.Height = -13
+          Font.Name = 'MS Sans Serif'
+          Font.Style = [fsBold]
+          ParentFont = False
+        end
+        object LablMax17: TLabel
+          Left = 272
+          Top = 5
+          Width = 56
+          Height = 13
+          Caption = 'Max Value: '
+          Visible = False
+        end
+        object LablMin17: TLabel
+          Left = 392
+          Top = 5
+          Width = 50
+          Height = 13
+          Caption = 'Min Value:'
+          Visible = False
+        end
+        object LabMax17: TLabel
+          Left = 328
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object LabMin17: TLabel
+          Left = 448
+          Top = 5
+          Width = 3
+          Height = 13
+          Visible = False
+        end
+        object edtItem17: TEdit
+          Left = 512
+          Top = 5
+          Width = 121
+          Height = 21
+          ImeName = #20013#25991'(?'#20307') - 2345'#29579#29260#25340#38899'?'#20837#27861
+          TabOrder = 0
+          Visible = False
+          OnChange = edtItem1Change
+          OnKeyPress = edtItem1KeyPress
+        end
+        object chkItem17: TCheckBox
+          Left = 208
+          Top = 5
+          Width = 49
+          Height = 20
+          Caption = 'OK'
+          TabOrder = 1
+          Visible = False
+        end
+        object pnlResult17: TPanel
+          Left = 640
+          Top = 1
+          Width = 60
+          Height = 25
           Color = clWhite
           TabOrder = 2
         end
@@ -1399,7 +2189,7 @@ object fMain: TfMain
     end
     object edtModel: TEdit
       Left = 88
-      Top = 104
+      Top = 88
       Width = 153
       Height = 21
       ImeName = #20013#25991'(?'#20307') - 2345'#29579#29260#25340#38899'?'#20837#27861
@@ -1407,7 +2197,7 @@ object fMain: TfMain
     end
     object cmbMachineNo: TComboBox
       Left = 368
-      Top = 102
+      Top = 86
       Width = 137
       Height = 21
       Color = 8454143
@@ -1418,7 +2208,7 @@ object fMain: TfMain
     end
     object cmbListNo: TComboBox
       Left = 112
-      Top = 35
+      Top = 27
       Width = 193
       Height = 21
       Color = 8454143

@@ -115,13 +115,13 @@ end;
 procedure TfMain.cmbModelSelect(Sender: TObject);
 begin
     //cmbMachine.SetFocus;
-    //ShowData;
+     ShowData;
 end;
 
 procedure TfMain.cmbMachineSelect(Sender: TObject);
 begin
     //cmbExp.SetFocus;
-    //ShowData;
+    ShowData;
 end;
 
 procedure TfMain.ShowData;
@@ -131,26 +131,48 @@ begin
      with QryData do begin
          Close;
          Params.Clear;
-         Params.CreateParam(ftInteger,'serial_number',ptInput);
-         CommandText := ' select a.serial_number,c.model_name,nvl(d.tooling_Name,''N/A'')  tooling_name,f.tooling_name machine_type,h.item_name,'+
+         Params.CreateParam(ftString,'serial_number',ptInput);
+         if cmbModel.ItemIndex>=0 then
+            Params.CreateParam(ftString,'Model',ptInput);
+         if cmbMachine.ItemIndex>=0 then
+            Params.CreateParam(ftString,'Tooling',ptInput);
+
+         CommandText := ' select * from (select a.serial_number,c.model_name,nvl(d.tooling_Name,''N/A'') tooling_name, f.tooling_name machine_type,h.item_name,'+
                        ' e.interval_desc,b.upper_value,b.lower_value,'+
-                       ' a.warning_times,a.limit_times,a.used_times,b.seq  '+
-                       ' from sajet.sys_cal_sn a,sajet.sys_cal_model_type b,sajet.sys_model c,sajet.sys_tooling d,sajet.sys_cal_interval e,sajet.sys_tooling f '+
-                       ' ,sajet.sys_cal_item h where a.serial_number=:serial_number and a.model_id=b.model_id and b.model_id=c.model_Id and a.tooling_id=d.tooling_id(+) ' +
-                       ' and e.interval_id =b.interval_id and b.tooling_id=f.tooling_id and b.item_id=h.item_id order by e.interval_id,b.seq';
-         Params.ParamByName('serial_number').AsString :=edtSN.Text ;
+                       ' a.warning_times,a.limit_times,a.used_times,b.seq ,e.interval_id '+
+                       ' from sajet.sys_cal_sn a,sajet.sys_cal_model_type b,sajet.sys_model c,'+
+                       ' sajet.sys_tooling d,sajet.sys_cal_interval e,sajet.sys_tooling f '+
+                       ' ,sajet.sys_cal_item h where a.serial_number like :serial_number  ';
+         if cmbModel.ItemIndex>=0 then
+             CommandText := CommandText + ' and  c.Model_name = :model ';
+
+         if cmbMachine.ItemIndex>=0 then
+             CommandText := CommandText + ' and  f.Tooling_name = :Tooling ';
+
+         CommandText := CommandText + ' and a.model_id=b.model_id and b.model_id=c.model_Id and a.tooling_id=d.tooling_id(+) ' +
+                       ' and e.interval_id =b.interval_id and b.tooling_id=f.tooling_id and '+
+                       ' b.item_id=h.item_id ) order by serial_number,model_name,machine_type,interval_id,seq';
+         Params.ParamByName('serial_number').AsString :=edtSN.Text+'%' ;
+         if cmbModel.ItemIndex >=0 then
+             Params.ParamByName('Model').AsString := cmbModel.Items.Strings[cmbModel.ItemIndex] ;
+         if cmbMachine.ItemIndex >=0 then
+             Params.ParamByName('Tooling').AsString :=cmbMachine.Items.Strings[cmbMachine.ItemIndex] ;;
+
          Open;
 
          if not IsEmpty then
          begin
-            cmbModel.ItemIndex :=cmbModel.Items.IndexOf(fieldbyName('Model_Name').AsString);
-            if fieldbyName('tooling_name').AsString <> 'N/A' then begin
-                cmbMachine.ItemIndex :=cmbMachine.Items.IndexOf(fieldbyName('tooling_name').AsString);
-            end;
-            edtwarning.Text := fieldByName('warning_times').AsString;
-            edtLimit.Text := fieldByName('limit_times').AsString;
-            edtUsed.Text := fieldByName('used_times').AsString;
 
+            if edtSN.Text <>'' then begin
+                cmbModel.ItemIndex :=cmbModel.Items.IndexOf(fieldbyName('Model_Name').AsString);
+                if fieldbyName('tooling_name').AsString <> 'N/A' then begin
+                    cmbMachine.ItemIndex :=cmbMachine.Items.IndexOf(fieldbyName('tooling_name').AsString);
+                end;
+
+                edtwarning.Text := fieldByName('warning_times').AsString;
+                edtLimit.Text := fieldByName('limit_times').AsString;
+                edtUsed.Text := fieldByName('used_times').AsString;
+            end;
          end;
      end;
 end;

@@ -133,6 +133,96 @@ type
     cmbListNo: TComboBox;
     btnSave: TSpeedButton;
     Image2: TImage;
+    pnlItem11: TPanel;
+    LabItem11: TLabel;
+    LablMax11: TLabel;
+    LablMin11: TLabel;
+    LabMax11: TLabel;
+    LabMin11: TLabel;
+    edtItem11: TEdit;
+    chkItem11: TCheckBox;
+    pnlResult11: TPanel;
+    pnlItem12: TPanel;
+    LabItem12: TLabel;
+    LablMax12: TLabel;
+    LablMin12: TLabel;
+    LabMax12: TLabel;
+    LabMin12: TLabel;
+    edtItem12: TEdit;
+    chkItem12: TCheckBox;
+    pnlResult12: TPanel;
+    pnlItem16: TPanel;
+    LabItem16: TLabel;
+    LablMax16: TLabel;
+    LablMin16: TLabel;
+    LabMax16: TLabel;
+    LabMin16: TLabel;
+    edtItem16: TEdit;
+    chkItem16: TCheckBox;
+    pnlResult16: TPanel;
+    pnlItem15: TPanel;
+    LabItem15: TLabel;
+    LablMax15: TLabel;
+    LablMin15: TLabel;
+    LabMax15: TLabel;
+    LabMin15: TLabel;
+    edtItem15: TEdit;
+    chkItem15: TCheckBox;
+    pnlResult15: TPanel;
+    pnlItem14: TPanel;
+    LabItem14: TLabel;
+    LablMax14: TLabel;
+    LablMin14: TLabel;
+    LabMax14: TLabel;
+    LabMin14: TLabel;
+    edtItem14: TEdit;
+    chkItem14: TCheckBox;
+    pnlResult14: TPanel;
+    pnlItem13: TPanel;
+    LabItem13: TLabel;
+    LablMax13: TLabel;
+    LablMin13: TLabel;
+    LabMax13: TLabel;
+    LabMin13: TLabel;
+    edtItem13: TEdit;
+    chkItem13: TCheckBox;
+    pnlResult13: TPanel;
+    pnlItem20: TPanel;
+    LabItem20: TLabel;
+    LablMax20: TLabel;
+    LablMin20: TLabel;
+    LabMax20: TLabel;
+    LabMin20: TLabel;
+    edtItem20: TEdit;
+    chkItem20: TCheckBox;
+    pnlResult20: TPanel;
+    pnlItem19: TPanel;
+    LabItem19: TLabel;
+    LablMax19: TLabel;
+    LablMin19: TLabel;
+    LabMax19: TLabel;
+    LabMin19: TLabel;
+    edtItem19: TEdit;
+    chkItem19: TCheckBox;
+    pnlResult19: TPanel;
+    pnlItem18: TPanel;
+    LabItem18: TLabel;
+    LablMax18: TLabel;
+    LablMin18: TLabel;
+    LabMax18: TLabel;
+    LabMin18: TLabel;
+    edtItem18: TEdit;
+    chkItem18: TCheckBox;
+    pnlResult18: TPanel;
+    pnlItem17: TPanel;
+    LabItem17: TLabel;
+    LablMax17: TLabel;
+    LablMin17: TLabel;
+    LabMax17: TLabel;
+    LabMin17: TLabel;
+    edtItem17: TEdit;
+    chkItem17: TCheckBox;
+    pnlResult17: TPanel;
     procedure FormShow(Sender: TObject);
     procedure btnAddClick(Sender: TObject);
     procedure edtSNKeyPress(Sender: TObject; var Key: Char);
@@ -142,6 +232,7 @@ type
     procedure btnNewLotClick(Sender: TObject);
     procedure edtItem1KeyPress(Sender: TObject; var Key: Char);
     procedure cmbListNoSelect(Sender: TObject);
+    procedure cmbIntervalSelect(Sender: TObject);
 
   private
     { Private declarations }
@@ -151,7 +242,8 @@ type
     itemCount:Integer;
     UpdateUserID,gsParam: string;
     Authoritys, AuthorityRole: string;
-    procedure ShowCalItem;
+    bDefineTool,bInput:Boolean;
+    procedure ShowCalItem(bDefineTooling:Boolean;sTooling,sInterval:string);
     procedure clearData;
     procedure GetListNo;
     function  GetID(sfieldID,sField,sTable,sCondition:string):integer;
@@ -160,6 +252,7 @@ type
 
 var
   fMain: TfMain;
+  const MaxItemCount:Integer =20;
 
 implementation
 
@@ -178,7 +271,7 @@ begin
   else
     self.ScaleBy(100, 100);
   end;
-
+  bInput :=False;
   GetListNo;
 
 end;
@@ -205,99 +298,55 @@ begin
 end;
 
 
-procedure TfMain.ShowCalItem;
+procedure TfMain.ShowCalItem(bDefineTooling:Boolean;sTooling,sInterval:string);
 var i,Count:Integer;
 dMax,dMin:Double;
 myLabel:TLabel;
 sItemName:string;
 begin
-   With QryTemp do
-   begin
-       Close;
-       Params.Clear;
-       Params.CreateParam(ftString,'serial_number',ptInput);
-       CommandText :=' select distinct  f.interval_desc  interval_desc  '+
-                     ' from sajet.sys_cal_sn a,sajet.sys_cal_model_type b,sajet.sys_model c,'+
-                     ' sajet.sys_tooling d ,sajet.sys_cal_item e,sajet.sys_cal_interval f '+
-                     ' where a.model_id=b.model_id and '+
-                     ' serial_number=:serial_number and a.model_id=c.model_id and b.tooling_id = d.tooling_id(+) '+
-                     ' and b.item_Id=e.item_id and b.interval_id=f.interval_id ';
-       Params.ParamByName('serial_number').AsString :=edtSN.Text ;
-       Open;
+    //DHBWVA285B69MX
+    for i:=1 to MaxItemCount do begin
+        TLabel(FindComponent('LabItem'+IntToStr(i))).Caption := '';
+        TCheckBox(FindComponent('chkItem'+IntToStr(i))).Visible := False;
+        TLabel(FindComponent('LabMax'+IntToStr(i))).Visible :=False;
+        TLabel(FindComponent('LablMax'+IntToStr(i))).Visible :=False;
+        TLabel(FindComponent('LablMin'+IntToStr(i))).Visible :=False;
+        TLabel(FindComponent('LabMin'+IntToStr(i))).Visible :=False;
+        TEdit(FindComponent('edtItem'+IntToStr(i))).Visible :=False;
+        TEdit(FindComponent('edtItem'+IntToStr(i))).Text :='';
+        TPanel(FindComponent('pnlResult'+IntToStr(i))).Color :=clWhite;
+        TPanel(FindComponent('pnlResult'+IntToStr(i))).Caption :='';
+    end;
 
-       cmbInterval.Clear;
-       cmbInterval.Items.Clear;
-       cmbInterval.Style :=csDropDownList;
-
-       First;
-       while not Eof do begin
-          cmbInterval.Items.Add(fieldbyName('Interval_desc').AsString);
-          Next;
-       end;
-
-       if cmbInterval.Items.Count=1 then
-          cmbInterval.ItemIndex :=0;
-
-       Close;
-       Params.Clear;
-       Params.CreateParam(ftString,'serial_number',ptInput);
-       CommandText :=' select distinct  d.tooling_name  tooling_name '+
-                     ' from sajet.sys_cal_sn a,sajet.sys_cal_model_type b,sajet.sys_model c,'+
-                     ' sajet.sys_tooling d ,sajet.sys_cal_item e,sajet.sys_cal_interval f '+
-                     ' where a.model_id=b.model_id and '+
-                     ' serial_number=:serial_number and a.model_id=c.model_id and b.tooling_id = d.tooling_id(+) '+
-                     ' and b.item_Id=e.item_id and b.interval_id=f.interval_id ';
-       Params.ParamByName('serial_number').AsString :=edtSN.Text ;
-       Open;
-
-       cmbMachine.Clear;
-       cmbMachine.Items.Clear;
-       cmbMachine.Style :=csDropDownList;
-
-       First;
-       while not Eof do begin
-          if   fieldbyName('tooling_name').AsString <>'' then
-            cmbMachine.Items.Add(fieldbyName('tooling_name').AsString);
-          Next;
-       end;
-
-       if cmbMachine.Items.Count=1 then begin
-          cmbMachine.ItemIndex :=0 ;
-          cmbMachine.OnSelect(nil);
-       end
-       else if cmbMachine.Items.Count=0 then
-       begin
-           Close;
-           Params.Clear;
-           CommandText :='select distinct tooling_Name from sajet.sys_tooling where enabled=''Y'' and Isrepair_control=''Y'' order by tooling_Name';
-           Open;
-
-           First;
-           while not Eof do begin
-               cmbMachine.Items.Add( FieldByName('tooling_Name').AsString );
-               Next;
-           end;
-           cmbMachine.Style := csDropDownList;
-       end;
-   end;
-   with QryTemp do
-   begin
+    with QryTemp do
+    begin
         Close;
         Params.Clear;
         Params.CreateParam(ftString,'serial_number',ptInput);
+        Params.CreateParam(ftString,'Tooling',ptInput);
+        if bDefineTooling then
+           Params.CreateParam(ftString,'Interval',ptInput);
         CommandText :=' select a.serial_number,c.model_name,nvl(d.tooling_name,''N/A'') tooling_name ,'+
                      ' e.item_name,f.interval_desc,b.Upper_value,b.lower_value '+
                      ' from sajet.sys_cal_sn a,sajet.sys_cal_model_type b,sajet.sys_model c,'+
                      ' sajet.sys_tooling d ,sajet.sys_cal_item e,sajet.sys_cal_interval f '+
-                     ' where a.model_id=b.model_id and '+
-                     ' serial_number=:serial_number and a.model_id=c.model_id and b.tooling_id = d.tooling_id(+) '+
-                     ' and b.item_Id=e.item_id and b.interval_id=f.interval_id ';
+                     ' where a.model_id=b.model_id    ';
+       if bDefineTooling then
+          CommandText :=  CommandText + ' and d.tooling_Name=:Tooling  ';
+         CommandText :=  CommandText + ' and serial_number=:serial_number and a.model_id=c.model_id and b.tooling_id = d.tooling_id(+) '+
+                     ' and b.item_Id=e.item_id and b.interval_id=f.interval_id  and f.Interval_desc= :Interval order by b.Seq ';
         Params.ParamByName('serial_number').AsString :=edtSN.Text ;
+        if bDefineTooling then
+           Params.ParamByName('Tooling').AsString :=sTooling ;
+        Params.ParamByName('Interval').AsString :=sInterval ;
         Open;
-   end;
+    end;
+
+
 
     QryTemp.First;
     itemCount := QryTemp.RecordCount ;
+    if itemCount > MaxItemCount then itemCount :=MaxItemCount;
     for i :=1 to itemCount do begin
         sItemName :=QryTemp.FieldByName('item_name').AsString;
         TLabel(FindComponent('LabItem'+IntToStr(i))).Caption :=sItemName;
@@ -320,6 +369,7 @@ begin
         TPanel(FindComponent('pnlResult'+IntToStr(i))).Caption :='Fail';
         QryTemp.Next;
     end;
+
 end;
 
 procedure TfMain.clearData;
@@ -333,7 +383,7 @@ begin
     cmbListNo.ItemIndex :=-1;
 
 
-    for i:=1 to 10 do begin
+    for i:=1 to MaxItemCount do begin
         TLabel(FindComponent('LabItem'+IntToStr(i))).Caption := '';
         TCheckBox(FindComponent('chkItem'+IntToStr(i))).Visible := False;
         TLabel(FindComponent('LabMax'+IntToStr(i))).Visible :=False;
@@ -341,6 +391,7 @@ begin
         TLabel(FindComponent('LablMin'+IntToStr(i))).Visible :=False;
         TLabel(FindComponent('LabMin'+IntToStr(i))).Visible :=False;
         TEdit(FindComponent('edtItem'+IntToStr(i))).Visible :=False;
+        TEdit(FindComponent('edtItem'+IntToStr(i))).Text :='';
         TPanel(FindComponent('pnlResult'+IntToStr(i))).Color :=clWhite;
         TPanel(FindComponent('pnlResult'+IntToStr(i))).Caption :='';
     end;
@@ -365,8 +416,10 @@ procedure TfMain.btnAddClick(Sender: TObject);
 var i,toolingsnid,intervalid,itemid,modelid:Integer;
 dMax,dMin,dValue:Double;
 sResult,sLotNo,sModel,sSN:string;
+iKey:Char;
 begin
-
+    iKey :=#13;
+    if not bInput then edtSN.OnKeyPress(Sender,iKey);
     toolingsnid:=Getid('tooling_sn_id','tooling_SN','sajet.sys_tooling_sn',cmbMachineNo.Text);
     if toolingsnid=0 then
     begin
@@ -548,7 +601,9 @@ end;
 procedure TfMain.edtSNKeyPress(Sender: TObject; var Key: Char);
 begin
      itemCount :=0;
+     bInput :=false;
      if Key<>#13 then Exit;
+
      With QryTemp do
      begin
          close;
@@ -564,9 +619,81 @@ begin
          edtModel.Text := fieldByName('model_name').AsString;
      end;
 
-     ShowCalItem;
+     With QryTemp do
+     begin
+       Close;
+       Params.Clear;
+       Params.CreateParam(ftString,'serial_number',ptInput);
+       CommandText :=' select distinct  f.interval_desc  interval_desc  '+
+                     ' from sajet.sys_cal_sn a,sajet.sys_cal_model_type b,sajet.sys_model c,'+
+                     ' sajet.sys_tooling d ,sajet.sys_cal_item e,sajet.sys_cal_interval f '+
+                     ' where a.model_id=b.model_id and '+
+                     ' serial_number=:serial_number and a.model_id=c.model_id and b.tooling_id = d.tooling_id(+) '+
+                     ' and b.item_Id=e.item_id and b.interval_id=f.interval_id ';
+       Params.ParamByName('serial_number').AsString :=edtSN.Text ;
+       Open;
 
+       cmbInterval.Clear;
+       cmbInterval.Items.Clear;
+       cmbInterval.Style :=csDropDownList;
 
+       First;
+       while not Eof do begin
+          cmbInterval.Items.Add(fieldbyName('Interval_desc').AsString);
+          Next;
+       end;
+
+       if cmbInterval.Items.Count=1 then
+          cmbInterval.ItemIndex :=0;
+
+       Close;
+       Params.Clear;
+       Params.CreateParam(ftString,'serial_number',ptInput);
+       CommandText :=' select distinct  d.tooling_name  tooling_name '+
+                     ' from sajet.sys_cal_sn a,sajet.sys_cal_model_type b,sajet.sys_model c,'+
+                     ' sajet.sys_tooling d ,sajet.sys_cal_item e,sajet.sys_cal_interval f '+
+                     ' where a.model_id=b.model_id and '+
+                     ' serial_number=:serial_number and a.model_id=c.model_id and b.tooling_id = d.tooling_id(+) '+
+                     ' and b.item_Id=e.item_id and b.interval_id=f.interval_id ';
+       Params.ParamByName('serial_number').AsString :=edtSN.Text ;
+       Open;
+
+       cmbMachine.Clear;
+       cmbMachine.Items.Clear;
+       cmbMachine.Style :=csDropDownList;
+
+       First;
+       while not Eof do begin
+          if   fieldbyName('tooling_name').AsString <>'' then
+            cmbMachine.Items.Add(fieldbyName('tooling_name').AsString);
+          Next;
+       end;
+       bDefineTool :=True;
+       if cmbMachine.Items.Count=1 then begin
+          cmbMachine.ItemIndex :=0 ;
+          cmbMachine.OnSelect(nil);
+       end
+       else if cmbMachine.Items.Count=0 then
+       begin
+           bDefineTool :=false;
+           Close;
+           Params.Clear;
+           CommandText :='select distinct tooling_Name from sajet.sys_tooling where enabled=''Y'' and Isrepair_control=''Y'' order by tooling_Name';
+           Open;
+
+           First;
+           while not Eof do begin
+               cmbMachine.Items.Add( FieldByName('tooling_Name').AsString );
+               Next;
+           end;
+           cmbMachine.Style := csDropDownList;
+       end;
+     end;
+
+     if( cmbMachine.ItemIndex>=0) and (cmbInterval.ItemIndex>=0) then
+        ShowCalItem(bDefineTool,cmbMachine.Items.Strings[cmbMachine.ItemIndex] ,cmbInterval.Items.Strings[cmbInterval.ItemIndex]);
+
+     bInput :=True;
 
 end;
 
@@ -590,6 +717,11 @@ begin
              Next;
         end;
     end;
+
+     if( cmbMachine.ItemIndex>=0) and (cmbInterval.ItemIndex>=0) then
+        ShowCalItem(bDefineTool,cmbMachine.Items.Strings[cmbMachine.ItemIndex] ,cmbInterval.Items.Strings[cmbInterval.ItemIndex]);
+
+    
 end;
 
 procedure TfMain.edtItem1Change(Sender: TObject);
@@ -669,6 +801,7 @@ begin
         cmbListNo.ItemIndex :=cmbListNo.Items.IndexOf(listNo);
 
     end;
+    bInput :=false;
     edtSN.SetFocus;
 end;
 
@@ -747,6 +880,13 @@ begin
         else   TPanel(FindComponent('pnlResult'+IntToStr(i))).Color :=clRed;
         QryData.Next;
     end;
+
+end;
+
+procedure TfMain.cmbIntervalSelect(Sender: TObject);
+begin
+    if( cmbMachine.ItemIndex>=0) and (cmbInterval.ItemIndex>=0) then
+        ShowCalItem(bDefineTool,cmbMachine.Items.Strings[cmbMachine.ItemIndex] ,cmbInterval.Items.Strings[cmbInterval.ItemIndex]);
 
 end;
 

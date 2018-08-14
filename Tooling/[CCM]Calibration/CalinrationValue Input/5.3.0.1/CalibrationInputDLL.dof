@@ -115,7 +115,7 @@ AutoIncBuild=0
 MajorVer=5
 MinorVer=7
 Release=0
-Build=2
+Build=4
 Debug=0
 PreRelease=0
 Special=0
@@ -126,7 +126,7 @@ CodePage=950
 [Version Info Keys]
 CompanyName=Dennis Shuai
 FileDescription=
-FileVersion=5.7.0.2
+FileVersion=5.7.0.4
 InternalName=
 LegalCopyright=
 LegalTrademarks=
