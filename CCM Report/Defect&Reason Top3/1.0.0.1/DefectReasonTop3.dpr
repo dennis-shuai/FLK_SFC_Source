@@ -15,7 +15,8 @@ uses
   SysUtils,
   Classes,
   DllInit in 'DllInit.pas',
-  uDetail in 'uDetail.pas' {fDetail};
+  uDetail in 'uDetail.pas' {fDetail},
+  UFrmList in 'UFrmList.pas' {FrmList};
 
 {$R *.RES}
 

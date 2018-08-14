@@ -667,7 +667,7 @@ object fDetail: TfDetail
       Transparent = True
     end
     object SpeedButton1: TSpeedButton
-      Left = 556
+      Left = 524
       Top = 47
       Width = 94
       Height = 21
