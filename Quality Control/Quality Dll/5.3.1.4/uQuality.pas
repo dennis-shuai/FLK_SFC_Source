@@ -139,6 +139,8 @@ type
     ChBPASSclearonlylotno: TCheckBox;
     LVCheckSN: TListView1;
     LVDefect: TListView1;
+    Label23: TLabel;
+    LabModel: TLabel;
     procedure FormShow(Sender: TObject);
     procedure sbtnNewLotClick(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
@@ -577,12 +579,13 @@ begin
       Params.Clear;
       Params.CreateParam(ftString, 'QC_LOTNO', ptInput);
       Params.CreateParam(ftString, 'NG_CNT', ptInput);
-      CommandText := 'Select B.PART_NO '
-                    +'      ,A.LOT_SIZE,A.SAMPLING_SIZE,A.PASS_QTY,A.FAIL_QTY,A.WORK_ORDER , A.NG_CNT, A.MODEL_ID '
+      CommandText := 'Select B.PART_NO,C.model_Name, '
+                    +' A.LOT_SIZE,A.SAMPLING_SIZE,A.PASS_QTY,A.FAIL_QTY,A.WORK_ORDER , A.NG_CNT, A.MODEL_ID '
                     +'From SAJET.G_QC_LOT A, '
-                    +'SAJET.SYS_PART B '
+                    +'SAJET.SYS_PART B,sajet.sys_model c '
                     +'Where A.MODEL_ID = B.PART_ID(+)  '
                     +'  and A.QC_LOTNO = :QC_LOTNO '
+                    +'  and B.Model_Id = C.Model_id '
                     +'  and A.NG_CNT =:NG_CNT ';
       Params.ParamByName('QC_LOTNO').AsString := cmbQCLotNo.Text;
       Params.ParamByName('NG_CNT').AsString := sQCCNT;
@@ -591,6 +594,7 @@ begin
       begin
          LabWO.Caption := Fieldbyname('WORK_ORDER').AsString;
          LabPart.Caption := Fieldbyname('PART_NO').AsString;
+         LabModel.Caption := Fieldbyname('Model_Name').AsString;
          LabTotQty.Caption := Fieldbyname('LOT_SIZE').AsString;
          LabChkQty.Caption := Fieldbyname('SAMPLING_SIZE').AsString;
          LabFailed.Caption := Fieldbyname('FAIL_QTY').AsString;
@@ -1240,10 +1244,10 @@ begin
                   Params.CreateParam(ftString, 'SERIAL_NUMBER', ptInput);
                   CommandText := 'Select A.SERIAL_NUMBER, A.WORK_ORDER,A.WORK_FLAG,A.MODEL_ID,B.PART_NO,NVL(A.QC_NO,''N/A'') QC_NO  ' +
                      ',NVL(A.QC_RESULT,''N/A'') QC_RESULT ,NVL(A.CARTON_NO,''N/A'') CARTON_NO,NVL(A.PALLET_NO,''N/A'') PALLET_NO,A.ROUTE_ID  ' +
-                     ',A.Current_status From SAJET.G_SN_STATUS A, ' +
-                     'SAJET.SYS_PART B ' +
+                     ',A.Current_status,c.model_name From SAJET.G_SN_STATUS A, ' +
+                     'SAJET.SYS_PART B,sajet.sys_model c  ' +
                      'Where A.CUSTOMER_SN = :SERIAL_NUMBER and ' +
-                     'A.MODEL_ID = B.PART_ID ';
+                     'A.MODEL_ID = B.PART_ID and  c.model_id= b.model_id ';
                   Params.ParamByName('SERIAL_NUMBER').AsString := editSN.Text;
                   Open;
 
@@ -1262,9 +1266,9 @@ begin
                 Params.CreateParam(ftString, 'Box', ptInput);
                 CommandText := 'Select A.SERIAL_NUMBER, A.WORK_ORDER,A.WORK_FLAG,A.MODEL_ID,B.PART_NO,NVL(A.QC_NO,''N/A'') QC_NO  ' +
                    ',NVL(A.QC_RESULT,''N/A'') QC_RESULT ,NVL(A.CARTON_NO,''N/A'') CARTON_NO,NVL(A.PALLET_NO,''N/A'') PALLET_NO,A.ROUTE_ID  ' +
-                   ',A.Current_status From SAJET.G_SN_STATUS A, ' +
-                   'SAJET.SYS_PART B ' +
-                   'Where A.BOX_NO = :Box   and ' +
+                   ',A.Current_status,c.model_name  From SAJET.G_SN_STATUS A, ' +
+                   'SAJET.SYS_PART B,sajet.sys_model c ' +
+                   'Where A.BOX_NO = :Box   and  c.model_id= b.model_id and ' +
                    'A.MODEL_ID = B.PART_ID order by A.Work_Flag Desc,A.Current_Status Desc';
                 Params.ParamByName('Box').AsString := editSN.Text;
                 Open;
@@ -1284,9 +1288,9 @@ begin
                 Params.CreateParam(ftString, 'Carton', ptInput);
                 CommandText := 'Select A.SERIAL_NUMBER, A.WORK_ORDER,A.WORK_FLAG,A.MODEL_ID,B.PART_NO,NVL(A.QC_NO,''N/A'') QC_NO  ' +
                    ',NVL(A.QC_RESULT,''N/A'') QC_RESULT ,NVL(A.CARTON_NO,''N/A'') CARTON_NO,NVL(A.PALLET_NO,''N/A'') PALLET_NO,A.ROUTE_ID  ' +
-                   ',A.Current_status From SAJET.G_SN_STATUS A, ' +
-                   'SAJET.SYS_PART B ' +
-                   'Where   A.Carton_no =:Carton and ' +
+                   ',A.Current_status,c.model_name From SAJET.G_SN_STATUS A, ' +
+                   'SAJET.SYS_PART B,sajet.sys_model c  ' +
+                   'Where   A.Carton_no =:Carton and     c.model_id= b.model_id and ' +
                    'A.MODEL_ID = B.PART_ID order by A.Work_Flag Desc,A.Current_Status Desc';
                 Params.ParamByName('Carton').AsString := editSN.Text;
                 Open;
@@ -1325,14 +1329,23 @@ begin
                  Exit;
               end;
            end ;
-
-           if LabPart.Caption <> '' then
+           if ((G_QCBase ='Work Order') or (G_QCBase ='Part No'))and (LabPart.Caption <> '') then
             if LabPart.Caption <> Fieldbyname('PART_NO').AsString then
+            begin
+               MessageBeep(17);
+               MessageDlg('Part No Error !!', mtError, [mbCancel], 0);
+               Exit;
+            end;
+
+           if (G_QCBase ='Model') and (LabModel.Caption <> '') then
+            if LabModel.Caption <> Fieldbyname('Model_Name').AsString then
             begin
                MessageBeep(17);
                MessageDlg('Model Error !!', mtError, [mbCancel], 0);
                Exit;
             end;
+
+
            //¿À¨d¨yµ{
            psSN := FieldByName('Serial_Number').AsString;
            if not checkRoute(psSN) then
@@ -1408,6 +1421,7 @@ begin
            end;
            LabWO.Caption := Fieldbyname('WORK_ORDER').AsString;
            LabPart.Caption := Fieldbyname('PART_NO').AsString;
+           LabModel.Caption := Fieldbyname('Model_Name').AsString;
            PartID := Fieldbyname('MODEL_ID').AsString;
            G_sCartonNo := FieldByName('CARTON_NO').AsString;
            G_sPalletNO := FieldBYName('PALLET_NO').AsString;
